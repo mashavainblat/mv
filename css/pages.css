@@ -1,0 +1,4 @@
+#resume p:before{
+    content: "-";
+    font-weight: 700;
+}

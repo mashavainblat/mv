@@ -1,0 +1,629 @@
+
+body {
+  background-size: cover 100%;
+  font-family: 'europa', sans-serif;
+  background-color: #e6e7de;
+  margin: auto ;
+  width:100%;
+}
+
+
+
+/*************************************************/
+/*************************************************/
+/***************  HOVER ANIMATION  ***************/
+/*************************************************/
+/*************************************************/
+
+.portfolioProjectsRow ul, .navigationColumn ul{
+  position:absolute;
+  left:0;
+  right:0;
+  margin:0px auto ;
+  padding:0px ;
+  border-radius: 30px;
+  list-style:none;
+  -webkit-perspective:1000;
+  -moz-perspective:1000;
+  -o-perspective:1000;
+  perspective:1000;
+}
+
+.navigationColumn ul{
+  position:relative;
+}
+
+.portfolioProjectsRow li, .navigationColumn li {
+  margin:0px ;
+  padding:0px ;
+}
+
+.portfolioProjectsRow li a, .navigationColumn li a {
+  display:block;
+  height:30px;
+  width:30px;
+  background-color:#ffffff;
+  color:#ffffff;
+  padding: 0px ;
+  margin: 0px ;
+  text-decoration:none;
+  text-align:center;
+  border-radius: 30px;
+}
+
+.navigationColumn li a{
+  height:30px;
+  width:30px;
+  border-radius: 25px;
+}
+
+.portfolioProjectsRow .menu .navigationColumn{ /*****/
+  opacity:1;
+  -webkit-transform:rotateY(0deg);
+  -moz-transform:rotateY(0deg);
+  -o-transform:rotateY(0deg);
+  transform:rotateY(0deg);
+  -webkit-transition:.3s;
+  -moz-transition:.3s;
+  -o-transition:.3s;
+  transition:.3s;
+}
+
+.portfolioProjectsRow li span, .navigationColumn li span {
+  float:left;
+  text-align:center;
+  margin-top: 0px ;
+  margin-left: 0px ;
+  padding:0px ;
+  transform-origin:0%;
+  opacity:0;
+  -webkit-transform:rotateY(95deg);
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -o-transition:.5s;
+  transition:.5s;
+  -webkit-animation: flip 2s;
+  -moz-animation: flip 2s;
+  -o-animation: flip 2s;
+  animation: flip 2s;
+}
+
+.navigationColumn li span{
+  margin-top: 0px;
+  margin-left: 0px ;
+}
+
+.portfolioProjectsRow span[class='menu'], .navigationColumn span[class='menu'] {-webkit-animation:none;}
+.portfolioProjectsRow li:nth-child(2) span, .navigationColumn li:nth-child(2) span {
+  -webkit-animation-delay:.5s;
+  -moz-animation-delay:.5s;
+  -o-animation-delay:.5s;
+  animation-delay:.5s;}
+.portfolioProjectsRow li:nth-child(3) span, .navigationColumn li:nth-child(3) span {
+  -webkit-animation-delay:.4s;
+  -moz-animation-delay:.4s;
+  -o-animation-delay:.4s;
+  animation-delay:.4s;}
+.portfolioProjectsRow li:nth-child(4) span, .navigationColumn li:nth-child(4) span {
+  -webkit-animation-delay:.3s;
+  -moz-animation-delay:.3s;
+  -o-animation-delay:.3s;
+  animation-delay:.3s;}
+.portfolioProjectsRow li:nth-child(5) span, .navigationColumn li:nth-child(5) span {
+  -webkit-animation-delay:.2s;
+  -moz-animation-delay:.2s;
+  -o-animation-delay:.2s;
+  animation-delay:.2s;}
+.portfolioProjectsRow li:nth-child(6) span, .navigationColumn li:nth-child(6) span {
+  -webkit-animation-delay:.1s;
+  -moz-animation-delay:.1s;
+  -o-animation-delay:.1s;
+  animation-delay:.1s;}
+
+.portfolioProjectsRow li a:hover ~ span, .navigationColumn li a:hover ~ span {
+  opacity:1;
+  -webkit-transform:rotateY(0deg);
+  -moz-transform:rotateY(0deg);
+  -o-transform:rotateY(0deg);
+  transform:rotateY(0deg);
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -o-transition:.5s;
+  transition:.5s;
+  padding:  0px ;
+  margin-top: 0px ;
+  margin-left: 0px ;
+}
+
+
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/******************** END OF ANIMATION *******************/
+/*********************************************************/
+/*********************************************************/
+
+
+
+
+
+
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/******************* NAVIGATION STYLES *******************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+
+
+
+
+
+.navigation{
+  padding:150px 0px 0px 0px;
+  position:fixed;
+  width:100%;
+  z-index:2;
+}
+
+.portfolioProjectsRow{
+    padding-bottom:15px;
+}
+
+.navigationColumn p{
+  font-weight:400;
+  margin-top:5px;
+  text-transform:uppercase ;
+}
+
+.portfolioProjectsRow p{
+  font-weight:400;
+  text-transform: uppercase;
+  font-size:1em;
+}
+
+div{
+  margin: 0px ;
+  padding: 0px ;
+}
+
+.navButton{
+  margin-top: 30px ;
+}
+
+.navigationButton{
+  width: 35px;
+}
+
+.roundCircle{
+  width: 30px;
+}
+
+#portfolioButton{
+  background-color:#89e0ed;
+}
+p#portfolioName{
+  color:#89e0ed;
+  margin-left:-22.5px;
+}
+
+#resumeButton{
+  background-color:#fcc745;
+}
+p#resumeName{
+  color:#fcc745;
+  margin-left:-12.5px;
+}
+
+#aboutButton{
+  background-color: #ff5375;
+}
+p#aboutName{
+  color:#ff5375;
+  margin-left: -9px;
+}
+
+#contactButton{
+  background-color: #522db8;
+}
+p#contactName{
+  color:#522db8;
+  margin-left: -16.5px;
+}
+
+.portfolioProjectsRow{
+  margin: 0px ;
+  margin-bottom: 37px ;
+}
+
+
+.noPadding{
+  padding:0px !important;
+
+}
+
+
+
+
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+/******************* INDEX BUTTON STYLES *****************/
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+
+.portfolioButtonsRow{
+  margin-bottom: 150px;
+}
+
+.portfolioButtons, .projectInfoContainer{
+  margin-top:250px;
+}
+
+.portfolioProjectsRow li span{
+  color: #000000;
+}
+
+#sonnyRollins p{
+  margin-left:-39px;
+}
+
+#kinito p{
+  margin-left: -7px;
+}
+
+#deCecco p{
+  margin-left: -19px;
+}
+
+#vosges p{
+  margin-left: -12px;
+}
+
+#sweetlyLyalya p{
+  margin-left:-40px;
+}
+
+#anatolia p{
+  margin-left: -17px;
+}
+
+#neet p{
+  margin-left: -4px;
+}
+
+#moMath p{
+  margin-left: -46px;
+}
+
+#sweetBotanicals p{
+  margin-left: -49px;
+}
+
+#bonniesJams p{
+  margin-left: -37px;
+}
+
+#visualOpinion p{
+  margin-left: -37px;
+}
+
+
+
+
+
+/*------------------------------------*/
+/*------------------------------------*/
+/*------------Project Desc.-----------*/
+/*------------------------------------*/
+/*------------------------------------*/
+
+
+
+.projectInfo h2{
+  font-size: 2em;
+  font-weight:400;
+  text-align:center;
+}
+
+.projectInfo h4{
+  font-size: 1.125em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align:center;
+}
+
+.projectInfo p{
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+h2{
+  margin-top: 0px ;
+}
+
+.whiteBackgroundColor{
+  background-color: #ffffff;
+}
+
+.projectPhotoContainer{
+  margin-top:30px;
+}
+
+
+
+/*------------------------------------------------------------*/
+/*---------------------- ANATOLIA STYLES ---------------------*/
+/*------------------------------------------------------------*/
+
+
+#blackBackgroundWhiteLogo{
+  background-color: #000000;
+}
+
+#blackBackgroundWhiteLogo img{
+  max-width:175px;
+  padding:50px;
+  margin:50px;
+}
+
+#logoAcornNameImage img{
+  max-width:275px;
+  padding:50px;
+  margin-top:150px;
+  margin-bottom:150px;
+}
+.shadow{
+  box-shadow: 3px 3px 4px #000;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*-------------------------------RESUME-----------------------------------*/
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+.sansSerif{
+  font-family: 'Lato', sans-serif ;
+}
+
+.resume{
+  padding: 10px;
+}
+
+
+/*------------------------------------------------------------*/
+/*--------------------------HEADER----------------------------*/
+/*------------------------------------------------------------*/
+h4.name{
+  text-transform: uppercase;
+  font-weight: 700 ;
+  margin: 0 ;
+}
+
+.address{
+  font-weight: 700 ;
+  margin: 0;
+}
+
+.bullet{
+  font-weight: 300;
+}
+
+/*------------------------------------------------------------*/
+/*------------------------END HEADER--------------------------*/
+/*------------------------------------------------------------*/
+
+.category{
+  text-transform: uppercase;
+  font-weight: 700 ;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.resumeYear{
+  text-align: right;
+  font-weight: 100;
+  padding-top: 10px;
+  padding-right: 0 ;
+}
+
+.subCategory{
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 ;
+  padding-top: 10px;
+}
+
+.info{
+  margin: 0 ;
+  font-weight: 300 ;
+}
+
+p{
+  margin: 0 ;
+}
+
+
+/*------------------------------------------------------------*/
+/*------------------------EDUCATION---------------------------*/
+/*------------------------------------------------------------*/
+
+.SVA{
+  padding: 0 ;
+}
+
+.VO{
+  padding: 0 ;
+}
+
+.resumeYear{
+  padding-right: 5px ;
+}
+
+.infoContainer{
+  margin-top: 0px;
+}
+
+/******************Project Page *****************/
+.projectPhotoContainer img{
+  max-width:100%;
+}
+
+@media screen and (max-width: 768px){
+  .resume{
+    padding: 5px;
+  }
+  
+  .SVA:after{
+    content: " 2015";
+    font-weight: 100 ;
+  }
+  
+  .SUNY:after{
+    content: " 2011-2012";
+    font-weight: 100 ;
+  }
+  
+  .VO:after{
+    content: " 2015";
+    font-weight: 100 ;
+  }
+  
+  .RA:after{
+    content: " 2014-2015";
+    font-weight: 100 ;
+  }
+  
+  .TA:after{
+    content: " 2014";
+    font-weight: 100 ;
+  }
+  
+  .HH:after{
+    content: " 2013-2015";
+    font-weight: 100 ;
+  }
+  
+  .SM:after{
+    content: " 2013";
+    font-weight: 100 ;
+  }
+  
+  .address:before{
+    display: none;
+  }
+}
+
+
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/************************ MEDIA QUERY *************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+
+
+
+
+
+/**************************************************************/
+/**************************************************************/
+/**********************    <768 PX    *************************/
+/**************************************************************/
+/**************************************************************/
+
+
+/*@media screen and (max-width:768px){
+
+  .projectsColumnM{
+    margin-bottom: 100px;
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************************/
+/**************************************************************/
+/**********************    <767 PX    *************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+@media screen and (max-width:767px){
+
+
+  .navigation{
+    margin-top:30px;
+    padding:0px;
+  }
+
+  .portfolioButtons{
+    margin-top: 30px;
+  }
+
+  .projectInfoContainer{
+    margin-top: 100px;
+  }
+
+  .projectsColumnM{
+    margin-top: 130px;
+  }
+
+  .projectsColumnV{
+    margin-top: 50px;
+  }
+
+
+/*-------------    ANATOLIA STYLES  ------------------*/
+
+  #logoAcornNameImage img{
+    margin-top:75px;
+    margin-bottom:75px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+  #logoAcornNameImage img{
+    margin-top: 0px;
+    margin-bottom:30px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 320px){
+  .resume{
+    padding: 20px ;
+    margin: 0 ;
+  }
+}
