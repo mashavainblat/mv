@@ -17,13 +17,40 @@
                       </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-3 col-xs-3"></div>    
+                    <div class="col-md-3 col-sm-3 col-xs-3" id="emptyPlaceHolderRow"></div>    
                   </div>
 
                   <div class="row projectPhotoContainer">
-                    <div class="col-md-3 col-sm-3 col-xs-1"></div>
-                    <div class="col-md-7 col-sm-7 col-xs-10 noPadding">
-                      <img src="">
+                    <div class="col-md-3 col-sm-3 col-xs-1" id="paddingColumnLeft"></div>
+                    <div id="imageContainerWidthNoPadding" class="col-md-7 col-sm-7 col-xs-10 noPadding">
+                      <div class="row noPadding" id="LPCoverCloseUp">
+                        <img src="img/01.sonnyRollins/sonnyRollins005.jpg">
+                      </div>
+
+                      <div class="row" id="photoSet">
+                        <img src="img/01.sonnyRollins/sonnyRollins006.jpg">
+                      </div>
+
+                      <div class="row whiteBackgroundColor noPadding" id="coversAndDiscs">
+                        <div class="col-md-4 col-sm-4 col-xs-12" id="pink">
+                          <img src="img/01.sonnyRollins/sonnyRollinsLPCoverPink.jpg">
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12" id="purple">
+                          <img src="img/01.sonnyRollins/sonnyRollinsLPCoverPurple.jpg">
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12" id="green">
+                          <img src="img/01.sonnyRollins/sonnyRollinsLPCoverGreen.jpg">
+                        </div>
+                      </div>
+
+                      <div class="row whiteBackgroundColor" id="LPDiscs">
+                        <img src="img/01.sonnyRollins/sonnyRollinsDiscs.jpg">
+                      </div>
+
+                      <div class="row whiteBackgroundColor" id="LPCoversOverlap">
+                        <img src="img/01.sonnyRollins/sonnyRollins001.jpg">
+                      </div>
+
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-1"></div>
                   </div>

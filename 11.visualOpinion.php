@@ -16,11 +16,19 @@
                         <p>The Visual Opinion gives SVA students the opportunity to be published by submitting their work to VO@sva.edu. This free magazine allows for talented student work to circulate around campus as well as local book stores.</p>
                       </div>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-3"></div>
-
-                    <div class="col-md-7 col-sm-7 col-xs-10 noPadding">
-                      <img src="">
-                    </div>
                   </div>
+
+                  <div class="row projectPhotoContainer">
+                    <div class="col-md-3 col-sm-3 col-xs-1" id="paddingColumnLeft"></div>
+
+                    <div id="imageContainerWidthNoPadding" class="col-md-7 col-sm-7 col-xs-10 noPadding">
+                      <div class="row whiteBackgroundColor" id="imagineryLinesPostcardsContainer">
+                        <img src="img/11.visualOpinion/VOPostcards003.jpg">
+                        <img src="img/11.visualOpinion/VOPostcards001.jpg">
+                        <img src="img/11.visualOpinion/VOPostcards002.jpg">
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-1"></div>
 
           <?php include("php/formatbottom.php"); ?>

@@ -22,7 +22,7 @@
     }
 
     function changeOpacityOfNavButtons(){
-      $(".navigation").css("opacity","0.5");
+      $(".navigation").css("opacity","0.3");
       console.log("changing opacity");
     }
 

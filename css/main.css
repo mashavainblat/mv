@@ -350,9 +350,214 @@ h2{
 
 .projectPhotoContainer{
   margin-top:30px;
+  text-align:center;
+}
+
+.centerImage{
+  text-align: center;
 }
 
 
+
+
+/*------------------------------------------------------------*/
+/*----------------------  SONNY ROLLINS  ---------------------*/
+/*------------------------------------------------------------*/
+
+
+
+#LPDiscs img{
+  padding: 20px 300px;
+}
+
+#LPCoversOverlap img{
+  padding:20px 100px;
+}
+
+
+
+
+/*------------------------------------------------------------*/
+/*----------------------      KINITO     ---------------------*/
+/*------------------------------------------------------------*/
+
+#kinitoFrontAngle img{
+  padding: 20px 200px 50px 200px;
+}
+
+#kinitoSketchLogos img, #kinitoVector img{
+  padding:30px;
+}
+
+#kinitoFrontAndInsideAngle{
+  padding:100px 0px;
+}
+
+#kinitoFront{
+  text-align:center;
+  padding:0px 50px 0px 80px;
+}
+
+#kinitoInsideAngle img{
+  padding: 50px 100px;
+}
+
+#insideOutsideCase{
+  padding:100px 0px;
+}
+
+#insideOutsideCase img{
+  padding:0px 50px;
+}
+
+
+
+
+
+/*------------------------------------------------------------*/
+/*----------------------       NEET      ---------------------*/
+/*------------------------------------------------------------*/
+
+#neetSquaresContainer{
+  padding:50px;
+}
+
+#towerStacked img{
+  padding:50px;
+}
+
+#neetSketch img{
+  padding:20px;
+}
+
+#stacked img{
+  padding: 0px 350px;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------*/
+/*----------------------     DE CECCO    ---------------------*/
+/*------------------------------------------------------------*/
+
+#deCeccoLogo{
+  background-color: #ddbc3d;
+}
+
+#deCeccoLogo img{
+  padding:30px;
+}
+
+#boxSketchesContainer{
+  padding:60px 90px;
+}
+
+/*#boxSketchesContainer img{
+  padding: 15px;
+}*/
+
+#spillingPastaImgContainer img{
+  padding: 0px 150px;
+}
+
+#farfalleBox img, #fusilliBox img{
+  margin-top:450px;
+}
+
+#detailsStraightViewContainer{
+  padding:100px 0px;
+}
+
+#detailsFrontView img{
+  padding-left:100px;
+}
+
+#detailsBackView img{
+  padding-right:100px;
+}
+
+#boxesAngledContainer img{
+  padding: 100px 200px;
+}
+
+
+
+
+
+/*------------------------------------------------------------*/
+/*---------------------- SWEET BOTANICALS --------------------*/
+/*------------------------------------------------------------*/
+
+
+#processProductContrastContainer{
+  padding: 100px;
+}
+
+#boxAngleContainer img{
+  padding:100px 250px;
+}
+
+#sweetBotanicalsSketchesContainer img{
+  padding: 20px 0px 20px 110px;
+}
+
+#sweetBotanicalsSidesContainer{
+  padding-top:25px;
+}
+
+
+/*------------------------------------------------------------*/
+/*-------------------------  VOSGES  -------------------------*/
+/*------------------------------------------------------------*/
+
+
+
+#vosgesBoxFront img, #vosgesBoxChocolatesContainer img, #openBoxContainer img{
+  padding: 100px 0px;
+}
+
+#vosgesPatternContainer{
+  background-color: #8fd4d7;
+}
+
+/*------------------------------------------------------------*/
+/*----------------------  BONNIES JAMS  ----------------------*/
+/*------------------------------------------------------------*/
+
+
+#jamJar img{
+  max-height: 500px;
+}
+
+#bonniesSketchrevisions img{
+  padding: 0px 100px;
+}
+
+/*------------------------------------------------------------*/
+/*---------------------  SWEETLY LYALYA  ---------------------*/
+/*------------------------------------------------------------*/
+
+
+#sweetlyLyalyaLogoContainer img{
+  padding:0px 300px;
+}
+
+#sweetlyLyalyaLogoBW img{      /*at 4/8 bootstrap*/
+  padding: 91px 95px 0px 95px;
+}
+
+/*#sweetlyLyalyaSketchesContainer{
+  padding-bottom:100px;
+}*/
+
+/*#sweetlyLyalyaSketches img{
+  padding-left:30px;
+}*/
 
 /*------------------------------------------------------------*/
 /*---------------------- ANATOLIA STYLES ---------------------*/
@@ -377,6 +582,14 @@ h2{
 }
 .shadow{
   box-shadow: 3px 3px 4px #000;
+}
+
+
+
+
+
+#imagineryLinesPostcardsContainer img{
+  padding:50px 200px;
 }
 
 

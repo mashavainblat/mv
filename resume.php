@@ -12,15 +12,6 @@
                     <div class="projectInfoContainer col-md-6 col-sm-6 col-xs-10 noPadding">
                       <div class="projectInfo">
 
-
-
-
-
-
-                          <!-- <div class="row projectInfo">
-                            <div class="col-md-3 col-sm-3 col-xs-3"></div> <!-- empty-->
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-6 noPadding"> -->
-
                               <div class="sansSerif">
                                   <div class="container header">
                                     <div class="row">
@@ -30,7 +21,6 @@
                                         <h4 class="name">masha s. vainblat</h4>
                                         <p class="address">443 Arbuckle Ave. Cedahurst NY, 11516</p>
                                         <p class="address">mashavainblat@gmail.com <span class="bullet">&#149;</span> (516)234-4611</p>
-                                        
                                       </div>
                                     </div>
                                   </div>
@@ -52,9 +42,7 @@
                                     	  	2015
                                     		</div>
                             	        	<div class="col-md-10 col-sm-10 col-xs-12">
-                                	      		<div class="subCategory SVA">
-                                    	    	school of visual arts, ny
-                                      			</div>
+                                	      		<div class="subCategory SVA">school of visual arts, ny</div>
                                        			Graphic Design
                             	        	</div>
                                 	  	</div>
@@ -71,7 +59,7 @@
                                     		</div>
                             	      	</div>
                                 	  </div>
-                                  </div>
+                                  </div> <!-- end of education container. -->
                                   
                                   <div class="container experience">
                                     	<div class="row">
@@ -163,7 +151,7 @@
                                         			</div>
                                       		</div>
                                     		</div>
-                                  	  </div> 
+                                  	  </div> <!-- end of experience container -->
 
                                       <div class="container skills">
                                         <div class="row">
@@ -206,8 +194,12 @@
                                           </div>
                                         </div>
                                       </div>
-                                  </div>
-                                </div>
+                                  </div> <!-- end of experience -->
+                                </div> <!-- end of SansSerif -->
+
+                              </div> <!--end of project info-->
+                            </div> <!-- end of projectInfoContainer -->
+                          </div> <!-- end of projectInfoContentContainer -->
       
       
       

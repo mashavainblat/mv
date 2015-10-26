@@ -27,56 +27,57 @@
                   -->
                     <div class="col-md-3 col-sm-3 col-xs-1" id="paddingColumnLeft"></div>
                     <div id="imageContainerWidthNoPadding" class="col-md-7 col-sm-7 col-xs-10 noPadding">
-
-                      <div class="row" id="blackBackgroundWhiteLogo">
-                          <center><img src="img/10.anatolia/logoThysusWhite.png"></center>
-                      </div>
-
-                      <div class="row noPadding" id="anatoliaOpeningVineyardImage">
-                        <img src="img/10.anatolia/vineyard001.png">
-                      </div>
-
-                      <div class="row whiteBackgroundColor" id="logoAcornNameImage">
-                        <center><img src="img/10.anatolia/logoAcornName.png"></center>
-                      </div>
-
-                      <div class="row" id="anatoliaMagazineSpreads">
-                        <img src="img/10.anatolia/magazine001.png">
-                        <img src="img/10.anatolia/magazine002.png">
-                        <img src="img/10.anatolia/magazine003.png">
-                        <img src="img/10.anatolia/magazine004.png">
-                      </div>
-
-                      <div class="row whiteBackgroundColor" id="anatoliaStationary">
-                        <div class="col-md-3 col-sm-3 col-xs-6 noPadding">
-                          <img src="img/10.anatolia/letterheadFront.jpg">
+                      <div class="centerImage">
+                        <div class="row" id="blackBackgroundWhiteLogo">
+                            <img src="img/10.anatolia/logoThysusWhite.png"></div>
                         </div>
-                        <div class="col-md-3 col-sm-3 col-xs-6 noPadding">
-                          <img src="img/10.anatolia/letterheadBack.jpg">
+
+                        <div class="row noPadding" id="anatoliaOpeningVineyardImage">
+                          <img src="img/10.anatolia/vineyard001.png">
                         </div>
-                        <div class="col-md-2 col-sm-2 col-xs-4 noPadding">
+
+                        <div class="row whiteBackgroundColor" id="logoAcornNameImage">
+                          <center><img src="img/10.anatolia/logoAcornName.png"></center>
+                        </div>
+
+                        <div class="row whiteBackgroundColor" id="anatoliaMagazineSpreads">
+                          <img src="img/10.anatolia/magazine001.png">
+                          <img src="img/10.anatolia/magazine002.png">
+                          <img src="img/10.anatolia/magazine003.png">
+                          <img src="img/10.anatolia/magazine004.png">
+                        </div>
+
+                        <div class="row whiteBackgroundColor" id="anatoliaStationary">
+                          <div class="col-md-3 col-sm-3 col-xs-6 noPadding">
+                            <img src="img/10.anatolia/letterheadFront.jpg">
+                          </div>
+                          <div class="col-md-3 col-sm-3 col-xs-6 noPadding">
+                            <img src="img/10.anatolia/letterheadBack.jpg">
+                          </div>
+                          <div class="col-md-2 col-sm-2 col-xs-4 noPadding"> <!-- business cards -->
+                            
+
                           
-                          
-                        
+                          </div>
+                          <div class="col-md-4 col-sm-4 col-xs-8 noPadding">
+                          </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-8 noPadding">
-                        </div>
-                      </div>
 
-                      <div class="row row-fluid" id="anatoliaBottles">
-                        <div class="col-md-3 col-sm-3 col-xs-12 noPadding">
-                          <img src="img/10.anatolia/bottle001.jpg">
+                        <div class="row row-fluid" id="anatoliaBottles">
+                          <div class="col-md-3 col-sm-3 col-xs-12 noPadding">
+                            <img src="img/10.anatolia/bottle001.jpg">
+                          </div>
+                          <div class="col-md-3 col-sm-3 col-xs-12 noPadding">
+                            <img src="img/10.anatolia/bottle002.jpg">
+                          </div>
+                          <div class="col-md-3 col-sm-3 col-xs-12 noPadding">  
+                            <img src="img/10.anatolia/bottle003.jpg">
+                          </div>
+                          <div class="col-md-3 col-sm-3 col-xs-12 noPadding">  
+                            <img src="img/10.anatolia/bottle004.jpg">
+                          </div>
                         </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12 noPadding">
-                          <img src="img/10.anatolia/bottle002.jpg">
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12 noPadding">  
-                          <img src="img/10.anatolia/bottle003.jpg">
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12 noPadding">  
-                          <img src="img/10.anatolia/bottle004.jpg">
-                        </div>
-                      </div>
+                      </div>  
                     </div>
 
                     <div class="col-md-3 col-sm-3 col-xs-1" id="paddingColumnRight"></div>
