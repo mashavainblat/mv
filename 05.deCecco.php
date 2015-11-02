@@ -1,4 +1,4 @@
-v<?php include("php/formattop.php"); ?>
+<?php include("php/formattop.php"); ?>
 
   <title>Masha Vainblat Portfolio</title>
   </head>

@@ -105,7 +105,7 @@
                               		<div class="col-md-7 col-sm-7 col-xs-6">
                               			<ul>
                               				<li>
-                              					<a class="navButton moMathButton" href="#"><img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/moMathCopy.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/></a> <span class="pageName" id="moMath"><p> momath museum</p> </span>
+                              					<a class="navButton moMathButton" href="04.moMath.php"><img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/moMathCopy.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/></a> <span class="pageName" id="moMath"><p> momath museum</p> </span>
                               				</li>
                               			</ul>
                               		</div>

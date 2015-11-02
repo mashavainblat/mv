@@ -13,7 +13,7 @@
                       <div class="projectInfo">
                         <h2>Sonny Rollins LP Series</h2>
                         <h4>Communication Design</h4>
-                        <p>Sonny Rollins is a famous jazz musician from Harlem. When he felt he was reaching a peak in his career, Sonny would go on sabbatical to travel and rehearse his craft. The concept behind the design defines the mystery and spontaneity in imporisational music.</p>
+                        <p>Sonny Rollins is a famous jazz musician from Harlem. When he felt he was reaching a peak in his career, Sonny would go on sabbatical to travel and rehearse his craft. The concept behind the design defines the mystery and spontaneity in improvisational music.</p>
                       </div>
                     </div>
 

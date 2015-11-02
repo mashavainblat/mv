@@ -199,6 +199,7 @@
 
                               </div> <!--end of project info-->
                             </div> <!-- end of projectInfoContainer -->
+                            <div class="col-md-3 col-sm-3 col-xs-1"></div>
                           </div> <!-- end of projectInfoContentContainer -->
       
       

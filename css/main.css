@@ -5,6 +5,7 @@ body {
   background-color: #e6e7de;
   margin: auto ;
   width:100%;
+  margin-bottom:50px;
 }
 
 
@@ -480,12 +481,6 @@ h2{
 /*-------------------------  VOSGES  -------------------------*/
 /*------------------------------------------------------------*/
 
-
-
-/*#vosgesBoxFront img, #vosgesBoxChocolatesContainer img, #openBoxContainer img{
-  padding: 100px 0px;
-}*/
-
 #vosgesPatternContainer{
   background-color: #8fd4d7;
 }
@@ -557,9 +552,9 @@ h2{
 
 
 
-#imagineryLinesPostcardsContainer img{
+/*#imagineryLinesPostcardsContainer img{
   padding:50px 200px;
-}
+}*/
 
 
 /*------------------------------------------------------------------------*/
@@ -821,8 +816,22 @@ p{
     margin-bottom:75px;
   }
 
+  #anatoliaVineyardPickerContainer, #anatoliaVineyardPickerGrapesContainer, #anatoliaWebsiteAndAdContainer, #anatoliaTabletAndAdContainer, #anatoliaApparelAndMobileContainer{
+  padding:0px;
 }
 
+/*-------------    VOSGES STYLES  ------------------*/
+
+#vosgesOpenBoxFront img{
+  margin-bottom: 50px;
+}
+
+
+#sweetBotanicalsSketchesContainer img{
+  padding: 0px 30px;
+}
+
+}
 
 
 

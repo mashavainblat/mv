@@ -36,10 +36,10 @@
                       
 
                       <div class="row whiteBackgroundColor" id="sweetlyLyalyaSketchesContainer">
-                        <div class="col-md-8 col-sm-8 col-xs-8" id="sweetlyLyalyaSketches">
+                        <div class="col-md-8 col-sm-8 col-xs-8 noPadding" id="sweetlyLyalyaSketches">
                           <img src="img/09.sweetlyLyalya/sweetlyLyalyaSketches001.jpg">
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-4" id="sweetlyLyalyaLogoBW">
+                        <div class="col-md-4 col-sm-4 col-xs-4 noPadding" id="sweetlyLyalyaLogoBW">
                           <img src="img/09.sweetlyLyalya/sweetlyLyalyaLogoBlack.jpg">
                         </div>
                       </div>
