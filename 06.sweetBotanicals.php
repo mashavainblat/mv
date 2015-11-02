@@ -40,15 +40,11 @@
 
                       <div class="row whiteBackgroundColor" id="processProductContrastContainer">
                         <div class="col-md-6 col-sm-6 col-xs-12" id="sweetBotanicalsSketchesContainer">
-                          <img src="img/06.sweetBotanicals/sweetBotanicalsSketch001.jpg">
-                          <img src="img/06.sweetBotanicals/sweetBotanicalsSketch002.jpg">
-                          <img src="img/06.sweetBotanicals/sweetBotanicalsSketch003.jpg">
+                          <img src="img/06.sweetBotanicals/sweetBotanicalsSketches.jpg">
                         </div>
 
                         <div class="col-md-6 col-sm-6 col-xs-12" id="sweetBotanicalsSidesContainer">
-                          <img src="img/06.sweetBotanicals/front.jpg">
-                          <img src="img/06.sweetBotanicals/flavors.jpg">
-                          <img src="img/06.sweetBotanicals/back.jpg">
+                          <img src="img/06.sweetBotanicals/sweetBotanicalsSides.jpg">
                         </div>
                       </div>
 

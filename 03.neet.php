@@ -35,16 +35,16 @@
                         </div>
                         <div class="col-md-7 col-sm-7 col-xs-12" id="needSquaresContentContainer">
                           <div class="row" id="neetSquaresContainer">
-                            <div class="col-md-6 col-sm-6 col-xs-12" id="neetSketch">
+                            <div class="col-md-6 col-sm-6 col-xs-6" id="neetSketch">
                               <img src="img/03.neet/neetSketch.jpg">
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-6" id="neetTop">
                               <img src="img/03.neet/011.NEET.jpg">
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-6" id="neetFront">
                               <img src="img/03.neet/013.NEET.jpg">
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-6" id="needBack">
                               <img src="img/03.neet/012.NEET.jpg">
                             </div>
                           </div>

@@ -2,7 +2,7 @@
 body {
   background-size: cover 100%;
   font-family: 'europa', sans-serif;
-  background-color: #000;
+  background-color: #e6e7de;
   margin: auto ;
   width:100%;
 }
@@ -360,6 +360,10 @@ h2{
 
 
 
+
+
+
+
 /*------------------------------------------------------------*/
 /*----------------------  SONNY ROLLINS  ---------------------*/
 /*------------------------------------------------------------*/
@@ -367,11 +371,11 @@ h2{
 
 
 #LPDiscs img{
-  padding: 20px 300px;
+  padding: 20px 0px;
 }
 
 #LPCoversOverlap img{
-  padding:20px 100px;
+  padding:20px 0px;
 }
 
 
@@ -381,34 +385,9 @@ h2{
 /*----------------------      KINITO     ---------------------*/
 /*------------------------------------------------------------*/
 
-#kinitoFrontAngle img{
-  padding: 20px 200px 50px 200px;
-}
 
-#kinitoSketchLogos img, #kinitoVector img{
-  padding:30px;
-}
 
-#kinitoFrontAndInsideAngle{
-  padding:100px 0px;
-}
 
-#kinitoFront{
-  text-align:center;
-  padding:0px 50px 0px 80px;
-}
-
-#kinitoInsideAngle img{
-  padding: 50px 100px;
-}
-
-#insideOutsideCase{
-  padding:100px 0px;
-}
-
-#insideOutsideCase img{
-  padding:0px 50px;
-}
 
 
 
@@ -418,21 +397,7 @@ h2{
 /*----------------------       NEET      ---------------------*/
 /*------------------------------------------------------------*/
 
-#neetSquaresContainer{
-  padding:50px;
-}
 
-#towerStacked img{
-  padding:50px;
-}
-
-#neetSketch img{
-  padding:20px;
-}
-
-#stacked img{
-  padding: 0px 350px;
-}
 
 
 
@@ -445,7 +410,7 @@ h2{
 /*----------------------     DE CECCO    ---------------------*/
 /*------------------------------------------------------------*/
 
-#deCeccoLogo{
+/*#deCeccoLogo{
   background-color: #ddbc3d;
 }
 
@@ -461,7 +426,7 @@ h2{
   padding: 15px;
 }*/
 
-#spillingPastaImgContainer img{
+/*#spillingPastaImgContainer img{
   padding: 0px 150px;
 }
 
@@ -483,7 +448,7 @@ h2{
 
 #boxesAngledContainer img{
   padding: 100px 200px;
-}
+}*/
 
 
 
@@ -493,7 +458,7 @@ h2{
 /*---------------------- SWEET BOTANICALS --------------------*/
 /*------------------------------------------------------------*/
 
-
+/*
 #processProductContrastContainer{
   padding: 100px;
 }
@@ -508,7 +473,7 @@ h2{
 
 #sweetBotanicalsSidesContainer{
   padding-top:25px;
-}
+}*/
 
 
 /*------------------------------------------------------------*/
@@ -517,9 +482,9 @@ h2{
 
 
 
-#vosgesBoxFront img, #vosgesBoxChocolatesContainer img, #openBoxContainer img{
+/*#vosgesBoxFront img, #vosgesBoxChocolatesContainer img, #openBoxContainer img{
   padding: 100px 0px;
-}
+}*/
 
 #vosgesPatternContainer{
   background-color: #8fd4d7;
@@ -529,27 +494,27 @@ h2{
 /*----------------------  BONNIES JAMS  ----------------------*/
 /*------------------------------------------------------------*/
 
-
+/*
 #jamJar img{
   max-height: 500px;
-}
+}*/
 
-#bonniesSketchrevisions img{
+/*#bonniesSketchrevisions img{
   padding: 0px 100px;
-}
+}*/
 
 /*------------------------------------------------------------*/
 /*---------------------  SWEETLY LYALYA  ---------------------*/
 /*------------------------------------------------------------*/
 
 
-#sweetlyLyalyaLogoContainer img{
+/*#sweetlyLyalyaLogoContainer img{
   padding:0px 300px;
 }
 
-#sweetlyLyalyaLogoBW img{      /*at 4/8 bootstrap*/
+#sweetlyLyalyaLogoBW img{      /*at 4/8 bootstrap
   padding: 91px 95px 0px 95px;
-}
+}*/
 
 /*#sweetlyLyalyaSketchesContainer{
   padding-bottom:100px;
@@ -584,6 +549,10 @@ h2{
   box-shadow: 3px 3px 4px #000;
 }
 
+#anatoliaVineyardPickerContainer, #anatoliaVineyardPickerGrapesContainer, #anatoliaWebsiteAndAdContainer, #anatoliaTabletAndAdContainer, #anatoliaApparelAndMobileContainer{
+  padding:100px 0px;
+}
+
 
 
 
@@ -592,6 +561,44 @@ h2{
   padding:50px 200px;
 }
 
+
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*-------------------------------ABOUT -----------------------------------*/
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+
+#aboutPhoto img{
+  text-align: center;
+  max-width:100%;
+  margin: 0px 50px 50px 50px;
+}
+
+#aboutContent{
+  text-align: center;
+  margin-left:50px;
+}
+
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*-------------------------------CONTACT----------------------------------*/
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+#contactInfoContainer{
+  text-align: center;
+}
+
+
+.mediaButtonsContainer{
+  padding:;
+}
+.mediaButtonsContainer img{
+  max-height:30px;
+  margin:10px;
+  text-align: center;
+}
 
 
 /*------------------------------------------------------------------------*/

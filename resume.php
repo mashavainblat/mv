@@ -108,7 +108,7 @@
                                       		<div class="col-md-2 col-sm-2 col-xs-2 resumeYear TA">
                               		          2014
                               		        </div>
-                              		        <div class="col-md-10 col-sm-10 col-xs-2">
+                              		        <div class="col-md-10 col-sm-10 col-xs-10">
                               	  		        <div class="subCategory TA">
                                           		SVA Teaching Assistant
                               			        </div>

@@ -34,7 +34,7 @@ v<?php include("php/formattop.php"); ?>
                         <img src="img/05.deCecco/deCecco001.jpg">
                       </div>
 
-                      <div class="row whiteBackgroundColor" id="boxesContainer">
+                      <!-- <div class="row whiteBackgroundColor" id="boxesContainer">
                         <div class="col-md-4 col-sm-4 col-xs-12 noPadding" id="fettuccineBox">
                           <img src="img/05.deCecco/fettuccine001.jpg">
                         </div>
@@ -44,16 +44,16 @@ v<?php include("php/formattop.php"); ?>
                         <div class="col-md-4 col-sm-4 col-xs-12 noPadding" id="fusilliBox">
                           <img src="img/05.deCecco/fusilli001.jpg">
                         </div>
-                      </div>
+                      </div> -->
 
-                      <div class="row whiteBackgroundColor" id="detailsStraightViewContainer">
+                      <!-- <div class="row whiteBackgroundColor" id="detailsStraightViewContainer">
                         <div class="col-md-6 col-sm-6 col-xs-12" id="detailsFrontView">
                           <img src="img/05.deCecco/details001.jpg">
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12" id="detailsBackView">
                           <img src="img/05.deCecco/details002.jpg">
                         </div>
-                      </div>
+                      </div> -->
 
 <!--                       <div class="row whiteBackgroundColor" id="boxSketchesContainer">
                         <div class="col-md-3 col-sm-3 col-xs-12">

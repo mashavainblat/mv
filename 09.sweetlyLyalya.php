@@ -24,7 +24,7 @@
                     <div id="imageContainerWidthNoPadding" class="col-md-7 col-sm-7 col-xs-10 noPadding">
 
                       <div class="row whiteBackgroundColor" id="sweetlyLyalyaLogoContainer">
-                        <img src="img/09.sweetlyLyalya/sweetlyLyalyaLogo.png">
+                        <img src="img/09.sweetlyLyalya/sweetlyLyalyaLogo.jpg">
                       </div>
 
                       <div class="row" id="sweetlyLyalyaProcessContainer">
@@ -33,20 +33,13 @@
                       <div class="row" id="sweetlyLyalyaBusinessCardsContainer">
                       </div>
 
-                      <!-- <div class="row whiteBackgroundColor" id="sweetlyLyalyaSketchesContainer">
-                        <div class="col-md-4 col-sm-4 col-xs-12" id="sweetlyLyalyaSketches">
-                          <img src="img/09.sweetlyLyalya/sweetlyLyalyaSketches002.jpg">
-                        </div>
-                        <div class="col-md-8 col-sm-8 col-xs-12" id="sweetlyLyalyaLogoBW">
-                          <img src="img/09.sweetlyLyalya/sweetlyLyalyaLogoBlack.jpg">
-                        </div>
-                      </div> -->
+                      
 
                       <div class="row whiteBackgroundColor" id="sweetlyLyalyaSketchesContainer">
-                        <div class="col-md-8 col-sm-8 col-xs-12" id="sweetlyLyalyaSketches">
+                        <div class="col-md-8 col-sm-8 col-xs-8" id="sweetlyLyalyaSketches">
                           <img src="img/09.sweetlyLyalya/sweetlyLyalyaSketches001.jpg">
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12" id="sweetlyLyalyaLogoBW">
+                        <div class="col-md-4 col-sm-4 col-xs-4" id="sweetlyLyalyaLogoBW">
                           <img src="img/09.sweetlyLyalya/sweetlyLyalyaLogoBlack.jpg">
                         </div>
                       </div>
@@ -56,14 +49,11 @@
                         <img src="img/09.sweetlyLyalya/sweetlyLyalyaMultipleCards.jpg">
                       </div>
 
-                      <!-- <div class="row whiteBackgroundColor" id="sweetlyLyalyaBusinessCardsContainer">
-                        <div class="col-md-7 col-sm-7 col-xs-12" id="sweetlyLyalyaMultipleCards">
-                          <img src="img/09.sweetlyLyalya/sweetlyLyalyaMultipleCards.jpg">
-                        </div>
-                        <div class="col-md-5 col-sm-5 col-xs-12" id="sweetlyLyalyaBusinessCards">
+                       <div class="row whiteBackgroundColor" id="sweetlyLyalyaBusinessCardsContainer">
+                        <div class="col-md-12 col-sm-12 col-xs-12" id="sweetlyLyalyaBusinessCard">
                           <img src="img/09.sweetlyLyalya/sweetlyLyalyaBusinessCard.jpg">
                         </div>
-                      </div>-->
+                      </div>
 
 
                     </div>

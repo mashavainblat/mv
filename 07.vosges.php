@@ -31,10 +31,10 @@
                       </div>
 
                       <div class="row" id="openBoxContainer">
-                        <div class="col-md-6 col-sm-6 col-xs-6" id="vosgesOpenBoxAngle">
+                        <div class="col-md-6 col-sm-6 col-xs-12" id="vosgesOpenBoxAngle">
                           <img src="img/07.vosges/vosges004.png">
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6" id="vosgesOpenBoxFront">
+                        <div class="col-md-6 col-sm-6 col-xs-12" id="vosgesOpenBoxFront">
                           <img src="img/07.vosges/vosges003.png">
                         </div>
                       </div>

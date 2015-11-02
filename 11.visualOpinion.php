@@ -26,6 +26,7 @@
                         <img src="img/11.visualOpinion/VOPostcards003.jpg">
                         <img src="img/11.visualOpinion/VOPostcards001.jpg">
                         <img src="img/11.visualOpinion/VOPostcards002.jpg">
+                        <img src="img/11.visualOpinion/VOPostcards004.jpg">
                       </div>
                     </div>
 
