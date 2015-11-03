@@ -5,9 +5,36 @@
 .resumeContentContainer .resume{
   padding: 10px;
 }
+
+.projectInfo p{
+  font-size: 1.1em
+}
+
+
+
+
+
+
+
+/*p#portfolioName{
+  margin-left:-22.5px;
+}
+p#resumeName{
+  margin-left:-12.5px;
+}
+p#aboutName{
+  margin-left: -9px;
+}
+p#contactName{
+  margin-left: -16.5px;
+}*/
+
+
+
 /*------------------------------------------------------------*/
 /*--------------------------HEADER----------------------------*/
 /*------------------------------------------------------------*/
+
 .resumeContentContainer .headlines h4{
   text-transform: uppercase;
   font-weight: 700 !important;

@@ -3,17 +3,17 @@
   <title>Masha Vainblat Portfolio</title>
   </head>
 
-  <body class="mashaVainblatPortfolio resumeContentContainer container-fluid" id="resume">
+  <body class="mashaVainblatPortfolio container-fluid" id="resume">
     <?php include("php/navigation.php"); ?>
                   
 
-                  <div class="row projectInfoContentContainer">
+                  <div class="row projectInfoContentContainer resumeContentContainer">
                     <div class="col-md-3 col-sm-3 col-xs-1"></div>
                     <div class="projectInfoContainer col-md-6 col-sm-6 col-xs-10 noPadding">
-                      <div class="projectInfo">
+                      <div class="projectInfo sanSerif">
 
                               <div class="sansSerif">
-                                  <div class="container header">
+                                  <div class="header">
                                     <div class="row">
                                       <div class="col-md-2 col-sm-2 col-xs-2"></div>
                                       
@@ -28,7 +28,7 @@
 
 
                                   
-                                  <div class="container education">
+                                  <div class="education">
                                     <div class="row ">
                                       	<div class="col-md-2 col-sm-2 col-xs-2"></div>
                                       	<div class="col-md-10 col-sm-10 col-xs-12">
@@ -61,7 +61,7 @@
                                 	  </div>
                                   </div> <!-- end of education container. -->
                                   
-                                  <div class="container experience">
+                                  <div class="experience">
                                     	<div class="row">
                                       	<div class="col-md-2 col-sm-2 col-xs-2"></div>
                                       	<div class="col-md-10 col-sm-10 col-xs-12">
@@ -153,10 +153,10 @@
                                     		</div>
                                   	  </div> <!-- end of experience container -->
 
-                                      <div class="container skills">
+                                      <div class="skills">
                                         <div class="row">
                                           <div class="col-md-2 col-sm-2 col-xs-2"></div>
-                                          <div class="col-md-10 col-sm-10 col-xs-12 noPadding">
+                                          <div class="col-md-10 col-sm-10 col-xs-12">
                                             <h6 class="category">skills</h6>
                                             <div class="info">
                                               <p>Branding</p>
@@ -170,10 +170,10 @@
                                         </div>
                                       </div>
 
-                                      <div class="container skills">
+                                      <div class="skills">
                                         <div class="row">
                                           <div class="col-md-2 col-sm-2 col-xs-2"></div>
-                                          <div class="col-md-10 col-sm-10 col-xs-12 noPadding">
+                                          <div class="col-md-10 col-sm-10 col-xs-12">
                                             <h6 class="category">language skills</h6>
                                             <div class="info">
                                               <p>Fluent in Russian</p>
@@ -182,10 +182,10 @@
                                         </div>
                                       </div>
 
-                                      <div class="container skills">
+                                      <div class="skills">
                                         <div class="row">
                                           <div class="col-md-2 col-sm-2 col-xs-2"></div>
-                                          <div class="col-md-10 col-sm-10 col-xs-12 noPadding">
+                                          <div class="col-md-10 col-sm-10 col-xs-12">
                                             <h6 class="category">interests</h6>
                                             <div class="info">
                                               <p>Jewelry Design</p>
