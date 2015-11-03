@@ -6,7 +6,7 @@
                     <li>
                         <a class="navButton" id="portfolioButton" href="index.php" ></a> 
                           <span class="pageName portfolio">
-                            <p id="portfolioName">portfolio page</p>
+                            <p id="portfolioName">portfolio</p>
                           </span>
                     </li>
                   </ul>
