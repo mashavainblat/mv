@@ -101,12 +101,12 @@ p#contactName{
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width:768px){
   .resumeContentContainer .resume{
     padding: 5px;
   }
 
-  .resumeContentContainer .col-md-2, .col-sm-2, .col-xs-2{
+  .resumeContentContainer .col-md-2, .resumeContentContainer .col-sm-2, .resumeContentContainer .col-xs-2{
     display: none;
   }
   

@@ -9,10 +9,10 @@
 
             	<div class="row projectInfoContentContainer">
                     <div class="col-md-3 col-sm-3 col-xs-1"></div>
-                    <div class="projectInfoContainer col-md-6 col-sm-6 col-xs-10 noPadding">
+                    <div class="projectInfoContainer col-md-7 col-sm-7 col-xs-10 noPadding">
                     	
 		                	<div id="aboutPhoto">
-		                  		<img src="img/thumbnails/mashaAbout.jpg">
+		                  		<img src="img/thumbnails/about.png">
 		                  	</div>
 		                  	<div id="aboutContent">
 		                  		<p> Masha Vainblat is a designer and native New Yorker.

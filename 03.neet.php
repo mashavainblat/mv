@@ -30,10 +30,10 @@
                       </div>
 
                       <div class="row whiteBackgroundColor" id="stackedAndSquaresContainer">
-                        <div class="col-md-5 col-sm-5 col-xs-12" id="towerStacked">
+                        <div class="col-md-4 col-sm-4 col-xs-12" id="towerStacked">
                           <img src="img/03.neet/001.NEET.jpg">
                         </div>
-                        <div class="col-md-7 col-sm-7 col-xs-12" id="needSquaresContentContainer">
+                        <div class="col-md-8 col-sm-8 col-xs-12" id="needSquaresContentContainer">
                           <div class="row" id="neetSquaresContainer">
                             <div class="col-md-6 col-sm-6 col-xs-6" id="neetSketch">
                               <img src="img/03.neet/neetSketch.jpg">
