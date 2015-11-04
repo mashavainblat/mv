@@ -13,7 +13,7 @@
         makeNavButtonOpaque();
       }
 
-      if($(window).scrollTop()>450){
+      if($(window).scrollTop()>200){
         expandPics();
       }
       else{
