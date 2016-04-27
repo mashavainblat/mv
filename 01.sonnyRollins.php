@@ -23,11 +23,11 @@
                   <div class="row projectPhotoContainer">
                     <div class="col-md-3 col-sm-3 col-xs-1" id="paddingColumnLeft"></div>
                     <div id="imageContainerWidthNoPadding" class="col-md-7 col-sm-7 col-xs-10 noPadding">
-                      <div class="row noPadding" id="LPCoverCloseUp">
+                      <div class="row noPadding whiteBackgroundColor" id="LPCoverCloseUp">
                         <img src="img/01.sonnyRollins/sonnyRollins005.jpg">
                       </div>
 
-                      <div class="row" id="photoSet">
+                      <div class="row noPadding whiteBackgroundColor" id="photoSet">
                         <img src="img/01.sonnyRollins/sonnyRollins006.jpg">
                       </div>
 
@@ -43,11 +43,11 @@
                         </div>
                       </div>
 
-                      <div class="row whiteBackgroundColor" id="LPDiscs">
+                      <div class="row whiteBackgroundColor noPadding" id="LPDiscs">
                         <img src="img/01.sonnyRollins/sonnyRollinsDiscs.jpg">
                       </div>
 
-                      <div class="row whiteBackgroundColor" id="LPCoversOverlap">
+                      <div class="row whiteBackgroundColor noPadding" id="LPCoversOverlap">
                         <img src="img/01.sonnyRollins/sonnyRollins001.jpg">
                       </div>
 

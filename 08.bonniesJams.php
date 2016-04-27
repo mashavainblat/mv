@@ -38,7 +38,7 @@
 
                       </div>
 
-                      <div class="row" id="illustratorProcessContainer">
+                      <div class="row whiteBackgroundColor" id="illustratorProcessContainer">
                         <img src="img/08.bonniesJams/illustratorProcess.png">
                       </div>
                     </div>

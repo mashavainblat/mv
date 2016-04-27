@@ -45,7 +45,7 @@
                       </div>
 
 
-                      <div class="row" id="sweetlyLyalyaMultipleBusinessCardsContainer">
+                      <div class="row whiteBackgroundColor" id="sweetlyLyalyaMultipleBusinessCardsContainer">
                         <img src="img/09.sweetlyLyalya/sweetlyLyalyaMultipleCards.jpg">
                       </div>
 

@@ -26,49 +26,13 @@
                         <img src="img/05.deCecco/deCeccoLogo.png">
                       </div>
 
-                      <div class="row" id="deCeccoLogoSketch">
+                      <div class="row whiteBackgroundColor" id="deCeccoLogoSketch">
                         <img src="img/05.deCecco/deCeccoLogoSketch.jpg">
                       </div>
 
                       <div class="row whiteBackgroundColor" id="spillingPastaImgContainer">
                         <img src="img/05.deCecco/deCecco001.jpg">
                       </div>
-
-                      <!-- <div class="row whiteBackgroundColor" id="boxesContainer">
-                        <div class="col-md-4 col-sm-4 col-xs-12 noPadding" id="fettuccineBox">
-                          <img src="img/05.deCecco/fettuccine001.jpg">
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12 noPadding" id="farfalleBox">
-                          <img src="img/05.deCecco/farfalle001.jpg">
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12 noPadding" id="fusilliBox">
-                          <img src="img/05.deCecco/fusilli001.jpg">
-                        </div>
-                      </div> -->
-
-                      <!-- <div class="row whiteBackgroundColor" id="detailsStraightViewContainer">
-                        <div class="col-md-6 col-sm-6 col-xs-12" id="detailsFrontView">
-                          <img src="img/05.deCecco/details001.jpg">
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12" id="detailsBackView">
-                          <img src="img/05.deCecco/details002.jpg">
-                        </div>
-                      </div> -->
-
-<!--                       <div class="row whiteBackgroundColor" id="boxSketchesContainer">
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                          <img src="img/05.deCecco/boxSketch001.jpg">
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                          <img src="img/05.deCecco/boxSketch002.jpg">
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                          <img src="img/05.deCecco/boxSketch003.jpg">
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                          <img src="img/05.deCecco/boxSketch004.jpg">
-                        </div>
-                      </div> -->
 
                       <div class="row whiteBackgroundColor" id="backView">
                         <img src="img/05.deCecco/backView.jpg">

@@ -19,8 +19,7 @@
                                       
                                       <div class="col-md-10 col-sm-10 col-xs-12 headlines">
                                         <h4 class="name">masha s. vainblat</h4>
-                                        <p class="address">443 Arbuckle Ave. Cedahurst NY, 11516</p>
-                                        <p class="address">mashavainblat@gmail.com <span class="bullet">&#149;</span> (516)234-4611</p>
+                                        <p class="address">mashavainblat@gmail.com</p>
                                       </div>
                                     </div>
                                   </div>
@@ -81,13 +80,45 @@
                                         			</div>
                                           		SVA Student Organized Magazine
                                           		<div class="info">
-                              	              		<p>Review and organize student submitted work</p>
-                                  	          		<p>Arrange content based on conceptual design theme</p>
+                                  	          		<p>Produce publication featuring student submitted artwork</p>
+                                                  <p>Curate content based on conceptual design theme</p>
+                                                  <p>Responsible for visual aspects and branding</p>
                                       	    	</div>
                                       	  </div>
                                       	</div>
-                                    	
-                                    
+
+                                        <div class="row infoContainer">
+                                          <div class="col-md-2 col-sm-2 resumeYear col-xs-2 GLOW">
+                                            2015
+                                          </div>
+                                          <div class="col-md-10 col-sm-10 col-xs-12">
+                                              <div class="subCategory GLOW">
+                                              Glow Interactive
+                                              </div>
+                                              Design intern
+                                              <div class="info">
+                                                  <p>Create content based on marketing strategy to build social following for clients</p>
+                                              </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="row infoContainer">
+                                          <div class="col-md-2 col-sm-2 resumeYear col-xs-2 VAP">
+                                            2015
+                                          </div>
+                                          <div class="col-md-10 col-sm-10 col-xs-12">
+                                              <div class="subCategory VAP">
+                                              SVA Visual Arts Press
+                                              </div>
+                                              Web intern
+                                              <div class="info">
+                                                  <p>Redesigned SVA departmental website</p>
+                                                  <p>Designed template wireframes for SVA departments</p>
+                                                  
+                                              </div>
+                                          </div>
+                                        </div>
+
                                     		<div class="row">
                               		        <div class="col-md-2 col-sm-2 col-xs-2 resumeYear RA">
                                       		  2014-2015
@@ -103,7 +134,7 @@
                                           		</div>
                                       		</div>
                                     		</div>
-                                    
+
                                     		<div class="row">
                                       		<div class="col-md-2 col-sm-2 col-xs-2 resumeYear TA">
                               		          2014
@@ -119,7 +150,7 @@
                                           		</div>
                                       		</div>
                                     		</div>
-                                    
+
                                     		<div class="row">
                                       		<div class="col-md-2 col-sm-2 col-xs-2 resumeYear HH">
                                         		2013-2015
@@ -190,6 +221,7 @@
                                             <div class="info">
                                               <p>Jewelry Design</p>
                                               <p>Print Production</p>
+                                              <p>Playing volleyball</p>
                                             </div>
                                           </div>
                                         </div>

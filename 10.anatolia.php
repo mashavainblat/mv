@@ -32,7 +32,7 @@
                             <img src="img/10.anatolia/logoThysusWhite.png"></div>
                         </div>
 
-                        <div class="row noPadding" id="anatoliaOpeningVineyardImage">
+                        <div class="row noPadding whiteBackgroundColor" id="anatoliaOpeningVineyardImage">
                           <img src="img/10.anatolia/vineyard001.png">
                         </div>
 
@@ -63,7 +63,7 @@
                         </div> <!--end of anatoliaStationery-->
 
 
-                        <div class="row row-fluid" id="anatoliaBottles">
+                        <div class="row row-fluid whiteBackgroundColor" id="anatoliaBottles">
                           <div class="col-md-3 col-sm-3 col-xs-12 noPadding">
                             <img src="img/10.anatolia/bottle001.jpg">
                           </div>
@@ -114,13 +114,13 @@
                           </div>
                         </div>
 
-                        <div class="row row-fluid" id="anatoliaVineyardCoastContainer">
+                        <div class="row row-fluid whiteBackgroundColor" id="anatoliaVineyardCoastContainer">
                           <div class="col-md-12 col-sm-12 col-xs-12 noPadding" id="anatoliaVineyardCoast">
                             <img src="img/10.anatolia/anatoliaVineyardCoast.jpg">
                           </div>
                         </div>
 
-                        <div class="row row-fluid" id="anatoliaVineyardCloseupContainer">
+                        <div class="row row-fluid whiteBackgroundColor" id="anatoliaVineyardCloseupContainer">
                           <div class="col-md-12 col-sm-12 col-xs-12 noPadding" id="anatoliaVineyardCloseup">
                             <img src="img/10.anatolia/anatoliaVineyardCloseup.jpg">
                           </div>

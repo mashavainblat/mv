@@ -20,7 +20,7 @@
                   <div class="row projectPhotoContainer">
                     <div class="col-md-3 col-sm-3 col-xs-1" id="paddingColumnLeft"></div>
 
-                    <div id="imageContainerWidthNoPadding" class="col-md-7 col-sm-7 col-xs-10 noPadding">
+                    <div id="imageContainerWidthNoPadding" class="col-md-7 col-sm-7 col-xs-10 noPadding whiteBackgroundColor">
                       <div class="row noPadding" id="sideView">
                         <img src="img/03.neet/002.NEET.jpg">
                       </div>
@@ -55,7 +55,7 @@
                         <img src="img/03.neet/008.NEET.jpg">
                       </div>
 
-                      <div class="row noPadding" id="frontView">
+                      <div class="row noPadding whiteBackgroundColor" id="frontView">
                         <img src="img/03.neet/004.NEET.jpg">
                       </div>
                     </div>

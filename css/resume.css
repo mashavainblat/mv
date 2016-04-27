@@ -124,6 +124,15 @@ p#contactName{
     content: " 2015";
     font-weight: 100 !important;
   }
+  .resumeContentContainer .GLOW:after{
+    content: " 2015";
+    font-weight: 100 !important;
+  }
+
+  .resumeContentContainer .VAP:after{
+    content: " 2015";
+    font-weight: 100 !important;
+  }
   
   .resumeContentContainer .RA:after{
     content: " 2014-2015";

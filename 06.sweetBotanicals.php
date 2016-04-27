@@ -30,11 +30,11 @@
                         <img src="img/06.sweetBotanicals/sweetBotanicals001.jpg">
                       </div>
 
-                      <div class="row" id="flowerPattern">
+                      <div class="row whiteBackgroundColor" id="flowerPattern">
                         <img src="img/06.sweetBotanicals/patternFlowers.jpg">
                       </div>
 
-                      <div class="row" id="scatteredCandyContainer">
+                      <div class="row whiteBackgroundColor" id="scatteredCandyContainer">
                         <img src="img/06.sweetBotanicals/sweetBotanicals003.jpg">
                       </div>
 
@@ -48,7 +48,7 @@
                         </div>
                       </div>
 
-                      <div class="row" id="candyCloseUp">
+                      <div class="row whiteBackgroundColor" id="candyCloseUp">
                         <img src="img/06.sweetBotanicals/sweetBotanicals002.jpg">
                       </div>
 
