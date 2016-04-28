@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="/js/vendor/bootstrap-3.3.5-dist/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="/css/main.css"/>
     <link type="text/css" rel="stylesheet" href="/css/resume.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/sva.css"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="/js/app.js"></script>
     <script src="https://use.typekit.net/ffu0bxt.js"></script>
