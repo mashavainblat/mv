@@ -20,7 +20,7 @@
 			            		<h3 class="projectTitle">50 Shades of Hex</h3>
 			            		<div class="appLoginInfo">
 				            		<p>Login Info</p>
-				            		<p>username: <span>testuser@sva.edu</span></p>
+				            		<p>username: <span>testuser@gmail.com</span></p>
 				            		<p>password: <span>testuser</span></p>
 			            		</div>
 			            		<div class="projectDescription">
@@ -36,6 +36,9 @@
 		            		<img src="img/screenshots/nag.png">
 		            		<div class="projectInfo">
 			            		<h3 class="projectTitle">Nag Me</h3>
+			            		<div class="projectDescription">
+				            		<p>Nag Me is a MEAN stack app that sends you a text message to do a task until it is complete.</p>
+			            		</div>
 		            		</div>
 		            	</div>
 	            	</a>
@@ -46,13 +49,23 @@
 		            		<img src="img/screenshots/eightHeros.png">
 		            		<div class="projectInfo">
 			            		<h3 class="projectTitle">Eight Bakery</h3>
+			            		<div class="projectDescription">
+				            		<p>Specializing in custom design cakepops and baked goods, Eight Bakery is based in Long Island. Their sweet treats are as tasty as they look.</p>
+			            		</div>
 		            		</div>
 		            	</div>
 
 
-	            	<div class="col-sm-6 developmentProjects" id="inspoApp">
-	            		<img src="img/screenshots/eightFlowers.png">
-	            	</div>
+	            	<a href="http://localhost:3000/phrases" target="_blank">
+		            	<div class="col-sm-6 developmentProjects" id="eightBakery">
+		            		<img src="img/screenshots/eightFlowers.png">
+		            		<div class="projectInfo">
+			            		<h3 class="projectTitle">Inspire</h3>
+			            		<div class="projectDescription">
+				            		<p>Inspire is a full stack Ruby on Rails web application that seeks to inspire others through typographic expression.</p>
+			            		</div>
+		            		</div>
+		            	</div>
             	</div>
             </div>
 
