@@ -12,6 +12,20 @@
             <div class="col-md-7">
             	<div class="row" id="projectsContainer">
 
+	            	<!-- NAG ME -->
+	            	<a href="https://nag-me.herokuapp.com/" target="_blank">
+		            	<div class="col-sm-6 developmentProjects" id="nagApp">
+		            		<img src="img/screenshots/nag.png">
+		            		<div class="projectInfo">
+			            		<h3 class="projectTitle">Nag Me</h3>
+			            		<div class="projectDescription">
+				            		<p>Nag Me is a website that sends you a text message to do a task until it is complete.</p>
+				            		<p></p>
+			            		</div>
+		            		</div>
+		            	</div>
+	            	</a>
+
             		<!-- 50 SHADES OF HEX -->
 	            	<a href="https://hex-color-palette.herokuapp.com/" target="_blank">
 		            	<div class="col-sm-6 developmentProjects" id="hexApp">
@@ -30,19 +44,6 @@
 		            	</div>
 	            	</a>
 
-	            	<!-- NAG ME -->
-	            	<a href="https://nag-me.herokuapp.com/" target="_blank">
-		            	<div class="col-sm-6 developmentProjects" id="nagApp">
-		            		<img src="img/screenshots/nag.png">
-		            		<div class="projectInfo">
-			            		<h3 class="projectTitle">Nag Me</h3>
-			            		<div class="projectDescription">
-				            		<p>Nag Me is a MEAN stack app that sends you a text message to do a task until it is complete.</p>
-			            		</div>
-		            		</div>
-		            	</div>
-	            	</a>
-
 	            	<!-- EIGHT BAKERY -->
 	            	<a href="http://eightbakery.com/" target="_blank">
 		            	<div class="col-sm-6 developmentProjects" id="eightBakery">
@@ -50,19 +51,20 @@
 		            		<div class="projectInfo">
 			            		<h3 class="projectTitle">Eight Bakery</h3>
 			            		<div class="projectDescription">
-				            		<p>Specializing in custom design cakepops and baked goods, Eight Bakery is based in Long Island. Their sweet treats are as tasty as they look.</p>
+			            			<p>Eight Bakery is a custom website developed for a client who specializes in custom designed cakepops and baked goods.</p> 
+			            			<p>Eight Bakery is based in Long Island whose sweet treats are as tasty as they look.</p>
 			            		</div>
 		            		</div>
 		            	</div>
 
 
 	            	<a href="http://localhost:3000/phrases" target="_blank">
-		            	<div class="col-sm-6 developmentProjects" id="eightBakery">
-		            		<img src="img/screenshots/eightFlowers.png">
+		            	<div class="col-sm-6 developmentProjects" id="phrasesApp">
+		            		<img src="img/screenshots/phrases.png">
 		            		<div class="projectInfo">
 			            		<h3 class="projectTitle">Inspire</h3>
 			            		<div class="projectDescription">
-				            		<p>Inspire is a full stack Ruby on Rails web application that seeks to inspire others through typographic expression.</p>
+				            		<p>Inspire is a simple website that seeks to inspire others through typographic expression.</p>
 			            		</div>
 		            		</div>
 		            	</div>
