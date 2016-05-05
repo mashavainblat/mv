@@ -47,29 +47,19 @@
                           	</div>
 
                           	<div class="row portfolioProjectsRow"> <!--empty row-->
-                              <div class="col-md-7 col-sm-7 col-xs-7"></div> <!-- SPACER -->
-                              <div class="col-md-5 col-sm-5 col-xs-5">
+                              <div class="col-md-7">
                                 <ul>
                                   <li>
-                                    <a class="navButton deCeccoButton" href="05.deCecco.php" id="thisProject2">
-                                      <img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/deCecco.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/>
-                                    </a> 
-                                    <span class="pageName" id="deCecco"><p id="thisProjectTitle2">de cecco</p></span>
-                                  </li>
-                                </ul>
-                              </div>
-                          	</div>
-
-                          	<div class="row portfolioProjectsRow">
-                          		<div class="col-md-3 col-sm-3 col-xs-3">
-                                <ul>
-                                  <li>
-                                    <a class="navButton vosgesButton" href="07.vosges.php" id="thisProject">
-                                      <img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/vosges.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/>
-                                    </a> 
-                                    <span class="pageName" id="vosges"><p id="thisProjectTitle">vosges</p></span>
+                                    <a class="navButton shadesButton" href="https://hex-color-palette.herokuapp.com/users" target="_blank" id="thisProject">
+                                      <img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/50shades.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/>
+                                    </a><span class="pageName" id="shades"><p>50 Shades of Hex</p></span>
                                   </li>
                                 </ul>  
+                              </div>
+                            </div>
+
+                            <div class="row portfolioProjectsRow">
+                              <div class="col-md-3 col-sm-3 col-xs-3">
                               </div><!--SPACER-->
 
                           		<div class="col-md-9 col-sm-9 col-xs-9">
@@ -87,7 +77,7 @@
                           		<div class="col-md-7 col-sm-7 col-xs-7">
                           			<ul>
                           				<li>
-                          					<a class="navButton sweetlyLyalyaButton" href="09.sweetlyLyalya.php"><img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/sweetlyLyalyaCopy.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/></a> <span class="pageName" id="sweetlyLyalya"><p> sweetly lyalya</p></span>
+                          					<a class="navButton eightBakeryButton" href="http://eightbakery.com/" target="_blank"><img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/eightBakery.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/></a> <span class="pageName" id="eightBakery"><p> Eight Bakery</p></span>
                           				</li>
                           			</ul>
                           		</div>
@@ -122,7 +112,7 @@
                           		<div class="col-md-7 col-sm-7 col-xs-6">
                           			<ul>
                           				<li>
-                          					<a class="navButton moMathButton" href="04.moMath.php"><img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/moMathCopy.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/></a> <span class="pageName" id="moMath"><p> momath museum</p> </span>
+                          					<a class="navButton moMathButton" href="https://nag-me.herokuapp.com/" target="_blank"><img src="img/thumbnails/whiteCircle.png" onmouseover="this.src='img/thumbnails/nagMe.png'" onmouseout="this.src='img/thumbnails/whiteCircle.png'"/></a> <span class="pageName" id="nagMe"><p> nag me</p> </span>
                           				</li>
                           			</ul>
                           		</div>

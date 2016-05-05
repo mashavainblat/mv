@@ -273,9 +273,11 @@ p#contactName{
   top:-15px;
 }
 
-#thisProjectTitle{
-  position: absolute;
-  top:15px;
+#shades p{
+  /*position: absolute;*/
+  /*top:15px;*/
+  margin-left:-46px;
+  margin-top:15px;
 }
 
 #thisProject2{
@@ -318,8 +320,8 @@ p#contactName{
   margin-left: -12px;
 }
 
-#sweetlyLyalya p{
-  margin-left:-40px;
+#eightBakery p{
+  margin-left:-35px;
 }
 
 #anatolia p{
@@ -330,8 +332,8 @@ p#contactName{
   margin-left: -4px;
 }
 
-#moMath p{
-  margin-left: -46px;
+#nagMe p{
+  margin-left: -13px;
 }
 
 #sweetBotanicals p{
