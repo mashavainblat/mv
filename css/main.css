@@ -268,6 +268,28 @@ p#contactName{
 /*********************************************************/
 /*********************************************************/
 
+#thisProject{
+  position:absolute;
+  top:-15px;
+}
+
+#thisProjectTitle{
+  position: absolute;
+  top:15px;
+}
+
+#thisProject2{
+  position:absolute;
+  top:-20px;
+}
+
+#thisProjectTitle2{
+  position: absolute;
+  top:20px;
+}
+
+
+
 .portfolioButtonsRow{
   margin-bottom: 150px;
 }
