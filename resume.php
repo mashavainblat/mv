@@ -20,63 +20,45 @@
         <div class="col-md-2 col-sm-2"></div>
         <div class="col-md-10 col-sm-10 col-xs-12">
 
-          <div id="skillsAndLanguages" class="row">
-            <div id="skills" class="col-md-4 col-sm-4">
+          <section id="skillsAndLanguages" class="row">
+            <div id="skills" class="col-md-4 col-sm-4 noPadding">
               <h5 class="category">skills</h5>
-              <section class="skillsSection bodyCopy">
+              <ul class="skillsSection bodyCopy">
                 <li>Branding</li>
                 <li>Typography</li>
                 <li>Logo Design</li>
                 <li>Art Direction</li>
                 <li>Package Design</li>
-              </section>
+              </ul>
             </div> <!-- end of #skills -->
             
-            <div id="languages" class="col-md-4 col-sm-4">
+            <div id="languages" class="col-md-4 col-sm-4 noPadding">
               <h5 class="category">languages</h5>
-              <section class="skillsSection bodyCopy">
+              <ul class="skillsSection bodyCopy">
                 <li>CSS</li>
                 <li>HTML</li>
                 <li>jQuery</li>
                 <li>Angular</li>
                 <li>JavaScript</li>
-              </section>
+              </ul>
             </div> <!--  end of #languages -->
             
-            <div id="languagesCont" class="col-md-4 col-sm-4">
+            <div id="languagesCont" class="col-md-4 col-sm-4 noPadding">
               <h5 class="category"></h5>
-              <section class="skillsSection bodyCopy">
+              <ul class="skillsSection bodyCopy">
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>PostgreSQL</li>
                 <li>Ruby on Rails</li>
                 <li>Fluent in Russian</li>
-              </section>
+              </ul>
             </div> <!-- end of #languagesCont -->
-          </div> <!-- end of #skillsAndLanguages .row -->
-
+          </section> <!-- end of #skillsAndLanguages .row -->
         </div>
-
 
 <!--  SKILLS AND LANGUAGES  -->
 
 <!-- EDUCATION -->
-
-        <section id="education">
-          <div class="row">
-            <div class="col-md-2 col-sm-2"></div>
-            <div class="col-md-10 col-sm-10 col-xs-12" id="education">
-              <h5 class="category">education</h5>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-2 col-sm-2">2012-2016</div>
-            <div class="col-md-10 col-sm-10 col-xs-12" id="education">
-              <h4 class="category">School of Visual Arts, NY</h4>
-            </div>
-          </div>
-        </section>
 
         <section id="education">
           <div class="row">
@@ -87,31 +69,111 @@
           </div>
                                       
 
-          <div class="row infoContainer">
-            <div class="col-md-2 col-sm-2 col-xs-2 resumeYear SVA">
-              2015
+          <div class="row">
+            <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">
+              2012&ndash;2016
             </div>
             <div class="col-md-10 col-sm-10 col-xs-12">
-                <div class="title SVA">school of visual arts, ny</div>
-                <span>Graphic Design</span>
+                <div class="title">school of visual arts, ny</div>
+                <span>BFA Design</span>
             </div>
+          </div>
                                   
-                                      <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-xs-2 resumeYear SUNY">2011-2012</div>
-                                        <div class="col-md-10 col-sm-10 col-xs-12">
-                                            <div class="title SUNY">albany, state universtiy of new york</div>
-                                            <span>Undergraduate Studies</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </section>
-
-
+          <div class="row">
+            <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2016</div>
+            <div class="col-md-10 col-sm-10 col-xs-12">
+                <div class="title">general assembly, ny</div>
+                <span>Full Stack web Development</span>
+            </div>
+          </div>
+      </section>
 
 <!-- EDUCATION -->
 
 <!-- EXPERIENCE -->
+      <section id="experience">
+        <div class="row">
+          <div class="col-md-2 col-sm-2 col-xs-2"></div>
+          <div class="col-md-10 col-sm-10 col-xs-12">
+              <h6 class="category">experience</h6>
+          </div>
+        </div>
 
+        <div class="row" id="VO">
+          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2015&ndash;2016</div>
+          <div class="col-md-10 col-sm-10 col-xs-12">
+              <div class="title">visual opinion magazine</div>
+              <div class="position">designer | art director | production manager</div>
+              <ul>
+                <li>SPD51 custom publication finalist</li>
+                <li>Raised brand awareness by building social and campus presence</li>
+                <li>Elevated product quality and consistently sold out issues</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row" id="GLOW">
+          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2015</div>
+          <div class="col-md-10 col-sm-10 col-xs-12">
+              <div class="title">glow interactive</div>
+              <div class="position">design intern</div>
+              <ul>
+                <li>Created interaction designs based on social media strategies</li>
+                <li>Collaborated with upper management about art direction</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row" id="VAP">
+          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2015</div>
+          <div class="col-md-10 col-sm-10 col-xs-12">
+              <div class="title">visual arts press</div>
+              <div class="position">web intern | sva in-house design team</div>
+              <ul>
+                <li>Designed wireframe templates for SVA departmental websites</li>
+                <li>Redesigned departmental course registration page</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row" id="RA">
+          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2014&ndash;2015</div>
+          <div class="col-md-10 col-sm-10 col-xs-12">
+              <div class="title">sva resident assistant</div>
+              <div class="position">student supervisor</div>
+              <ul>
+                <li>Managed floor and was responsible for fostering a cooperative and educational community</li>
+                <li>Administrative duties to ensure building rules were being followed</li>
+                <li>Emergency management</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row" id="TA">
+          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2014</div>
+          <div class="col-md-10 col-sm-10 col-xs-12">
+              <div class="title">sva teacher's assistant</div>
+              <div class="position">precollege program</div>
+              <ul>
+                <li>Assisted and encouraged basic design principles to prospective students</li>
+                <li>Curated graphic design and advertising work for presentation</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row" id="SM">
+          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2013</div>
+          <div class="col-md-10 col-sm-10 col-xs-12">
+              <div class="title">steve madden, ltd</div>
+              <div class="position">madden girl design intern</div>
+              <ul>
+                <li>Produced shoes based on spec sheet measurements and tech pack coordination</li>
+                <li>Prepared client-product presentations and mood boards</li>
+              </ul>
+          </div>
+        </div>
+
+      </section>
 
 
 <!-- EXPERIENCE -->
