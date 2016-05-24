@@ -669,27 +669,6 @@ h4.name{
 /*------------------------END HEADER--------------------------*/
 /*------------------------------------------------------------*/
 
-.category{
-  text-transform: uppercase;
-  font-weight: 700 ;
-  margin: 0;
-  padding-top: 20px;
-}
-
-.resumeYear{
-  text-align: right;
-  font-weight: 100;
-  padding-top: 10px;
-  padding-right: 0 ;
-}
-
-.subCategory{
-  text-transform: uppercase;
-  font-weight: 400;
-  margin: 0 ;
-  padding-top: 10px;
-}
-
 .info{
   margin: 0 ;
   font-weight: 300 ;
@@ -710,14 +689,6 @@ p{
 
 .VO{
   padding: 0 ;
-}
-
-.resumeYear{
-  padding-right: 5px ;
-}
-
-.infoContainer{
-  margin-top: 0px;
 }
 
 /******************Project Page *****************/

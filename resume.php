@@ -1,238 +1,125 @@
 <?php include("php/formattop.php"); ?>
 
-  <title>Masha Vainblat Portfolio</title>
+  <title>Masha Vainblat Resume</title>
   </head>
 
   <body class="mashaVainblatPortfolio container-fluid" id="resume">
     <?php include("php/navigation.php"); ?>
-                  
 
-                  <div class="row projectInfoContentContainer resumeContentContainer">
-                    <div class="col-md-3 col-sm-3 col-xs-1"></div>
-                    <div class="projectInfoContainer col-md-6 col-sm-6 col-xs-10 noPadding">
-                      <div class="projectInfo sanSerif">
+    <div class="row projectInfoContentContainer">
+      <div class="col-md-3 col-sm-3 col-xs-1"></div>
+      <div class="projectInfoContainer col-md-6 col-sm-6 col-xs-10 noPadding">
+        <div class="col-md-2 col-sm-2"></div>
+        <div class="col-md-10 col-sm-10 col-xs-12"><h3>Masha S. Vainblat</h3></div>
 
-                              <div class="sansSerif">
-                                  <div class="header">
-                                    <div class="row">
-                                      <div class="col-md-2 col-sm-2 col-xs-2"></div>
+
+
+<!--  SKILLS AND LANGUAGES  -->
+
+
+        <div class="col-md-2 col-sm-2"></div>
+        <div class="col-md-10 col-sm-10 col-xs-12">
+
+          <div id="skillsAndLanguages" class="row">
+            <div id="skills" class="col-md-4 col-sm-4">
+              <h5 class="category">skills</h5>
+              <section class="skillsSection bodyCopy">
+                <li>Branding</li>
+                <li>Typography</li>
+                <li>Logo Design</li>
+                <li>Art Direction</li>
+                <li>Package Design</li>
+              </section>
+            </div> <!-- end of #skills -->
+            
+            <div id="languages" class="col-md-4 col-sm-4">
+              <h5 class="category">languages</h5>
+              <section class="skillsSection bodyCopy">
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>jQuery</li>
+                <li>Angular</li>
+                <li>JavaScript</li>
+              </section>
+            </div> <!--  end of #languages -->
+            
+            <div id="languagesCont" class="col-md-4 col-sm-4">
+              <h5 class="category"></h5>
+              <section class="skillsSection bodyCopy">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>PostgreSQL</li>
+                <li>Ruby on Rails</li>
+                <li>Fluent in Russian</li>
+              </section>
+            </div> <!-- end of #languagesCont -->
+          </div> <!-- end of #skillsAndLanguages .row -->
+
+        </div>
+
+
+<!--  SKILLS AND LANGUAGES  -->
+
+<!-- EDUCATION -->
+
+        <section id="education">
+          <div class="row">
+            <div class="col-md-2 col-sm-2"></div>
+            <div class="col-md-10 col-sm-10 col-xs-12" id="education">
+              <h5 class="category">education</h5>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2 col-sm-2">2012-2016</div>
+            <div class="col-md-10 col-sm-10 col-xs-12" id="education">
+              <h4 class="category">School of Visual Arts, NY</h4>
+            </div>
+          </div>
+        </section>
+
+        <section id="education">
+          <div class="row">
+              <div class="col-md-2 col-sm-2 col-xs-2"></div>
+              <div class="col-md-10 col-sm-10 col-xs-12">
+                  <h6 class="category">education</h6>
+              </div>
+          </div>
                                       
-                                      <div class="col-md-10 col-sm-10 col-xs-12 headlines">
-                                        <h4 class="name">masha s. vainblat</h4>
-                                        <p class="address">mashavainblat@gmail.com</p>
+
+          <div class="row infoContainer">
+            <div class="col-md-2 col-sm-2 col-xs-2 resumeYear SVA">
+              2015
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-12">
+                <div class="title SVA">school of visual arts, ny</div>
+                <span>Graphic Design</span>
+            </div>
+                                  
+                                      <div class="row">
+                                        <div class="col-md-2 col-sm-2 col-xs-2 resumeYear SUNY">2011-2012</div>
+                                        <div class="col-md-10 col-sm-10 col-xs-12">
+                                            <div class="title SUNY">albany, state universtiy of new york</div>
+                                            <span>Undergraduate Studies</span>
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
+                                  </section>
 
 
 
-                                  
-                                  <div class="education">
-                                    <div class="row ">
-                                      	<div class="col-md-2 col-sm-2 col-xs-2"></div>
-                                      	<div class="col-md-10 col-sm-10 col-xs-12">
-                                        		<h6 class="category">education</h6>
-                                      	</div>
-                                   	</div>
-                                    	
-                                  	<div class="infoContainer">
-                            	      	<div class="row infoContainer">
-                                	    	<div class="col-md-2 col-sm-2 col-xs-2 resumeYear SVA">
-                                    	  	2015
-                                    		</div>
-                            	        	<div class="col-md-10 col-sm-10 col-xs-12">
-                                	      		<div class="subCategory SVA">school of visual arts, ny</div>
-                                       			Graphic Design
-                            	        	</div>
-                                	  	</div>
-                                  
-                                  		<div class="row">
-                                    		<div class="col-md-2 col-sm-2 col-xs-2 resumeYear SUNY">
-                            	          	2011-2012
-                                	    	</div>
-                                    		<div class="col-md-10 col-sm-10 col-xs-12">
-                                      			<div class="subCategory SUNY">
-                                        			albany, state universtiy of new york
-                            	          		</div>
-                                	        	Undergraduate Studies
-                                    		</div>
-                            	      	</div>
-                                	  </div>
-                                  </div> <!-- end of education container. -->
-                                  
-                                  <div class="experience">
-                                    	<div class="row">
-                                      	<div class="col-md-2 col-sm-2 col-xs-2"></div>
-                                      	<div class="col-md-10 col-sm-10 col-xs-12">
-                                        		<h6 class="category">experience</h6>
-                              	        </div>
-                                  	  </div>
+<!-- EDUCATION -->
+
+<!-- EXPERIENCE -->
 
 
-                                    	<div class="infoContainer">
-                                    		<div class="row infoContainer">
-                                      		<div class="col-md-2 col-sm-2 resumeYear col-xs-2 VO">
-                                        		2015
-                                      		</div>
-                                      		<div class="col-md-10 col-sm-10 col-xs-12">
-                                        			<div class="subCategory VO">
-                                          		visual opinion designer
-                                        			</div>
-                                          		SVA Student Organized Magazine
-                                          		<div class="info">
-                                  	          		<p>Produce publication featuring student submitted artwork</p>
-                                                  <p>Curate content based on conceptual design theme</p>
-                                                  <p>Responsible for visual aspects and branding</p>
-                                      	    	</div>
-                                      	  </div>
-                                      	</div>
 
-                                        <div class="row infoContainer">
-                                          <div class="col-md-2 col-sm-2 resumeYear col-xs-2 GLOW">
-                                            2015
-                                          </div>
-                                          <div class="col-md-10 col-sm-10 col-xs-12">
-                                              <div class="subCategory GLOW">
-                                              Glow Interactive
-                                              </div>
-                                              Design intern
-                                              <div class="info">
-                                                  <p>Create content based on marketing strategy to build social following for clients</p>
-                                              </div>
-                                          </div>
-                                        </div>
+<!-- EXPERIENCE -->
+      
 
-                                        <div class="row infoContainer">
-                                          <div class="col-md-2 col-sm-2 resumeYear col-xs-2 VAP">
-                                            2015
-                                          </div>
-                                          <div class="col-md-10 col-sm-10 col-xs-12">
-                                              <div class="subCategory VAP">
-                                              SVA Visual Arts Press
-                                              </div>
-                                              Web intern
-                                              <div class="info">
-                                                  <p>Redesigned SVA departmental website</p>
-                                                  <p>Designed template wireframes for SVA departments</p>
-                                                  
-                                              </div>
-                                          </div>
-                                        </div>
+      </div> <!-- end of .projectInfoContainer .col-md-6 .col-sm-6 .col-xs-10 .noPadding -->
 
-                                    		<div class="row">
-                              		        <div class="col-md-2 col-sm-2 col-xs-2 resumeYear RA">
-                                      		  2014-2015
-                              		        </div>
-                                      		<div class="col-md-10 col-sm-10 col-xs-12">
-                                        			<div class="subCategory RA">
-                                          		SVA Resident Assistant
-                                        			</div>
-                                          		Student Supervisor
-                                          		<div class="info">
-                                            		<p>Floor manager responsible for fostering a cooperative and educational community</p>
-                                            		<p>Must ensure building rules are being followed and emergency management</p>
-                                          		</div>
-                                      		</div>
-                                    		</div>
-
-                                    		<div class="row">
-                                      		<div class="col-md-2 col-sm-2 col-xs-2 resumeYear TA">
-                              		          2014
-                              		        </div>
-                              		        <div class="col-md-10 col-sm-10 col-xs-10">
-                              	  		        <div class="subCategory TA">
-                                          		SVA Teaching Assistant
-                              			        </div>
-                                          		Pre-college
-                                          		<div class="info">
-                                            			<p>Graphic design and advertising teacher's assistant for Pre-College summer course</p>
-                                            			<p>Assist and encourage basic design principles, such as shape, hierarchy and color theory, to high school students</p>
-                                          		</div>
-                                      		</div>
-                                    		</div>
-
-                                    		<div class="row">
-                                      		<div class="col-md-2 col-sm-2 col-xs-2 resumeYear HH">
-                                        		2013-2015
-                                      		</div>
-                                      		<div class="col-md-10 col-sm-10 col-xs-12">
-                                        			<div class="subCategory HH">
-                                          		Harmony &amp; Havoc, apollo apparel, llc.
-                                        			</div>
-                                        			Design Intern
-                                        			<div class="info">
-                                          			<p>Created technical design sketches based on analysis and research of trending apparel</p>
-                                          			<p>Developed and produced garments based on spec sheet measurements and tech pack design</p>
-                                        			</div>
-                                      		</div>
-                                    		</div>
-                                    
-                                    		<div class="row">
-                                      		<div class="col-md-2 col-sm-2 col-xs-2 resumeYear SM">
-                                        		2013
-                                      		</div>
-                                      		<div class="col-md-10 col-sm-10 col-xs-12">
-                                        			<div class="subCategory SM">
-                                          		steve madden, ltd.
-                                        			</div>
-                                        			Madden Girl Design Intern
-                                        			<div class="info">
-                                          			<p>Prepared client-product presentations and mood boards</p>
-                                          			<p>Produced shoes based on spec sheet measurements and tech pack coordination</p>
-                                        			</div>
-                                      		</div>
-                                    		</div>
-                                  	  </div> <!-- end of experience container -->
-
-                                      <div class="skills">
-                                        <div class="row">
-                                          <div class="col-md-2 col-sm-2 col-xs-2"></div>
-                                          <div class="col-md-10 col-sm-10 col-xs-12">
-                                            <h6 class="category">skills</h6>
-                                            <div class="info">
-                                              <p>Branding</p>
-                                              <p>Logo Design</p>
-                                              <p>Typography</p>
-                                              <p>Package Design</p>
-                                              <p>HTML</p>
-                                              <p>CSS</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-
-                                      <div class="skills">
-                                        <div class="row">
-                                          <div class="col-md-2 col-sm-2 col-xs-2"></div>
-                                          <div class="col-md-10 col-sm-10 col-xs-12">
-                                            <h6 class="category">language skills</h6>
-                                            <div class="info">
-                                              <p>Fluent in Russian</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-
-                                      <div class="skills">
-                                        <div class="row">
-                                          <div class="col-md-2 col-sm-2 col-xs-2"></div>
-                                          <div class="col-md-10 col-sm-10 col-xs-12">
-                                            <h6 class="category">interests</h6>
-                                            <div class="info">
-                                              <p>Jewelry Design</p>
-                                              <p>Print Production</p>
-                                              <p>Playing volleyball</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                  </div> <!-- end of experience -->
-                                </div> <!-- end of SansSerif -->
-
-                              </div> <!--end of project info-->
-                            </div> <!-- end of projectInfoContainer -->
-                            <div class="col-md-3 col-sm-3 col-xs-1"></div>
-                          </div> <!-- end of projectInfoContentContainer -->
+      <div class="col-md-3 col-sm-3 col-xs-1"></div>
       
       
       

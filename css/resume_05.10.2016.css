@@ -1,0 +1,155 @@
+#resume h4.name{
+  text-align: left;
+}
+
+.resumeContentContainer .sansSerif{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.resumeContentContainer .resume{
+  padding: 10px;
+}
+
+.resumeContentContainer .projectInfo p{
+  font-size: 1.1em
+}
+
+/*------------------------------------------------------------*/
+/*--------------------------HEADER----------------------------*/
+/*------------------------------------------------------------*/
+
+.resumeContentContainer .headlines h4{
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  text-align:left;
+}
+
+.resumeContentContainer .address p{
+  font-weight: 700 !important;
+  margin: 0;
+  font-size:1em;
+}
+
+.resumeContentContainer .bullet{
+  font-weight: 300;
+}
+
+/*------------------------------------------------------------*/
+/*------------------------END HEADER--------------------------*/
+/*------------------------------------------------------------*/
+
+.resumeContentContainer .category{
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.resumeContentContainer .year{
+  text-align: right;
+  font-weight: 100;
+  padding-top: 10px;
+  padding-right: 0 !important;
+}
+
+.resumeContentContainer .subCategory{
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 !important;
+  padding-top: 10px;
+}
+
+.resumeContentContainer .info{
+  margin: 0 !important;
+  font-weight: 300 !important;
+}
+
+.resumeContentContainer p{
+  margin: 0 !important;
+}
+
+
+/*------------------------------------------------------------*/
+/*------------------------EDUCATION---------------------------*/
+/*------------------------------------------------------------*/
+
+.resumeContentContainer .SVA{
+  padding: 0 !important;
+}
+
+.resumeContentContainer .VO{
+  padding: 0 !important;
+}
+
+
+
+@media screen and (max-width:768px){
+  .resumeContentContainer .resume{
+    padding: 5px;
+  }
+
+  .resumeContentContainer .col-md-2, .resumeContentContainer .col-sm-2, .resumeContentContainer .col-xs-2{
+    display: none;
+  }
+  
+  .resumeContentContainer .SVA:after{
+    content: " 2015";
+    font-weight: 100 !important;
+  }
+  
+  .resumeContentContainer .SUNY:after{
+    content: " 2011-2012";
+    font-weight: 100 !important;
+  }
+  
+  .resumeContentContainer .VO:after{
+    content: " 2015";
+    font-weight: 100 !important;
+  }
+  .resumeContentContainer .GLOW:after{
+    content: " 2015";
+    font-weight: 100 !important;
+  }
+
+  .resumeContentContainer .VAP:after{
+    content: " 2015";
+    font-weight: 100 !important;
+  }
+  
+  .resumeContentContainer .RA:after{
+    content: " 2014-2015";
+    font-weight: 100 !important;
+  }
+  
+  .resumeContentContainer .TA:after{
+    content: " 2014";
+    font-weight: 100 !important;
+  }
+  
+  .resumeContentContainer .HH:after{
+    content: " 2013-2015";
+    font-weight: 100 !important;
+  }
+  
+  .resumeContentContainer .SM:after{
+    content: " 2013";
+    font-weight: 100 !important;
+  }
+  
+  .resumeContentContainer p:before{
+    content: "-";
+    font-weight: 100;
+  }
+  
+  .resumeContentContainer .address:before{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .resumeContentContainer .resume{
+    padding: 5px !important;
+    margin: 0 !important;
+  }
+}
