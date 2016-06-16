@@ -10,7 +10,12 @@
       <div class="col-md-3 col-sm-3 col-xs-1"></div>
       <div class="projectInfoContainer col-md-6 col-sm-6 col-xs-10 noPadding">
         <div class="col-md-2 col-sm-2"></div>
-        <div class="col-md-10 col-sm-10 col-xs-12"><h3>Masha S. Vainblat</h3></div>
+        <div class="col-md-10 col-sm-10 col-xs-12 noPadding">
+          <div class="row" id="resumeName">
+            <h3>Masha S. Vainblat</h3>
+            <h5>Designer | Web developer</h5>
+          </div>
+        </div>
 
 
 
@@ -22,7 +27,7 @@
 
           <section id="skillsAndLanguages" class="row">
             <div id="skills" class="col-md-4 col-sm-4 noPadding">
-              <h5 class="category">skills</h5>
+              <h6 class="category">skills</h6>
               <ul class="skillsSection bodyCopy">
                 <li>Branding</li>
                 <li>Typography</li>
@@ -33,7 +38,7 @@
             </div> <!-- end of #skills -->
             
             <div id="languages" class="col-md-4 col-sm-4 noPadding">
-              <h5 class="category">languages</h5>
+              <h6 class="category">languages</h5>
               <ul class="skillsSection bodyCopy">
                 <li>CSS</li>
                 <li>HTML</li>
@@ -44,8 +49,8 @@
             </div> <!--  end of #languages -->
             
             <div id="languagesCont" class="col-md-4 col-sm-4 noPadding">
-              <h5 class="category"></h5>
-              <ul class="skillsSection bodyCopy">
+              <h6 class="category"></h6>
+              <ul class="skillsSection bodyCopy" id="lastRow">
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>PostgreSQL</li>
@@ -83,7 +88,7 @@
             <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2016</div>
             <div class="col-md-10 col-sm-10 col-xs-12">
                 <div class="title">general assembly, ny</div>
-                <span>Full Stack web Development</span>
+                <span>Full Stack Web Development</span>
             </div>
           </div>
       </section>
@@ -104,7 +109,7 @@
           <div class="col-md-10 col-sm-10 col-xs-12">
               <div class="title">visual opinion magazine</div>
               <div class="position">designer | art director | production manager</div>
-              <ul>
+              <ul class="description">
                 <li>SPD51 custom publication finalist</li>
                 <li>Raised brand awareness by building social and campus presence</li>
                 <li>Elevated product quality and consistently sold out issues</li>
@@ -117,7 +122,7 @@
           <div class="col-md-10 col-sm-10 col-xs-12">
               <div class="title">glow interactive</div>
               <div class="position">design intern</div>
-              <ul>
+              <ul class="description">
                 <li>Created interaction designs based on social media strategies</li>
                 <li>Collaborated with upper management about art direction</li>
               </ul>
@@ -129,7 +134,7 @@
           <div class="col-md-10 col-sm-10 col-xs-12">
               <div class="title">visual arts press</div>
               <div class="position">web intern | sva in-house design team</div>
-              <ul>
+              <ul class="description">
                 <li>Designed wireframe templates for SVA departmental websites</li>
                 <li>Redesigned departmental course registration page</li>
               </ul>
@@ -141,7 +146,7 @@
           <div class="col-md-10 col-sm-10 col-xs-12">
               <div class="title">sva resident assistant</div>
               <div class="position">student supervisor</div>
-              <ul>
+              <ul class="description">
                 <li>Managed floor and was responsible for fostering a cooperative and educational community</li>
                 <li>Administrative duties to ensure building rules were being followed</li>
                 <li>Emergency management</li>
@@ -154,7 +159,7 @@
           <div class="col-md-10 col-sm-10 col-xs-12">
               <div class="title">sva teacher's assistant</div>
               <div class="position">precollege program</div>
-              <ul>
+              <ul class="description">
                 <li>Assisted and encouraged basic design principles to prospective students</li>
                 <li>Curated graphic design and advertising work for presentation</li>
               </ul>
@@ -166,7 +171,7 @@
           <div class="col-md-10 col-sm-10 col-xs-12">
               <div class="title">steve madden, ltd</div>
               <div class="position">madden girl design intern</div>
-              <ul>
+              <ul class="description">
                 <li>Produced shoes based on spec sheet measurements and tech pack coordination</li>
                 <li>Prepared client-product presentations and mood boards</li>
               </ul>
