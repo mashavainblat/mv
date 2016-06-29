@@ -101,12 +101,48 @@ section#experience ul.description li{
 
 
 
+@media screen and (max-width:992px){
+  .resumeYear{
+    display:none;
+  }
 
+  .title::after{
+    font-weight:300;
+    margin-left:15px;
+  }
 
+  #SVA::after{
+    content:'2012-2016';
+  }
 
+  #GA::after{
+    content:'2016';
+  }
 
+  #VO::after{
+    content:'2015-2016';
+  }
 
+  #GLOW::after{
+    content:'2015';
+  }
 
+  #VAP::after{
+    content:'2015';
+  }
+
+  #RA::after{
+    content:'2014-2015';
+  }
+
+  #TA::after{
+    content:'2014';
+  }
+
+  #SM::after{
+    content:'2013';
+  }
+}
 
 
 

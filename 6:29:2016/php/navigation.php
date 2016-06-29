@@ -20,6 +20,7 @@
             </ul>
       </div> <!--end of naviagtion column-->
 
+
       <div id="aboutContent" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 navigationColumn">
             <ul>
               <li>

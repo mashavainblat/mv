@@ -9,7 +9,7 @@
     <div class="row projectInfoContentContainer">
       <div class="col-md-3 col-sm-3 col-xs-1"></div>
       <div class="projectInfoContainer col-md-6 col-sm-6 col-xs-10 noPadding">
-        <div class="col-md-2 col-sm-2"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-10 col-sm-10 col-xs-12 noPadding">
           <div class="row" id="resumeName">
             <h3>Masha S. Vainblat</h3>
@@ -22,7 +22,7 @@
 <!--  SKILLS AND LANGUAGES  -->
 
 
-        <div class="col-md-2 col-sm-2"></div>
+        <div class="col-md-2"></div>
         <div class="col-md-10 col-sm-10 col-xs-12">
 
           <section id="skillsAndLanguages" class="row">
@@ -67,7 +67,7 @@
 
         <section id="education">
           <div class="row">
-              <div class="col-md-2 col-sm-2 col-xs-2"></div>
+              <div class="col-md-2"></div>
               <div class="col-md-10 col-sm-10 col-xs-12">
                   <h6 class="category">education</h6>
               </div>
@@ -75,19 +75,19 @@
                                       
 
           <div class="row">
-            <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">
+            <div class="col-md-2 resumeYear">
               2012&ndash;2016
             </div>
             <div class="col-md-10 col-sm-10 col-xs-12">
-                <div class="title">school of visual arts, ny</div>
+                <div class="title" id="SVA">school of visual arts, ny</div>
                 <span>BFA Design</span>
             </div>
           </div>
                                   
           <div class="row">
-            <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2016</div>
+            <div class="col-md-2 resumeYear">2016</div>
             <div class="col-md-10 col-sm-10 col-xs-12">
-                <div class="title">general assembly, ny</div>
+                <div class="title" id="GA">general assembly, ny</div>
                 <span>Full Stack Web Development</span>
             </div>
           </div>
@@ -98,16 +98,16 @@
 <!-- EXPERIENCE -->
       <section id="experience">
         <div class="row">
-          <div class="col-md-2 col-sm-2 col-xs-2"></div>
+          <div class="col-md-2"></div>
           <div class="col-md-10 col-sm-10 col-xs-12">
               <h6 class="category">experience</h6>
           </div>
         </div>
 
-        <div class="row" id="VO">
-          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2015&ndash;2016</div>
+        <div class="row">
+          <div class="col-md-2 resumeYear">2015&ndash;2016</div>
           <div class="col-md-10 col-sm-10 col-xs-12">
-              <div class="title">visual opinion magazine</div>
+              <div class="title" id="VO">visual opinion magazine</div>
               <div class="position">designer | art director | production manager</div>
               <ul class="description">
                 <li>SPD51 custom publication finalist</li>
@@ -117,10 +117,10 @@
           </div>
         </div>
 
-        <div class="row" id="GLOW">
-          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2015</div>
+        <div class="row">
+          <div class="col-md-2 resumeYear">2015</div>
           <div class="col-md-10 col-sm-10 col-xs-12">
-              <div class="title">glow interactive</div>
+              <div class="title" id="GLOW">glow interactive</div>
               <div class="position">design intern</div>
               <ul class="description">
                 <li>Created interaction designs based on social media strategies</li>
@@ -129,10 +129,10 @@
           </div>
         </div>
 
-        <div class="row" id="VAP">
-          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2015</div>
+        <div class="row">
+          <div class="col-md-2 resumeYear">2015</div>
           <div class="col-md-10 col-sm-10 col-xs-12">
-              <div class="title">visual arts press</div>
+              <div class="title" id="VAP">visual arts press</div>
               <div class="position">web intern | sva in-house design team</div>
               <ul class="description">
                 <li>Designed wireframe templates for SVA departmental websites</li>
@@ -141,10 +141,10 @@
           </div>
         </div>
 
-        <div class="row" id="RA">
-          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2014&ndash;2015</div>
+        <div class="row">
+          <div class="col-md-2 resumeYear">2014&ndash;2015</div>
           <div class="col-md-10 col-sm-10 col-xs-12">
-              <div class="title">sva resident assistant</div>
+              <div class="title" id="RA">sva resident assistant</div>
               <div class="position">student supervisor</div>
               <ul class="description">
                 <li>Managed floor and was responsible for fostering a cooperative and educational community</li>
@@ -154,10 +154,10 @@
           </div>
         </div>
 
-        <div class="row" id="TA">
-          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2014</div>
+        <div class="row">
+          <div class="col-md-2 resumeYear">2014</div>
           <div class="col-md-10 col-sm-10 col-xs-12">
-              <div class="title">sva teacher's assistant</div>
+              <div class="title" id="TA">sva teacher's assistant</div>
               <div class="position">precollege program</div>
               <ul class="description">
                 <li>Assisted and encouraged basic design principles to prospective students</li>
@@ -166,10 +166,10 @@
           </div>
         </div>
 
-        <div class="row" id="SM">
-          <div class="col-md-2 col-sm-2 col-xs-2 resumeYear">2013</div>
+        <div class="row">
+          <div class="col-md-2 resumeYear">2013</div>
           <div class="col-md-10 col-sm-10 col-xs-12">
-              <div class="title">steve madden, ltd</div>
+              <div class="title" id="SM">steve madden, ltd</div>
               <div class="position">madden girl design intern</div>
               <ul class="description">
                 <li>Produced shoes based on spec sheet measurements and tech pack coordination</li>

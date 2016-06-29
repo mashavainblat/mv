@@ -1,7 +1,7 @@
 body {
   background-size: cover 100%;
   font-family: 'Lato', sans-serif;
-  background-color: #e6e7de;
+  background-color: #fff;
   margin: auto ;
   width:100%;
   margin-bottom:50px;
@@ -607,7 +607,6 @@ h2{
 }
 
 #aboutContent{
-  font-size: 1.125em;
   font-weight: 300;
 }
 
