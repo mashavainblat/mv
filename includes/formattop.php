@@ -10,4 +10,6 @@
 	
 	<link type="text/css" rel="stylesheet" href="/styles/main.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="scripts/"></script>
+
+	<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>

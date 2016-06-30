@@ -1,3 +1,23 @@
+/***********************************
+
+             nav colors
+
+		 lightblue: #89e0ed
+		 yellow:    #fcc745
+		 pink:      #ff5375
+		 purple:    #522db8
+
+***********************************/
+
+
+.test{
+	background-color:green;
+	box-sizing:border-box;
+	padding:0px;
+	text-align: center;
+	height:30px;
+}
+
 .noMargin{
 	margin:0px;
 }
@@ -10,21 +30,60 @@ body#index{
 }
 
 body#home{
-	background-color:lightblue;
+	background-color:aquamarine;
 }
 
-.test{
-	background-color:green;
-	box-sizing:border-box;
-	padding:0px;
-	text-align: center;
-	height:30px;
+.buttonName{
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:35px;
 }
 
 /* NAVIGATION */
 /************************************************************/
-.navButton{
+.navButtonContainer{
 	padding:0px;
 	text-align:center;
-	height:30px;
+	/*height:30px;*/
+	position:relative;
 }
+
+.navButtonContainer a{
+	height:30px;
+	width:30px;
+	border-radius:30px;
+	background-color:red;
+	display:block;
+	left:0;
+	right:0;
+	margin:auto;
+	position:absolute;
+}
+
+.navButtonContainer p{
+	text-transform: uppercase;
+}
+
+#homeButton a{background-color:#89e0ed;}
+#homeButton p{color:#89e0ed;}
+
+#resumeButton a{background-color:#fcc745;}
+#resumeButton p{color:#fcc745;}
+
+#aboutButton a{background-color:#ff5375;}
+#aboutButton p{color:#ff5375;}
+
+#contactButton a{background-color:#522db8;}
+#contactButton p{color:#522db8;}
+
+@media screen and (min-width:769px){
+	.buttonName{
+		visibility:hidden;
+	}
+}
+
+
+
+

@@ -1,5 +1,25 @@
   $(document).ready(function(){
 
+    console.log("Hello World");
+
+    $("#testDiv").click(function(){
+      console.log("clicked");
+      $(this).css("background-color", "blue");
+    })
+
+    // $(".navButton").hover(function(){
+    //   console.log("hovering");
+    //   $(".buttonName").css("visibility", "visible")
+    // })
+
+    $(".navButton").mouseover(function(){
+      $(this).next().css("visibility", "visible")
+    })
+
+    $(".navButton").mouseout(function(){
+      $(this).next().css("visibility", "hidden")
+    })
+
     $(window).scroll(function(){
       reactToScroll();
     });
