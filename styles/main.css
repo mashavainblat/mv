@@ -1,0 +1,30 @@
+.noMargin{
+	margin:0px;
+}
+.noPadding{
+	padding:0px;
+}
+
+body#index{
+	background-color:papayawhip;
+}
+
+body#home{
+	background-color:lightblue;
+}
+
+.test{
+	background-color:green;
+	box-sizing:border-box;
+	padding:0px;
+	text-align: center;
+	height:30px;
+}
+
+/* NAVIGATION */
+/************************************************************/
+.navButton{
+	padding:0px;
+	text-align:center;
+	height:30px;
+}
