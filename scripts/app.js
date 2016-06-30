@@ -12,6 +12,14 @@
     //   $(".buttonName").css("visibility", "visible")
     // })
 
+ $(window).resize(function() {
+  if ($(window).width() < 960) {
+     alert('Less than 960');
+  } else {
+    alert('More than 960');
+ }
+});
+
     $(".navButton").mouseover(function(){
       $(this).next().css("visibility", "visible")
     })
@@ -19,6 +27,19 @@
     $(".navButton").mouseout(function(){
       $(this).next().css("visibility", "hidden")
     })
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     $(window).scroll(function(){
       reactToScroll();
