@@ -2,10 +2,12 @@
 	<title>Index page</title>
 </head>
 
-<body id="index">
+<body id="index" class="container">
 
 	<h1>Index page</h1>
 	<?php include("includes/navigation.php"); ?>
+
+
 
 </body>
 

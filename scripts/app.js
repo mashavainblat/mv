@@ -1,33 +1,127 @@
-  $(document).ready(function(){
+$(document).ready(function(){
+  console.log("Hello World");
 
-    console.log("Hello World");
+// function largeScreen(){
+//   if ($(window).width() > 768){
+//     $(".buttonName").css("visibility", "hidden");
+//   }
+// }
 
-    $("#testDiv").click(function(){
-      console.log("clicked");
-      $(this).css("background-color", "blue");
-    })
 
-    // $(".navButton").hover(function(){
-    //   console.log("hovering");
-    //   $(".buttonName").css("visibility", "visible")
-    // })
+// function screenBiggerThan768(){
+//   //if screen > 768, on navButton mouseover show buttonName
+//   //if resizing the window and width is >768, show
+//   revealButtonName();
+// }
 
- $(window).resize(function() {
-  if ($(window).width() < 960) {
-     alert('Less than 960');
-  } else {
-    alert('More than 960');
- }
-});
+// function revealButtonName(){
+//   if ($(window).width()>768){
+//     $(".navButton").mouseover(function(){
+//       console.log("mousing over")
+//       $(this).next().css("visibility", "visible")
+//     })
+//     $(".navButton").mouseout(function(){
+//       console.log("mousing out")
+//       $(this).next().css("visibility", "hidden")
+//     })
+//   }
+// }
 
-    $(".navButton").mouseover(function(){
-      $(this).next().css("visibility", "visible")
-    })
+// screenBiggerThan768();
 
-    $(".navButton").mouseout(function(){
-      $(this).next().css("visibility", "hidden")
-    })
+// $(window).resize(function(){
+//   if ( $(window).width() > 768 ){
+//     $(".navButton").mouseover(function(){
+//       console.log("mousing over")
+//       $(this).next().css("visibility", "visible")
+//     })
+//     $(".navButton").mouseout(function(){
+//       console.log("mousing out")
+//       $(this).next().css("visibility", "hidden")
+//     })
+//   } else {
+//     $(".navButton").mouseover(function(){
+//       console.log("mousing over")
+//       $(this).next().css("visibility", "visible")
+//     })
+//     $(".navButton").mouseout(function(){
+//       console.log("mousing out")
+//       $(this).next().css("visibility", "visible")
+//     })
+//   }
+// })
 
+
+ //  function mousingOverButtons(){
+ //    if ( $(window).width () > 768 ){
+ //      $(".navButton").mouseover(function(){
+ //        console.log("mousing over")
+ //        $(this).next().css("visibility", "visible")
+ //      })
+ //      $(".navButton").mouseout(function(){
+ //        console.log("mousing out")
+ //        $(this).next().css("visibility", "hidden")
+ //      })
+ //  }
+
+ //  mousingOverButtons();
+
+ //  $(window).resize(function() {
+ //    showButtonNameOnMouseOver()
+ //  });
+
+
+
+ // function showButtonNameOnMouseOver(){
+
+ //    if ($(window).width() > 768) {
+ //      console.log('Mess than 768');
+      
+ //      $(".navButton").mouseover(function(){
+ //        console.log("mousing over")
+ //        $(this).next().css("visibility", "visible")
+ //      })
+
+ //      $(".navButton").mouseout(function(){
+ //        console.log("mousing out")
+ //        $(this).next().css("visibility", "hidden")
+ //      })
+
+ //    } else {
+ //      console.log('Less than 768');
+ //   }
+    
+ // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function mousingOverButtons(){
+//   console.log("mousingOverButtons() activated");
+//   if ($(window).width() > 768){
+//     console.log("width is >768")
+    
+//     $(".navButton").mouseover(function(){
+//       $(this).next().css("visibility", "visible")
+//     })
+
+//     $(".navButton").mouseout(function(){
+//       $(this).next().css("visibility", "hidden")
+//     })
+
+//   }
+// }
+
+// mousingOverButtons();
 
 
 

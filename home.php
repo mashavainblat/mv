@@ -7,6 +7,8 @@
 	<h1>home page</h1>
 	<?php include("includes/navigation.php"); ?>
 
+home page
+
 </body>
 
 </html>
