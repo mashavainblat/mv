@@ -24,16 +24,16 @@ body#home{
 	background-color:aquamarine;
 }
 
-nav, section{
+nav, main{
 	display:inline;
 }
 
 .buttonName{
 	margin:auto;
-	position:absolute;
+	/*position:absolute;*/
 	left:0;
 	right:0;
-	top:35px;
+	padding-top:35px;
 }
 
 /* NAVIGATION */
@@ -42,7 +42,7 @@ nav, section{
 	padding:0px;
 	text-align:center;
 	/*height:30px;*/
-	position:relative;
+	/*position:relative;*/
 }
 
 .navButtonContainer a, .projectButtonContainer a{
