@@ -9,19 +9,12 @@
 
 ***********************************/
 
-.noMargin{
-	margin:0px;
-}
-.noPadding{
-	padding:0px;
-}
 
-body#index{
-	background-color:papayawhip;
-}
+.noMargin{margin:0;}
+.noPadding{padding:0;}
 
-body#home{
-	background-color:aquamarine;
+body{
+	background-color: antiquewhite;
 }
 
 nav, main{
@@ -30,34 +23,32 @@ nav, main{
 
 .buttonName{
 	margin:auto;
-	/*position:absolute;*/
+	position:absolute;
 	left:0;
 	right:0;
-	padding-top:35px;
+	/*padding-top:35px;*/
 }
 
 /* NAVIGATION */
-/************************************************************/
+/************************************/
+
 .navButtonContainer, .projectButtonContainer{
 	padding:0px;
-	text-align:center;
-	/*height:30px;*/
-	/*position:relative;*/
+	text-align: center
 }
 
 .navButtonContainer a, .projectButtonContainer a{
 	height:30px;
 	width:30px;
-	border-radius:30px;
-	background-color:red;
+	border-radius: 30px;
 	display:block;
 	left:0;
 	right:0;
 	margin:auto;
-	position:absolute;
 }
 
-.navButtonContainer p{
+
+.navButtonContainer p, .projectButtonContainer p{
 	text-transform: uppercase;
 }
 
@@ -75,14 +66,38 @@ nav, main{
 
 
 
-/* project buttons */
-/************************************************************/
 
-#portfolio main section div{
+/* PORTFOLIO */
+/************************************/
+
+.projectButtonContainer .row{
 	height:60px;
 }
 
+.projectButtonContainer a.projectButtonThumbnail{
+	z-index:1;
+}
+
+.projectButtonContainer a{
+	position:absolute;
+}
+
+.projectButtonContainer .buttonName{
+	padding-top:30px;
+}
+
 @media screen and (min-width:769px){
+	.projectButtonContainer a.projectButton{
+		background-color:#fff;
+	}
+}
+
+
+/* > 768 DESKTOP */
+/* BUTTON NAME HOVER ANIMATION */
+/*********************************************/
+@media screen and (min-width:769px){
+
 	.buttonName{
 		opacity: 0;
 		-o-transition:opacity .3s ease-in;
@@ -90,19 +105,14 @@ nav, main{
 		-moz-transition:opacity .3s ease-in;
 		-webkit-transition:opacity .3s ease-in;
 		transition:opacity .3s ease-in;
-
-/*		-o-transform:rotateY(90deg) 1s;
-		-ms-transform:rotateY(90deg) 1s;
-		-moz-transform:rotateY(90deg) 1s;
-		-webkit-transform:rotateY(90deg) 1s;
-		transform:rotateY(90deg) 1s;*/
-
 	}
 
-	a.navButton:hover ~ .buttonName, a.projectButton:hover ~ .buttonName{
+	.projectButtonThumbnail{
+		/*opacity: 0;*/
+	}
+
+	.navButton:hover ~ .buttonName, .projectButtonContainer a:hover ~ .buttonName{
 		opacity: 1;
-		/*transform:rotateY(0deg);*/
 	}
+
 }
-
-

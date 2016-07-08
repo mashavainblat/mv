@@ -1,0 +1,143 @@
+/***********************************
+
+             nav colors
+
+		 lightblue: #89e0ed
+		 yellow:    #fcc745
+		 pink:      #ff5375
+		 purple:    #522db8
+
+***********************************/
+
+.noMargin{
+	margin:0px;
+}
+.noPadding{
+	padding:0px;
+}
+
+body#index{
+	background-color:papayawhip;
+}
+
+body#home{
+	background-color:aquamarine;
+}
+
+body#portfolio{
+	background-color:papayawhip;
+}
+
+body#port2{
+	background-color: antiquewhite;
+}
+
+nav, main{
+	display:inline;
+}
+
+.buttonName{
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	padding-top:35px;
+}
+
+/* NAVIGATION */
+/************************************************************/
+.navButtonContainer, .projectButtonContainer{
+	padding:0px;
+	text-align:center;
+	/*height:30px;*/
+	/*position:relative;*/
+}
+
+.navButtonContainer a, .projectButtonContainer a{
+	height:30px;
+	width:30px;
+	border-radius:30px;
+	display:block;
+	left:0;
+	right:0;
+	margin:auto;
+	position:absolute;
+}
+
+.navButtonContainer p{
+	text-transform: uppercase;
+}
+
+#homeButton a{background-color:#89e0ed;}
+#homeButton p{color:#89e0ed;}
+
+#resumeButton a{background-color:#fcc745;}
+#resumeButton p{color:#fcc745;}
+
+#aboutButton a{background-color:#ff5375;}
+#aboutButton p{color:#ff5375;}
+
+#contactButton a{background-color:#522db8;}
+#contactButton p{color:#522db8;}
+
+
+
+/* project buttons */
+/************************************************************/
+
+#portfolio main section div{
+	height:60px;
+}
+
+
+.projectButtonContainer a.projectButton{
+	background-color:#fff;
+}
+
+.projectButtonContainer a.projectButtonThumbnail{
+	z-index:1;
+}
+
+
+/* <768 Tablet */
+/**********************************************/
+@media screen and (max-width:768px){
+
+	br.desktop{
+		display:none;
+	}
+
+/* project buttons */
+/******************************************/
+	.projectButtonContainer a.projectButton, .projectButtonContainer p.buttonName{
+		/*visibility: hidden;*/
+	}
+}
+
+/* >768 Tablet */
+/**********************************************/
+@media screen and (min-width:769px){
+	.buttonName{
+		opacity: 0;
+		
+/*		-o-transition:opacity .3s ease-in;
+		-ms-transition:opacity .3s ease-in;
+		-moz-transition:opacity .3s ease-in;
+		-webkit-transition:opacity .3s ease-in;
+		transition:opacity .3s ease-in;*/
+
+/*		-o-transform:rotateY(90deg) 1s;
+		-ms-transform:rotateY(90deg) 1s;
+		-moz-transform:rotateY(90deg) 1s;
+		-webkit-transform:rotateY(90deg) 1s;
+		transform:rotateY(90deg) 1s;*/
+
+	}
+
+	a.navButton:hover ~ .buttonName, a.projectButton:hover ~ .buttonName{
+		opacity: 0;
+		/*transform:rotateY(0deg);*/
+	}
+}
+
+

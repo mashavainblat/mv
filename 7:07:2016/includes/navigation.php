@@ -19,11 +19,12 @@
 	</div>
 	<div class="col-xs-2 navButtonContainer" id="contactButton">
 		<a class="navButton" href="#"></a>
-		<p class="buttonName noMargin">contact</p>
+		<p class="buttonName fadeIn noMargin">contact</p>
 	</div>
 
 	<div class="col-xs-2"><!-- EMPTY --></div>
 </nav>
+
 
 
 
