@@ -98,7 +98,7 @@ nav, main{
 /*********************************************/
 @media screen and (min-width:769px){
 
-	.buttonName{
+	.buttonName, .projectButtonThumbnail{
 		opacity: 0;
 		-o-transition:opacity .3s ease-in;
 		-ms-transition:opacity .3s ease-in;
@@ -107,12 +107,12 @@ nav, main{
 		transition:opacity .3s ease-in;
 	}
 
-	.projectButtonThumbnail{
-		/*opacity: 0;*/
+	.navButton:hover ~ .buttonName, .projectButtonContainer a:hover ~ .buttonName, .projectButtonThumbnail:hover{
+		opacity: 1;
 	}
 
-	.navButton:hover ~ .buttonName, .projectButtonContainer a:hover ~ .buttonName{
-		opacity: 1;
+	.projectButtonThumbnail:hover ~ .projectButton{
+		opacity: 0;
 	}
 
 }
