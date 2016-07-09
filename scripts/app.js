@@ -2,13 +2,11 @@ $(document).ready(function(){
   console.log("Hello World");
 
 
-  if ( $("portfolio") ){
-    console.log("on portfolio page");
-  }
-  else if ( $("#contact") ){
-    console.log("on contact page");
-    $("#contactButton").this($("#contactButtonName").css("opacity", "1"));
-  }
+
+  // if ( $("#contact") ){
+  //   // console.log("on contact page");
+  //   $("#contactButton").this($("#contactButtonName").css("opacity", "1"));
+  // }
 
 
 

@@ -2,7 +2,7 @@
 	<title>Resume page</title>
 </head>
 
-<body id="portfolio" class="container">
+<body id="resume" class="container">
 
 	<h1>Resume page</h1>
 	<?php include("includes/navigation.php"); ?>
