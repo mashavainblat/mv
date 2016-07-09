@@ -1,137 +1,14 @@
 $(document).ready(function(){
   console.log("Hello World");
 
-// function largeScreen(){
-//   if ($(window).width() > 768){
-//     $(".buttonName").css("visibility", "hidden");
-//   }
-// }
 
-
-// function screenBiggerThan768(){
-//   //if screen > 768, on navButton mouseover show buttonName
-//   //if resizing the window and width is >768, show
-//   revealButtonName();
-// }
-
-// function revealButtonName(){
-//   if ($(window).width()>768){
-//     $(".navButton").mouseover(function(){
-//       console.log("mousing over")
-//       $(this).next().css("visibility", "visible")
-//     })
-//     $(".navButton").mouseout(function(){
-//       console.log("mousing out")
-//       $(this).next().css("visibility", "hidden")
-//     })
-//   }
-// }
-
-// screenBiggerThan768();
-
-// $(window).resize(function(){
-//   if ( $(window).width() > 768 ){
-//     $(".navButton").mouseover(function(){
-//       console.log("mousing over")
-//       $(this).next().css("visibility", "visible")
-//     })
-//     $(".navButton").mouseout(function(){
-//       console.log("mousing out")
-//       $(this).next().css("visibility", "hidden")
-//     })
-//   } else {
-//     $(".navButton").mouseover(function(){
-//       console.log("mousing over")
-//       $(this).next().css("visibility", "visible")
-//     })
-//     $(".navButton").mouseout(function(){
-//       console.log("mousing out")
-//       $(this).next().css("visibility", "visible")
-//     })
-//   }
-// })
-
-
- //  function mousingOverButtons(){
- //    if ( $(window).width () > 768 ){
- //      $(".navButton").mouseover(function(){
- //        console.log("mousing over")
- //        $(this).next().css("visibility", "visible")
- //      })
- //      $(".navButton").mouseout(function(){
- //        console.log("mousing out")
- //        $(this).next().css("visibility", "hidden")
- //      })
- //  }
-
- //  mousingOverButtons();
-
- //  $(window).resize(function() {
- //    showButtonNameOnMouseOver()
- //  });
-
-
-
- // function showButtonNameOnMouseOver(){
-
- //    if ($(window).width() > 768) {
- //      console.log('Mess than 768');
-      
- //      $(".navButton").mouseover(function(){
- //        console.log("mousing over")
- //        $(this).next().css("visibility", "visible")
- //      })
-
- //      $(".navButton").mouseout(function(){
- //        console.log("mousing out")
- //        $(this).next().css("visibility", "hidden")
- //      })
-
- //    } else {
- //      console.log('Less than 768');
- //   }
-    
- // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function mousingOverButtons(){
-//   console.log("mousingOverButtons() activated");
-//   if ($(window).width() > 768){
-//     console.log("width is >768")
-    
-//     $(".navButton").mouseover(function(){
-//       $(this).next().css("visibility", "visible")
-//     })
-
-//     $(".navButton").mouseout(function(){
-//       $(this).next().css("visibility", "hidden")
-//     })
-
-//   }
-// }
-
-// mousingOverButtons();
-
-
-
-
-
-
-
-
-
-
+  if ( $("portfolio") ){
+    console.log("on portfolio page");
+  }
+  else if ( $("#contact") ){
+    console.log("on contact page");
+    $("#contactButton").this($("#contactButtonName").css("opacity", "1"));
+  }
 
 
 
