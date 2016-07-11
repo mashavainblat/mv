@@ -10,6 +10,22 @@
 ***********************************/
 
 
+/***********************************
+
+            font weights
+
+			light:   300
+			book:    400
+			medium:  500
+			bold:    700
+
+***********************************/
+
+/**{
+	font-family: "Gotham SSm A", "Gotham SSm B";
+	font-style: normal;
+}*/
+
 .noMargin{margin:0;}
 .noPadding{padding:0;}
 

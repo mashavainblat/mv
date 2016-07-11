@@ -1,0 +1,57 @@
+/***********************************
+
+             nav colors
+
+		 lightblue: #89e0ed
+		 yellow:    #fcc745
+		 pink:      #ff5375
+		 purple:    #522db8
+
+***********************************/
+
+
+/***********************************
+
+            font weights
+
+			light:   300
+			book:    400
+			medium:  500
+			bold:    700
+
+***********************************/
+
+
+#resume *{
+	font-family: "Gotham SSm A", "Gotham SSm B";
+	font-style: normal;
+	font-size:1em;
+}
+
+#resume main .row{
+	margin-bottom:30px;
+}
+
+/* Resume Font Styles */
+/**********************************************************************************/
+
+#resume .subject{font-weight: 700; text-transform:uppercase; font-size:0.8em;}
+#resume .bodyCopy{font-weight: 300;}
+#resume .title{font-weight: 500; text-transform: uppercase;}
+#resume .year{font-weight:300;}
+#resume .description{font-weight: 400; text-transform: uppercase;}
+
+
+
+/* #resumeHeaderInfo*/
+/***********************************************************************************/
+#resume #resumeHeaderInfo h2{ margin:0; }
+#resume #resumeHeaderInfo h2:first-child{ text-transform: uppercase; }
+#resume #resumeHeaderInfo h2:last-child{ font-weight:400; }
+
+
+
+/* #skillsAndLanguages*/
+/***********************************************************************************/
+#skillsAndLanguages ul{list-style: none;}
+

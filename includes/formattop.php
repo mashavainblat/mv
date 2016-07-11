@@ -6,6 +6,9 @@
 
 	<script type="text/javascript" src="/scripts/vendor/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="/scripts/vendor/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+  
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6792934/6944152/css/fonts.css" />
+
   <link type="text/css" rel="stylesheet" href="/scripts/vendor/bootstrap-3.3.5-dist/css/bootstrap.min.css">
 	
 	<link type="text/css" rel="stylesheet" href="/styles/main.css"/>
