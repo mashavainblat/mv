@@ -4,10 +4,10 @@
 
 		background:					53,57,54
 
-		green:			#47EfBC		141,228,185
-		blue:			#fcc745		164,227,217
-		lilac:			#ff5375		157,157,172
-		lavender:		#522db8		138,115,138
+		green:			#47E5BC		141,228,185
+		blue:			#81E4DA		164,227,217
+		lilac:			#9F9FAD		157,157,172
+		lavender:		#93748A		138,115,138
 
 ***********************************/
 
@@ -34,6 +34,7 @@
 body{
 	background-color: rgb(53,57,54);
 	color:#fff;
+	padding: 30px
 }
 
 nav, main{
@@ -50,6 +51,14 @@ nav, main{
 
 /* NAVIGATION */
 /************************************/
+
+#index .navButtonContainer{
+	margin-bottom:10vh;
+}
+
+main .row:first-child{
+	margin-top:30px;
+}
 
 .navButtonContainer, .projectButtonContainer{
 	padding:0px;
@@ -112,6 +121,25 @@ nav, main{
 }
 
 
+
+
+
+
+#contact section{
+	text-align: center;
+	margin-top:30px;
+	top:15vh;
+}
+
+#contact section p{
+	font-size:1.75em;
+}
+
+#contact section img{
+	margin:7.5px;
+}
+
+
 /* > 768 DESKTOP */
 /* BUTTON NAME HOVER ANIMATION */
 /*********************************************/
@@ -132,6 +160,13 @@ nav, main{
 
 	.projectButtonThumbnail:hover ~ .projectButton{
 		opacity: 0;
+	}
+
+}
+
+@media screen and (max-width:991px){
+	#index .buttonName, .projectButtonThumbnail{
+		opacity: 1;
 	}
 
 }
