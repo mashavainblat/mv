@@ -1,4 +1,4 @@
-<nav><h5>Navigation</h5></nav>
+
 
 <nav class="row">
 	<div class="col-xs-2"><!-- EMPTY --></div>

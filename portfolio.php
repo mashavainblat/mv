@@ -3,8 +3,6 @@
 </head>
 
 <body id="portfolio" class="container">
-
-	<h1>Portfolio page</h1>
 	<?php include("includes/navigation.php"); ?>
 
 

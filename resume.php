@@ -3,22 +3,20 @@
 </head>
 
 <body id="resume" class="container">
-
-	<h1>Resume page</h1>
 	<?php include("includes/navigation.php"); ?>
 
 	<main class="row">
 		<section class="col-xs-12 col-sm-12 noPadding">
 
 			<div class="row"  id="resumeHeaderInfo">
-				<div class="col-xs-1 noMargin noPadding"> <!-- EMPTY --></div>
+				<div class="col-xs-1 col-sm-3 noMargin noPadding"> <!-- EMPTY --></div>
 
-				<div class="col-xs-10 noPadding">
+				<div class="col-xs-10 col-sm-6 noPadding">
 					<h2>Masha S. Vainblat</h2>
 					<h2>Designer | Web Developer</h2>
 				</div>
 
-				<div class="col-xs-1 noMargin noPadding"><!-- EMPTY --></div>
+				<div class="col-xs-1 col-sm-3 noMargin noPadding"><!-- EMPTY --></div>
 			</div>
 			<!-- END OF HEADER .ROW -->
 
@@ -26,8 +24,8 @@
 
 				<div class="col-xs-1 col-sm-3 noMargin noPadding"> <!-- EMPTY --></div>
 
-				<div class="col-xs-10 col-sm-2 noPadding" id="skills">
-					<h5 class="subject noMargin">skills</h5>
+				<div class="col-xs-11 col-sm-2 noPadding" id="skills">
+					<h5 class="subject">skills</h5>
 					<ul class="noPadding bodyCopy">
 						<li>Branding</li>
 						<li>Typography</li>
@@ -39,8 +37,9 @@
 				<!-- END OF #skills -->
 
 				<!-- BEGIN #languages -->
-				<div class="col-xs-10 col-sm-2" id="languages">
-					<h5 class="subject noMargin">languages</h5>
+				<div class="col-xs-1 noMargin noPadding desktopContainer"> <!-- EMPTY --></div>
+				<div class="col-xs-11 col-sm-2 noPadding" id="languages">
+					<h5 class="subject">languages</h5>
 					<ul class="noPadding bodyCopy">
 						<li>Branding</li>
 						<li>Typography</li>
@@ -50,7 +49,8 @@
 					</ul>
 				</div>
 
-				<div class="col-xs-10 col-sm-2" id="languagesCont">
+				<div class="col-xs-1 noMargin noPadding desktopContainer"> <!-- EMPTY --></div>
+				<div class="col-xs-11 col-sm-2 noPadding" id="languagesCont">
 					<ul class="noPadding bodyCopy">
 						<li>Node.js</li>
 						<li>Express.js</li>
@@ -61,11 +61,108 @@
 				</div> 
 				<!-- END OF #languages -->
 
+				<div class="col-sm-3"></div>
+				<!-- <div class="col-xs-1 col-sm-3 noMargin noPadding"></div> -->
+
+			</div>
+			<!-- END OF #skillsAndLanguages .row-->
+
+			<!-- BEGIN #education -->
+			<div class="row" id="education">
+
+				<div class="col-xs-1 col-sm-3 noPadding"><!-- EMPTY --></div>
+
+				<div class="col-xs-10 col-sm-6 noPadding">
+					<h5 class="subject noMargin">education</h5>
+					<div id="GA">
+						<h4 class="title">General Assembly</h4>
+						<p class="bodyCopy">Full Stack Web Development</p>
+					</div>
+					<div id="SVA">
+						<h4 class="title">School of Visual Arts</h4>
+						<p class="bodyCopy">BFA Design</p>
+					</div>
+				</div>
+
+				<div class="col-xs-1 col-sm-3 noMargin noPadding"><!-- EMPTY --></div>				
+			</div>
+			<!-- END OF #education .row -->
+
+			<!-- BEGIN #experience -->
+			<div class="row" id="experience">
+
+				<div class="col-xs-1 col-sm-3 noMargin noPadding"> <!-- EMPTY --></div>
+
+				<div class="col-xs-10 col-sm-6 noPadding">
+					<h5 class="subject">experience</h5>
+					
+					<!-- VO -->
+					<div id="VO">
+						<h4 class="title">Visual Opinion Magazine</h4>
+						<h6 class="description">designer | art director | production manager</h6>
+							<ul class="bodyCopy">
+								<li>SPD51 custom publication finalist</li>
+								<li>Raised brand awareness by building social media presence and brand recognition campus wide</li>
+								<li>Elevated product quality and consistently sold out issues</li>
+							</ul>
+					</div>
+
+					<!-- VAP -->
+					<div id="VAP">
+						<h4 class="title">SVA Visual Arts Press</h4>
+						<h6 class="description">web intern | SVA in house design team</h6>
+							<ul class="bodyCopy">
+								<li>Designed wireframe templates for SVA departmental websites</li>
+								<li>Redesigned departmental course registration page</li>
+							</ul>
+					</div>
+
+					<!-- GLOW -->
+					<div id="GLOW">
+						<h4 class="title">Glow Interactive</h4>
+						<h6 class="description">design intern</h6>
+							<ul class="bodyCopy">
+								<li>Created interaction designs based on social media strategies for leading television shows</li>
+								<li>Collaborated with upper management about art direction</li>
+							</ul>
+					</div>
+
+					<!-- RA -->
+					<div id="RA">
+						<h4 class="title">SVA Resident Assistant</h4>
+						<h6 class="description">Student Supervisor</h6>
+							<ul class="bodyCopy">
+								<li>Managed floor and was responsible for fostering a cooperative and educational community</li>
+								<li>Administrative duties to ensure building rules were being followed</li>
+								<li>Emergency management</li>
+							</ul>
+					</div>
+
+					<!-- TA -->
+					<div id="TA">
+						<h4 class="title">SVA Teacher Assistant</h4>
+						<h6 class="description">Precollege Program</h6>
+							<ul class="bodyCopy">
+								<li>Assisted and encouraged basic design principles to prospecive students</li>
+								<li>Curated graphic design and advertising work for gallery style presentation</li>
+							</ul>
+					</div>
+
+					<!-- SM -->
+					<div id="SM">
+						<h4 class="title">Steme Madden. LTD</h4>
+						<h6 class="description">Madden Girl Design Intern</h6>
+							<ul class="bodyCopy">
+								<li>Produced shoes based on spec sheet measurements and tech pack coordination</li>
+								<li>Prepared client-product presentations and mood boards</li>
+							</ul>
+					</div>
+				</div> <!-- END OF col-xs-10 col-sm-6 -->
+
 				<div class="col-xs-1 col-sm-3 noMargin noPadding"> <!-- EMPTY --></div>
 
 			</div>
-			<!-- END OF #skillsAndLanguages -->
-
+			<!-- END OF #experience .row -->
 
 		</section>
 	</main> <!-- END OF .ROW -->

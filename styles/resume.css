@@ -35,13 +35,15 @@
 /* Resume Font Styles */
 /**********************************************************************************/
 
-#resume .subject{font-weight: 700; text-transform:uppercase; font-size:0.8em;}
+#resume .subject{font-weight: 700; text-transform:uppercase; font-size:0.8em; margin:0;}
 #resume .bodyCopy{font-weight: 300;}
-#resume .title{font-weight: 500; text-transform: uppercase;}
+#resume .title{font-weight: 500; text-transform: uppercase; margin:0; margin-top:15px;}
 #resume .year{font-weight:300;}
-#resume .description{font-weight: 400; text-transform: uppercase;}
+#resume .description{font-weight: 400; text-transform: uppercase; margin:5px 0 4px; font-size:1.125em;}
 
-
+#VO .title:first-child, #GA .title:first-child{
+	margin-top:5px;
+}
 
 /* #resumeHeaderInfo*/
 /***********************************************************************************/
@@ -53,5 +55,25 @@
 
 /* #skillsAndLanguages*/
 /***********************************************************************************/
-#skillsAndLanguages ul{list-style: none;}
+#resume #skillsAndLanguages ul{list-style: none;}
 
+@media screen and (max-width:768px){
+	#resume{
+		/*background-color:green;*/
+	}
+	#resume #languages ul{
+		margin-bottom:0px;
+	}
+}
+
+@media screen and (min-width:768px){
+
+	#resume .desktopContainer{
+		display:none;
+	}
+}
+
+
+/* #experience*/
+/***********************************************************************************/
+#resume #experience ul{padding-left:13.5px;}

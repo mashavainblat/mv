@@ -1,11 +1,13 @@
 /***********************************
 
-             nav colors
+        color palette
 
-		 lightblue: #89e0ed
-		 yellow:    #fcc745
-		 pink:      #ff5375
-		 purple:    #522db8
+		background:					53,57,54
+
+		green:			#47EfBC		141,228,185
+		blue:			#fcc745		164,227,217
+		lilac:			#ff5375		157,157,172
+		lavender:		#522db8		138,115,138
 
 ***********************************/
 
@@ -21,16 +23,17 @@
 
 ***********************************/
 
-/**{
+*{
 	font-family: "Gotham SSm A", "Gotham SSm B";
 	font-style: normal;
-}*/
+}
 
 .noMargin{margin:0;}
 .noPadding{padding:0;}
 
 body{
-	background-color: antiquewhite;
+	background-color: rgb(53,57,54);
+	color:#fff;
 }
 
 nav, main{
@@ -68,17 +71,17 @@ nav, main{
 	text-transform: uppercase;
 }
 
-#homeButton a{background-color:#89e0ed;}
-#homeButton p{color:#89e0ed;}
+#homeButton a{background-color:rgb(141,228,185);}
+#homeButton p{color:rgb(141,228,185);}
 
-#resumeButton a{background-color:#fcc745;}
-#resumeButton p{color:#fcc745;}
+#resumeButton a{background-color:rgb(164,227,217);}
+#resumeButton p{color:rgb(164,227,217);}
 
-#aboutButton a{background-color:#ff5375;}
-#aboutButton p{color:#ff5375;}
+#aboutButton a{background-color:rgb(157,157,172);}
+#aboutButton p{color:rgb(157,157,172);}
 
-#contactButton a{background-color:#522db8;}
-#contactButton p{color:#522db8;}
+#contactButton a{background-color:rgb(138,115,138);}
+#contactButton p{color:rgb(138,115,138);}
 
 
 
