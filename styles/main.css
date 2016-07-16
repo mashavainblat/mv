@@ -34,7 +34,7 @@
 body{
 	background-color: rgb(53,57,54);
 	color:#fff;
-	padding: 30px
+	padding: 30px;
 }
 
 nav, main{
@@ -56,16 +56,16 @@ nav, main{
 	margin-bottom:10vh;
 }
 
-main .row:first-child{
+/*main .row:first-child{
 	margin-top:30px;
-}
+}*/
 
 .navButtonContainer, .projectButtonContainer{
 	padding:0px;
 	text-align: center
 }
 
-.navButtonContainer a, .projectButtonContainer a{
+.navButtonContainer a.navButton, .projectButtonContainer a{
 	height:30px;
 	width:30px;
 	border-radius: 30px;
@@ -76,27 +76,28 @@ main .row:first-child{
 }
 
 
-.navButtonContainer p, .projectButtonContainer p{
+.navButtonContainer a, .projectButtonContainer a{
 	text-transform: uppercase;
+	color:#fff;
 }
 
-#homeButton a{background-color:rgb(141,228,185);}
-#homeButton p{color:rgb(141,228,185);}
+#homeButton a.navButton{background-color:rgb(141,228,185);}
+#homeButton a{color:rgb(141,228,185);}
 
-#resumeButton a{background-color:rgb(164,227,217);}
-#resumeButton p{color:rgb(164,227,217);}
+#resumeButton a.navButton{background-color:rgb(164,227,217);}
+#resumeButton a{color:rgb(164,227,217);}
 
-#aboutButton a{background-color:rgb(157,157,172);}
-#aboutButton p{color:rgb(157,157,172);}
+#aboutButton a.navButton{background-color:rgb(157,157,172);}
+#aboutButton a{color:rgb(157,157,172);}
 
-#contactButton a{background-color:rgb(138,115,138);}
-#contactButton p{color:rgb(138,115,138);}
+#contactButton a.navButton{background-color:rgb(138,115,138);}
+#contactButton a{color:rgb(138,115,138);}
 
 
 
 
 /* PORTFOLIO */
-/************************************/
+/************************************************************************************************************/
 
 .projectButtonContainer .row{
 	height:60px;
@@ -114,16 +115,107 @@ main .row:first-child{
 	padding-top:30px;
 }
 
+section#M, section#V{
+	margin-top:30px;
+}
+
 @media screen and (min-width:769px){
 	.projectButtonContainer a.projectButton{
 		background-color:#fff;
 	}
 }
 
+/************************************************************************************************************/
+/* PORTFOLIO */
 
 
 
 
+
+/* PROJECTS */
+/************************************************************************************************************/
+.container{
+	width:100%;
+}
+
+/* TITLE / DESCRIPTION */
+/***************************************************/
+
+body.project .projectTitleDesc h3.projectTitle, body.project .projectTitleDesc h4.projectCategory{
+	text-align:center;
+	text-transform: uppercase;
+}
+
+body.project .projectTitleDesc h3.projectTitle{
+	font-size:17px;
+	font-weight:700;
+}
+
+body.project .projectTitleDesc h4.projectCategory{
+	letter-spacing: 1px;
+	font-weight:300;
+	font-size:15px;
+}
+
+body.project .projectTitleDesc p.projectDescription{
+	font-weight:300;
+}
+
+body.project .projectTitleDesc a{
+	color:#fff;
+	font-weight:500;
+}
+
+/* IMAGES*/
+/***************************************************/
+body.project .projectImages img{
+	max-width: 100%;
+	width:100%;
+}
+
+body.project .projectImages .center{
+	text-align: center;
+}
+
+@media screen and (max-width:991px){
+	body.project .hideThis{
+		display:none;
+	}
+}
+
+
+
+/* ANATOLIA */
+/***************************************************/
+#anatoliaWhiteLogo{
+	max-width:175px;
+	padding:50px;
+	margin:50px;
+}
+
+#anatolia main.projectImages #blackBackgroundWhiteLogo{
+	background-color:#000;
+	/*text-align: center;*/
+}
+
+#anatolia .projectImages #logoAcornNameImage img{
+	width:275px;
+	padding:50px;
+	margin:150px 0;
+}
+
+#anatolia .projectImages #logoAcornNameImage{
+	background-color:#fff;
+}
+
+/************************************************************************************************************/
+/* END PROJECTS */
+
+
+
+
+/* CONTACT */
+/************************************************************************************************************/
 
 #contact section{
 	text-align: center;
@@ -142,7 +234,7 @@ main .row:first-child{
 
 /* > 768 DESKTOP */
 /* BUTTON NAME HOVER ANIMATION */
-/*********************************************/
+/***************************************************************************************************************************************/
 @media screen and (min-width:769px){
 
 	.buttonName, .projectButtonThumbnail{

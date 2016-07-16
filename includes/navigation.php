@@ -1,29 +1,25 @@
 
 
-<nav class="row">
-	<div class="col-xs-2"><!-- EMPTY --></div>
-
+<nav>
+	<div class="col-xs-2"></div>
 	<div class="col-xs-2 navButtonContainer" id="homeButton">
 		<a class="navButton" href="portfolio.php"></a>
-		<p class="buttonName noMargin" id="portfolioButtonName">portfolio</p>
+		<a class="buttonName noMargin" href="portfolio.php" id="portfolioButtonName">portfolio</a>
 	</div>
-
 	<div class="col-xs-2 navButtonContainer" id="resumeButton">
 		<a class="navButton" href="resume.php"></a>
-		<p class="buttonName noMargin" id="resumeButtonName">resume</p>
+		<a class="buttonName noMargin" href="resume.php" id="resumeButtonName">resume</a>
 	</div>
-
 	<div class="col-xs-2 navButtonContainer" id="aboutButton">
 		<a class="navButton" href="about.php"></a>
-		<p class="buttonName noMargin" id="aboutButtonName">about</p>
+		<a class="buttonName noMargin" href="about.php" id="aboutButtonName">about</a>
 	</div>
 	<div class="col-xs-2 navButtonContainer" id="contactButton">
 		<a class="navButton" href="contact.php"></a>
-		<p class="buttonName noMargin" id="contactButtonName">contact</p>
+		<a class="buttonName noMargin" href="contact.php" id="contactButtonName">contact</a>
 	</div>
-
-	<div class="col-xs-2"><!-- EMPTY --></div>
+	<div class="col-xs-2"></div>
 </nav>
 
 
-
+<!-- TRY <br clear="all" -->
