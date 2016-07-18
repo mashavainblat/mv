@@ -38,7 +38,7 @@
 				<div class="col-xs-2">
 					<a class="projectButtonThumbnail" href="visualOpinion.php"><img src="img/thumbnails/vo.png"></a>
 					<a class="projectButton" href="visualOpinion.php"></a>
-					<a class="buttonName noMargin" href="#">Visual Opinion</a>
+					<a class="buttonName noMargin" href="visualOpinion.php">Visual Opinion</a>
 				</div>
 
 				<div class="col-xs-2"><!-- EMPTY --></div>

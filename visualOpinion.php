@@ -23,12 +23,73 @@
 		<section class="col-md-2 hideThis"></section>
 		<section class="col-xs-12 col-md-8 noPadding images">
 			
+			<div id="graduation16">
 			<!-- IMG -->
-				<div class="row">
+				<div class="row voTitleSlide">
 					<div class="col-xs-12 noPadding">
+						<h4 class="theVisualOpinion">The Visual Opinion</h4>
+						<h3 class="voTitle">The Graduation Issue</h3>
+						<h5 class="voIssue">Vol. 22 Issue 6</h5>
 					</div>
 				</div>
 			<!-- IMG -->
+			</div>
+			<!-- END OF #graduation16 -->
+
+			<!-- #descension -->
+			<!-- END OF #descension -->
+
+			<!-- #identity -->
+			<!-- END OF #identity -->
+
+			<!-- #organic -->
+			<!-- END OF #organic -->
+
+			<!-- #transformation -->
+			<!-- END OF #transformation -->
+
+			<!-- #open -->
+			<!-- END OF #open -->
+
+			<!-- #grauation15 -->
+			<!-- END OF #grauation15 -->
+
+			<!-- #generations -->
+			<div id="gerenartions">
+
+				<div class="row voTitleSlide">
+					<div class="col-xs-12 noPadding">
+						<h4 class="theVisualOpinion">The Visual Opinion</h4>
+						<h3 class="voTitle">The Graduation Issue</h3>
+						<h5 class="voIssue">Vol. 22 Issue 6</h5>
+					</div>
+				</div>
+			<!-- IMG -->
+				<div class="row">
+					<div class="col-xs-12 noPadding">
+						<img src="img/projects/visualOpinion/generations/generations001.jpg">
+					</div>
+				</div>
+			<!-- IMG -->
+			<!-- IMG -->
+				<div class="row">
+					<div class="col-xs-12 noPadding">
+						<img src="img/projects/visualOpinion/generations/generations002.jpg">
+					</div>
+				</div>
+			<!-- IMG -->
+			<!-- IMG -->
+				<div class="row">
+					<div class="col-xs-12 noPadding">
+						<img src="img/projects/visualOpinion/generations/generations003.jpg">
+					</div>
+				</div>
+			<!-- IMG -->
+			</div>
+			<!-- END OF #generations -->
+
+			<!-- #imagineryLines -->
+			<!-- END OF #imagineryLines -->
 
 		</section> <!-- END OF .images -->
 		<section class="col-md-2 hideThis"></section>

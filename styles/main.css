@@ -237,6 +237,33 @@ body.project .projectImages .whiteBackground{
 	padding:27px 0;
 }
 
+
+
+/* VISUAL OPINION */
+/***************************************************/
+#visualOpinion .voTitleSlide{
+	text-align:center;
+	padding:50px 0;
+}
+
+#visualOpinion .voTitleSlide h4.theVisualOpinion{
+	text-transform: uppercase;
+	font-size:1em;
+	font-weight:700;
+	margin:5px 0;
+}
+
+#visualOpinion .voTitleSlide h3.voTitle{
+	margin:0;
+	font-weight:300;
+	font-size:1.5em;
+}
+
+#visualOpinion .voTitleSlide h5.voIssue{
+	margin:5px 0;
+}
+
+
 /************************************************************************************************************/
 /* END PROJECTS */
 
