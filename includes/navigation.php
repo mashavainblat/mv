@@ -21,5 +21,5 @@
 	<div class="col-xs-2"></div>
 </nav>
 
-
+<br clear="all" id="navBreak">
 <!-- TRY <br clear="all" -->

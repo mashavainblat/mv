@@ -14,7 +14,7 @@
 					<h4 class="projectCategory noMargin">Package Design</h4>
 					<p class="projectDescription">Sonny Rollins is a famous jazz musician from Harlem. Whenever he felt he was reaching a peak in his career, Sonny would go on sabbatical to travel and rehearse his craft. The concept behind the design defines the mystery and spontaneity in improvisational music that is jazz.</p>
 					
-					<p>Photography by <a href="http://www.ramonmartinezphotography.com/">Ramon Martinez</p>
+					<p>Photography by <a href="http://www.ramonmartinezphotography.com/"></a>Ramon Martinez</p>
 
 		</section>
 		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>

@@ -5,7 +5,7 @@
 <body id="anatolia" class="container project">
 	<?php include("includes/navigation.php"); ?>
 
-	<main class="row projectTitleDesc">
+	<main class="row projectTitleDesc noMargin">
 	
 		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
 		<section class="col-xs-10 col-sm-10 col-md-8 noPadding">
@@ -213,4 +213,6 @@
 			<!-- IMG -->
 
 		</section><!-- END OF .images -->
+		
+		<section class="col-md-2 hideThis"></section>
 	</main> <!-- END OF .projectImages row -->
