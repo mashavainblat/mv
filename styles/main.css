@@ -254,6 +254,7 @@ section#M, section#V{
 }
 
 @media screen and (max-width:768px){
+	section#M{margin-top:60px;}
 	#portfolio .projectButtonContainer .buttonName{visibility:hidden;}
 }
 
@@ -287,7 +288,7 @@ body.project .projectTitleDesc h3.projectTitle, body.project .projectTitleDesc h
 body.project .projectTitleDesc h3.projectTitle, #about .projectTitleDesc h3.projectTitle{
 	font-size:17px;
 	font-weight:700;
-	margin-top:30px;
+	margin-top:60px;
 }
 
 body.project .projectTitleDesc h4.projectCategory{
@@ -304,6 +305,18 @@ body.project .projectTitleDesc p.projectDescription, #about .projectTitleDesc p.
 body.project .projectTitleDesc a{
 	color:#fff;
 	font-weight:500;
+}
+
+@media screen and (min-width:1440px){
+	body.project .projectTitleDesc h3.projectTitle, #about .projectTitleDesc h3.projectTitle{
+		font-size:1.75em;
+	}
+	body.project .projectTitleDesc h4.projectCategory{
+		font-size:1.25em;
+	}
+	body.project .projectTitleDesc p.projectDescription, #about .projectTitleDesc p.projectDescription{
+		font-size:1.5em;
+	}
 }
 
 /* IMAGES*/
@@ -451,6 +464,10 @@ body.project .projectImages .whiteBackground{
 
 #about .projectDescription{
 	margin-top:30px;
+}
+
+#about .images{
+	text-align: center;
 }
 
 #about img{

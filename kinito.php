@@ -17,7 +17,7 @@
 
 			<p class="projectDescription">This silk textured and silkscreened packaging is handmade using paper-on-board technique.</p>
 
-			<p>Photography by <a href="http://www.ramonmartinezphotography.com/">Ramon Martinez</a></p>
+			<p class="projectDescription">Photography by <a href="http://www.ramonmartinezphotography.com/">Ramon Martinez</a></p>
 
 		</section>
 		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>

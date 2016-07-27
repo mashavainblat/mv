@@ -54,6 +54,13 @@
 #resume #resumeHeaderInfo h2:first-child{ text-transform: uppercase; }
 #resume #resumeHeaderInfo h2:last-child{ font-weight:400; }
 
+@media screen and (max-width:767px){
+	#resume #resumeHeaderInfo {margin-top:60px;}
+}
+
+@media screen and (min-width:768px){
+	#resume #resumeHeaderInfo {margin-top:90px;}
+}
 
 
 /* #skillsAndLanguages*/
