@@ -7,15 +7,15 @@
 
 	<main class="row projectTitleDesc">
 	
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
-		<section class="col-xs-10 col-sm-10 col-md-8 noPadding">
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
+		<section class="col-xs-10 col-sm-10 col-md-6 noPadding">
 
-			<h3 class="projectTitle noMargin">Vosges Haute Chocolate</h3>
+			<h3 class="projectTitle noMargin">Vosges Haute Chocolat</h3>
 			<h4 class="projectCategory noMargin">Package design</h4>
-			<p class="projectDescription"></p>
+			<p class="projectDescription">Vosges is a delicious chocolate brand. This rebranding brings inspiration from the original logo. The graphics on this handmade packaging are handdrawn patterns which combine art nouveau and cocoa bean illustrations.</p>
 
 		</section>
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
 	</main>
 
 	<main class="row projectImages">
