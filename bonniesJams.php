@@ -7,15 +7,15 @@
 
 	<main class="row projectTitleDesc">
 	
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
-		<section class="col-xs-10 col-sm-10 col-md-8 noPadding">
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
+		<section class="col-xs-10 col-sm-10 col-md-6 noPadding">
 
 			<h3 class="projectTitle noMargin">Bonnies Jams</h3>
 			<h4 class="projectCategory noMargin">Package design</h4>
-			<p class="projectDescription">Bonnie's Jams prides on their homemade recipe. A custom logotype was illustrated to maintain this idea.</p>
+			<p class="projectDescription">Bonnie's Jams prides on their homemade recipe. To maintain this idea, a custom logotype and monogram was illustrated. The monogram which is featured in the background of the label dictates the shape of the label which serves a duel purpose as a protection seal.</p>
 
 		</section>
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
 	</main>
 
 	<main class="row projectImages">
