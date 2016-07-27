@@ -12,7 +12,7 @@
 
 			<h3 class="projectTitle noMargin">Eight Bakery</h3>
 			<h4 class="projectCategory noMargin">Branding</h4>
-			<p class="projectDescription">Eight Bakery is a long island based bakery that specializes in customized cakepops and other sweet treats. The artisanal quality of Eight's product is captured in the handmade logotype that mimics the chocolate frosting swirls that can be found on any custom cake.</p>
+			<p class="projectDescription">Eight Bakery is a Long Island based bakery that specializes in customized cakepops and other sweet treats. The artisanal quality of Eight's product is captured in the handmade logotype that mimics the chocolate frosting swirls that can be found on any custom cake.</p>
 
 		</section>
 		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>

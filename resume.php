@@ -33,10 +33,10 @@
 					<h5 class="subject">skills</h5>
 					<ul class="noPadding bodyCopy">
 						<li>Branding</li>
-						<li>Typography</li>
+						<li>Web Design</li>
 						<li>Logo Design</li>
 						<li>Art Direction</li>
-						<li>Package Design</li>
+						<li>Web Development</li>
 					</ul>
 				</div>
 				<!-- END OF #skills -->
