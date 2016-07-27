@@ -24,7 +24,7 @@
 ***********************************/
 
 *{
-	font-family: "Gotham SSm A", "Gotham SSm B";
+	font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
 	font-style: normal;
 }
 
@@ -34,7 +34,7 @@
 body{
 	background-color: rgb(53,57,54);
 	color:#fff;
-	padding:30px 0 !important;
+	padding:50px 0 !important;
 }
 
 nav, main{
@@ -46,11 +46,28 @@ nav, main{
 	position:absolute;
 	left:0;
 	right:0;
+	font-size:0.8em;
+	font-weight:300;
+	letter-spacing: 0.5px;
 	/*padding-top:35px;*/
 }
 
+a.buttonName:hover{
+	text-decoration: none;
+}
+
 /* NAVIGATION */
-/************************************/
+/************************************/\
+
+#index nav div{
+	display:inline;
+}
+
+#portfolio nav, .project nav, #resume nav, #about nav, #contact nav{
+	position:fixed;
+	width:100%;
+	z-index:2;
+}
 
 #index .navButtonContainer{
 	margin-bottom:10vh;
@@ -65,7 +82,7 @@ nav, main{
 	text-align: center
 }
 
-.navButtonContainer a.navButton, .projectButtonContainer a{
+.navButtonContainer a.navButton, .projectButtonContainer a.projectButton{
 	height:30px;
 	width:30px;
 	border-radius: 30px;
@@ -81,8 +98,8 @@ nav, main{
 	color:#fff;
 }
 
-#homeButton a.navButton{background-color:rgb(141,228,185);}
-#homeButton a{color:rgb(141,228,185);}
+#portfolioButton a.navButton{background-color:rgb(141,228,185);}
+#portfolioButton a{color:rgb(141,228,185);}
 
 #resumeButton a.navButton{background-color:rgb(164,227,217);}
 #resumeButton a{color:rgb(164,227,217);}
@@ -98,8 +115,96 @@ br#navBreak{
 }
 
 
+@media screen and (max-width:768px){
+	#portfolio nav #resumeButton .buttonName, #portfolio nav #aboutButton .buttonName, #portfolio nav #contactButton .buttonName{
+		visibility:hidden;
+	}
+
+	#resume nav #portfolioButton .buttonName, #resume nav #aboutButton .buttonName, #resume nav #contactButton .buttonName{
+		visibility:hidden;
+	}
+
+	#about nav #resumeButton .buttonName, #about nav #portfolioButton .buttonName, #about nav #contactButton .buttonName{
+		visibility:hidden;
+	}
+
+	#contact nav #resumeButton .buttonName, #contact nav #aboutButton .buttonName, #contact nav #portfolioButton .buttonName{
+		visibility:hidden;
+	}
+
+
+}
+@media screen and (max-width:420px){
+	#portfolio nav #portfolioButtonName{margin-left:-5%;}
+}
+
+@media screen and (max-width:380px){
+	#portfolio nav #portfolioButtonName{margin-left:-10%;}
+}
+
+@media screen and (max-width:360px){
+	#portfolio nav #portfolioButtonName{margin-left:-15%;}
+}
+
+@media screen and (max-width:340px){
+	#portfolio nav #portfolioButtonName{margin-left:-20%;}
+}
+
+@media screen and (max-width:370px){
+	#contact nav #contactButtonName{margin-left:-8%;}
+}
+
+@media screen and (max-width:768px){
+	.project nav .buttonName{
+		opacity: 0;
+	}
+}
+
+
+/**************************************/
+/* NAVIGATION */
+
+
+
+
+
+/* INDEX */
+/************************************************************************************************************/
+
+@media screen and (min-width:768px){
+	#index nav .buttonName{
+		font-size:1em;
+	}
+}
+
+@media screen and (max-width:991px){
+	#index nav{
+		position:absolute;
+		left:0;
+		right:0;
+		top:20%;
+		padding-bottom:50px;
+	}
+}
+
+@media screen and (min-width:992px){
+	#index nav{
+		position:absolute;
+		width:100%;
+		top:45%;
+	}
+}
+
+/************************************************************************************************************/
+/* INDEX */
+
+
 /* PORTFOLIO */
 /************************************************************************************************************/
+a:focus{
+	outline:0;
+	text-decoration: none;
+}
 
 .projectButtonContainer .row{
 	height:60px;
@@ -109,22 +214,47 @@ br#navBreak{
 	z-index:1;
 }
 
-.projectButtonContainer a{
+.projectButtonContainer a.projectButtonThumbnail, .projectButtonContainer a.projectButton, .projectButtonContainer a.buttonName{
 	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
 }
 
 .projectButtonContainer .buttonName{
-	padding-top:30px;
+	top:35px;
 }
 
 section#M, section#V{
 	margin-top:30px;
 }
 
+@media screen and (max-height:360px){
+	.projectButtonContainer .row{height:20vh;}
+}
+
+@media screen and (max-width:767px){
+	#portfolio #V{margin-top: 90px;}
+}
+
 @media screen and (min-width:769px){
-	.projectButtonContainer a.projectButton{
-		background-color:#fff;
-	}
+	.projectButtonContainer a.projectButton{background-color:#fff;}
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	#portfolio nav{margin-top:10%;}
+	section#M, section#V{margin-top:15%;}
+}
+
+@media screen and (min-width:1024px){
+	.projectButtonContainer .row{height:80px;}
+	#portfolio nav{margin-top:5%;}
+	section#M, section#V{margin-top:10%;}
+}
+
+@media screen and (max-width:768px){
+	#portfolio .projectButtonContainer .buttonName{visibility:hidden;}
 }
 
 /************************************************************************************************************/
@@ -149,14 +279,15 @@ section#M, section#V{
 /* TITLE / DESCRIPTION */
 /***************************************************/
 
-body.project .projectTitleDesc h3.projectTitle, body.project .projectTitleDesc h4.projectCategory{
+body.project .projectTitleDesc h3.projectTitle, body.project .projectTitleDesc h4.projectCategory, #about .projectTitleDesc h3.projectTitle{
 	text-align:center;
 	text-transform: uppercase;
 }
 
-body.project .projectTitleDesc h3.projectTitle{
+body.project .projectTitleDesc h3.projectTitle, #about .projectTitleDesc h3.projectTitle{
 	font-size:17px;
 	font-weight:700;
+	margin-top:30px;
 }
 
 body.project .projectTitleDesc h4.projectCategory{
@@ -165,8 +296,9 @@ body.project .projectTitleDesc h4.projectCategory{
 	font-size:15px;
 }
 
-body.project .projectTitleDesc p.projectDescription{
+body.project .projectTitleDesc p.projectDescription, #about .projectTitleDesc p.projectDescription{
 	font-weight:300;
+	margin-top:15px;
 }
 
 body.project .projectTitleDesc a{
@@ -179,6 +311,10 @@ body.project .projectTitleDesc a{
 body.project .projectImages img{
 	max-width: 100%;
 	width:100%;
+}
+
+body.project .projectImages .images{
+	margin-top: 30px;
 }
 
 body.project .projectImages .center{
@@ -241,31 +377,93 @@ body.project .projectImages .whiteBackground{
 
 /* VISUAL OPINION */
 /***************************************************/
-#visualOpinion .voTitleSlide{
-	text-align:center;
-	padding:50px 0;
+#visualOpinion .voTitleSlide{text-align:center;padding:100px 0;background-color:black;}
+#visualOpinion .voTitleSlide h4.theVisualOpinion{text-transform: uppercase;font-size:1em;font-weight:700;margin:5px 0;}
+#visualOpinion .voTitleSlide h3.voTitle{margin:0;font-weight:300;font-size:1.5em;letter-spacing: 1.5px;}
+#visualOpinion .voTitleSlide h5.voIssue{margin:5px 0;}
+#visualOpinion .voTitleSlide p.voDescription{text-align:left;font-weight:300;margin-top:30px;}
+#visualOpinion .voTitleSlide span{font-style:italic;}
+
+
+#visualOpinion #organic .whiteBackground img{
+	padding: 0px 20%;
 }
 
-#visualOpinion .voTitleSlide h4.theVisualOpinion{
-	text-transform: uppercase;
-	font-size:1em;
-	font-weight:700;
-	margin:5px 0;
+	/* GRAD 15 */
+@media screen and (max-width:767px){
+	#visualOpinion #grad15 #jakeSigl{
+		padding:50px;
+		background-color:#000;
+	}
 }
 
-#visualOpinion .voTitleSlide h3.voTitle{
-	margin:0;
-	font-weight:300;
-	font-size:1.5em;
+/* EIGHT BAKERY */
+/**************************************************/
+#eight .projectImages #sketches{
+	padding:50px;
 }
 
-#visualOpinion .voTitleSlide h5.voIssue{
-	margin:5px 0;
+
+
+/* HEX */
+/*************************************************/
+#hex #hexMobile{
+	background-color:rgb(216, 246, 255);
+	text-align: center;
 }
 
+#hex #hexMobile img{
+	width:75%;
+}
+
+@media screen and (min-width:768px){
+	#hex #hexMobile img{
+		width:50%;
+	}
+}
 
 /************************************************************************************************************/
 /* END PROJECTS */
+
+
+
+
+
+
+
+/* RESUME */
+/************************************************************************************************************/
+
+
+
+/************************************************************************************************************/
+/* RESUME */
+
+
+
+
+/* ABOUT */
+/************************************************************************************************************/
+
+#about .projectDescription{
+	font-weight:300;
+}
+
+#about .projectDescription{
+	margin-top:30px;
+}
+
+#about img{
+	max-width:100%;
+	margin-top:30px;
+}
+/************************************************************************************************************/
+/* ABOUT */
+
+
+
+
+
 
 
 
@@ -286,6 +484,10 @@ body.project .projectImages .whiteBackground{
 #contact section img{
 	margin:7.5px;
 }
+
+
+
+
 
 
 /* > 768 DESKTOP */
@@ -313,7 +515,7 @@ body.project .projectImages .whiteBackground{
 }
 
 @media screen and (max-width:991px){
-	#index .buttonName, .projectButtonThumbnail{
+	#index .buttonName, .projectButton{
 		opacity: 1;
 	}
 
