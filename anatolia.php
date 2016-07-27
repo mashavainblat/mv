@@ -3,20 +3,21 @@
 </head>
 
 <body id="anatolia" class="container project">
-	<?php include("includes/navigation.php"); ?>
+	<?php include("includes/navigation.php"); ?>	
 
 	<main class="row projectTitleDesc noMargin">
 	
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
-		<section class="col-xs-10 col-sm-10 col-md-8 noPadding">
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
+		<section class="col-xs-10 col-sm-10 col-md-6 noPadding">
 
 					<h3 class="projectTitle noMargin">Anatolia Winery</h3>
 					<h4 class="projectCategory noMargin">Branding</h4>
-					<p class="projectDescription">Anatolia is an artisanal Greek winery. The strong agricultural roots in the region of Anatolia allow for an exquisite wine tasting experience. The concept derives from a thyrsus&ndash;a vine or ivy leaf cover wand with a pinecone top carried by Dionysus, the greek god of wine and chaos. Talk about the types of grapes chosen how they are fertile in the land.</p>
+					<p class="projectDescription">Anatolia is an artisanal Greek winery. The strong agricultural roots in the region of Anatolia allow for an exquisite wine tasting experience.</p> 
+					<p class="projectDescription">The branding concept derives from a thyrsus&ndash;a vine or ivy leaf covered wand with a pinecone top carried by Dionysus, the greek god of wine and chaos. There are seven greek varietals which were specifically chosen for the rich artisanal flavors.</p>
 
 
 		</section>
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
 	</main>
 
 	<main class="row projectImages">
