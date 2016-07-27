@@ -7,15 +7,15 @@
 
 	<main class="row projectTitleDesc">
 	
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
-		<section class="col-xs-10 col-sm-10 col-md-8 noPadding">
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
+		<section class="col-xs-10 col-sm-10 col-md-6 noPadding">
 
 			<h3 class="projectTitle noMargin">De Cecco</h3>
 			<h4 class="projectCategory noMargin">Rebranding and package design</h4>
-			<p class="projectDescription">In order to embrace De Cecco's Italian roots, a custom logotype was designed inspired by Italian signage.</p>
+			<p class="projectDescription">In order to embrace De Cecco's Italian roots, a custom logotype was designed inspired by Italian signage. The colors on the handmade packaging are derived from the original box which gives the rebranding of De Cecco familiarity along with a modern typographic touch.</p>
 
 		</section>
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
 	</main>
 
 	<main class="row projectImages">
