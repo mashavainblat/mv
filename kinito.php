@@ -7,16 +7,20 @@
 
 	<main class="row projectTitleDesc">
 	
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
-		<section class="col-xs-10 col-sm-10 col-md-8 noPadding">
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
+		<section class="col-xs-10 col-sm-10 col-md-6 noPadding">
 
 			<h3 class="projectTitle noMargin">Linum KINITO</h3>
 			<h4 class="projectCategory noMargin">Branding and package design</h4>
-			<p class="projectDescription">Linum presents the Kinito hotspot phone case. With the flip of a switch, access WiFi in non-reception areas.</p>
+			<p class="projectDescription">Linum presents the Kinito hotspot phone case. With the flip of a switch, WiFi can be accessed in non-reception areas.</p>
+			<p class="projectDescription">The concept of this project was to repurpose and brand a hardware item: linum which translates to network; kinito, which is the Greek translation for mobile and is reminiscent of kinetic energy and motion.</p>
 
+			<p class="projectDescription">This silk textured and silkscreened packaging is handmade using paper-on-board technique.</p>
+
+			<p>Photography by <a href="http://www.ramonmartinezphotography.com/">Ramon Martinez</a></p>
 
 		</section>
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
 	</main>
 
 	<main class="row projectImages">
@@ -32,7 +36,7 @@
 			</div>
 			<!-- IMG -->
 			<!-- IMG -->
-			<div class="row">
+			<div class="row whiteBackground">
 				<div class="col-xs-12 col-sm-6 col-md-6 noPadding">
 					<img src="img/projects/kinito/kinito002sketch.jpg">
 				</div>
