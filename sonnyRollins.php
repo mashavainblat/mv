@@ -7,17 +7,17 @@
 
 	<main class="row projectTitleDesc">
 	
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
-		<section class="col-xs-10 col-sm-10 col-md-8 noPadding">
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
+		<section class="col-xs-10 col-sm-10 col-md-6 noPadding">
 
 					<h3 class="projectTitle noMargin">Sonny Rollins LP Series</h3>
 					<h4 class="projectCategory noMargin">Package Design</h4>
-					<p class="projectDescription">Sonny Rollins is a famous jazz musician from Harlem. Whenever he felt he was reaching a peak in his career, Sonny would go on sabbatical to travel and rehearse his craft. The concept behind the design defines the mystery and spontaneity in improvisational music that is jazz.</p>
+					<p class="projectDescription">Sonny Rollins is a famous jazz musician from Harlem. Whenever he felt he was reaching a peak in his career, Sonny would go on sabbatical to travel and rehearse his craft. The concept behind the design defines the mystery and spontaneity in improvisational music that is jazz. The imagery and graphics used for this design are visual fragments of some of Rollin's most famous recordings from each album.</p>
 					
-					<p>Photography by <a href="http://www.ramonmartinezphotography.com/"></a>Ramon Martinez</p>
+					<p>Photography by <a href="http://www.ramonmartinezphotography.com/">Ramon Martinez</a></p>
 
 		</section>
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
 	</main>
 
 	<main class="row projectImages">
