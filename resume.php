@@ -20,6 +20,11 @@
 			</div>
 			<!-- END OF HEADER .ROW -->
 
+
+
+
+
+
 			<div class="row" id="skillsAndLanguages">
 
 				<div class="col-xs-1 col-sm-3 noMargin noPadding"> <!-- EMPTY --></div>
@@ -41,11 +46,11 @@
 				<div class="col-xs-11 col-sm-2 noPadding" id="languages">
 					<h5 class="subject">languages</h5>
 					<ul class="noPadding bodyCopy">
-						<li>Branding</li>
-						<li>Typography</li>
-						<li>Logo Design</li>
-						<li>Art Direction</li>
-						<li>Package Design</li>
+						<li>CSS</li>
+						<li>HTML</li>
+						<li>jQuery</li>
+						<li>Angular</li>
+						<li>javaScript</li>
 					</ul>
 				</div>
 
@@ -67,102 +72,156 @@
 			</div>
 			<!-- END OF #skillsAndLanguages .row-->
 
-			<!-- BEGIN #education -->
-			<div class="row" id="education">
 
-				<div class="col-xs-1 col-sm-3 noPadding"><!-- EMPTY --></div>
 
-				<div class="col-xs-10 col-sm-6 noPadding">
-					<h5 class="subject noMargin">education</h5>
-					<div id="GA">
-						<h4 class="title">General Assembly</h4>
-						<p class="bodyCopy">Full Stack Web Development</p>
+
+
+			<!-- BEGIN section#education -->
+			<main id="education">
+
+				<section class="row subjectContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"></div>
+					<div class="col-xs-10 col-sm-6 noPadding">
+						<h5 class="subject">education</h5>
 					</div>
-					<div id="SVA">
-						<h4 class="title">School of Visual Arts</h4>
-						<p class="bodyCopy">BFA Design</p>
+				</section>
+
+				<section class="row educationContentContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"><p class="resumeYear">2016</p></div>
+					<div class="col-xs-10 col-sm-6 noPadding" id="GA">
+							<h4 class="title">General Assembly</h4>
+							<p class="bodyCopy">Full Stack Web Development</p>
 					</div>
-				</div>
+					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
+				</section>
 
-				<div class="col-xs-1 col-sm-3 noMargin noPadding"><!-- EMPTY --></div>				
-			</div>
-			<!-- END OF #education .row -->
+				<section class="row educationContentContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"><p class="resumeYear">2012 &ndash; 2016</p></div>
+					<div class="col-xs-10 col-sm-6 noPadding" id="SVA">
+							<h4 class="title">School of Visual Arts</h4>
+							<p class="bodyCopy">BFA Design</p>
+					</div>
+					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
+				</section>
 
-			<!-- BEGIN #experience -->
-			<div class="row" id="experience">
+			</main>
+			<!-- END OF section#education -->
 
-				<div class="col-xs-1 col-sm-3 noMargin noPadding"> <!-- EMPTY --></div>
 
-				<div class="col-xs-10 col-sm-6 noPadding">
-					<h5 class="subject">experience</h5>
-					
-					<!-- VO -->
-					<div id="VO">
+
+
+
+			<!-- BEGIN section#experience -->
+			<main id="experience">
+
+				<section class="row subjectContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"></div>
+					<div class="col-xs-10 col-sm-6 noPadding">
+						<h5 class="subject">experience</h5>
+					</div>
+				</section>
+
+				<!-- VO -->
+				<section class="row experienceContentContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"><p class="resumeYear">2015 &ndash; 2016</p></div>
+					<div class="col-xs-10 col-sm-6 noPadding" id="VO">
 						<h4 class="title">Visual Opinion Magazine</h4>
 						<h6 class="description">designer | art director | production manager</h6>
-							<ul class="bodyCopy">
-								<li>SPD51 custom publication finalist</li>
-								<li>Raised brand awareness by building social media presence and brand recognition campus wide</li>
-								<li>Elevated product quality and consistently sold out issues</li>
-							</ul>
+						<ul class="bodyCopy">
+							<li>SPD51 custom publication finalist</li>
+							<li>Raised brand awareness by building social media presence and brand recognition campus wide</li>
+							<li>Elevated product quality and consistently sold out issues</li>
+						</ul>
 					</div>
+					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
+				</section>
+				<!-- end of VO -->
 
-					<!-- VAP -->
-					<div id="VAP">
+				<!-- VAP -->
+				<section class="row experienceContentContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"><p class="resumeYear">2015</p></div>
+					<div class="col-xs-10 col-sm-6 noPadding" id="VAP">
 						<h4 class="title">SVA Visual Arts Press</h4>
 						<h6 class="description">web intern | SVA in house design team</h6>
-							<ul class="bodyCopy">
-								<li>Designed wireframe templates for SVA departmental websites</li>
-								<li>Redesigned departmental course registration page</li>
-							</ul>
+						<ul class="bodyCopy">
+							<li>Designed wireframe templates for SVA departmental websites</li>
+							<li>Redesigned departmental course registration page</li>
+						</ul>
 					</div>
+					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
+				</section>
+				<!-- end of VAP -->
 
-					<!-- GLOW -->
-					<div id="GLOW">
-						<h4 class="title">Glow Interactive</h4>
-						<h6 class="description">design intern</h6>
-							<ul class="bodyCopy">
-								<li>Created interaction designs based on social media strategies for leading television shows</li>
-								<li>Collaborated with upper management about art direction</li>
-							</ul>
+				<!-- GLOW -->
+				<section class="row experienceContentContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"><p class="resumeYear">2015</p></div>
+					<div class="col-xs-10 col-sm-6 noPadding" id="GLOW">
+						<h4 class="title">GLOW Interactive</h4>
+						<h6 class="description">Design intern</h6>
+						<ul class="bodyCopy">
+							<li>Created interaction designs based on social media strategies for leading television shows</li>
+							<li>Collaborated with upper management about art direction</li>
+						</ul>
 					</div>
+					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
+				</section>
+				<!-- end of GLOW -->
 
-					<!-- RA -->
-					<div id="RA">
+				<!-- RA -->
+				<section class="row experienceContentContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"><p class="resumeYear">2014 &ndash; 2015</p></div>
+					<div class="col-xs-10 col-sm-6 noPadding" id="RA">
 						<h4 class="title">SVA Resident Assistant</h4>
 						<h6 class="description">Student Supervisor</h6>
-							<ul class="bodyCopy">
-								<li>Managed floor and was responsible for fostering a cooperative and educational community</li>
-								<li>Administrative duties to ensure building rules were being followed</li>
-								<li>Emergency management</li>
-							</ul>
+						<ul class="bodyCopy">
+							<li>Managed floor and was responsible for fostering a cooperative and educational community</li>
+							<li>Administrative duties to ensure building rules were being followed</li>
+							<li>Emergency management</li>
+						</ul>
 					</div>
+					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
+				</section>
+				<!-- end of RA -->
 
-					<!-- TA -->
-					<div id="TA">
+				<!-- TA -->
+				<section class="row experienceContentContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"><p class="resumeYear">2014</p></div>
+					<div class="col-xs-10 col-sm-6 noPadding" id="TA">
 						<h4 class="title">SVA Teacher Assistant</h4>
 						<h6 class="description">Precollege Program</h6>
-							<ul class="bodyCopy">
-								<li>Assisted and encouraged basic design principles to prospecive students</li>
-								<li>Curated graphic design and advertising work for gallery style presentation</li>
-							</ul>
+						<ul class="bodyCopy">
+							<li>Assisted and encouraged basic design principles to prospecive students</li>
+							<li>Curated graphic design and advertising work for gallery style presentation</li>
+						</ul>
 					</div>
+					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
+				</section>
+				<!-- end of TA -->
 
-					<!-- SM -->
-					<div id="SM">
-						<h4 class="title">Steme Madden. LTD</h4>
+				<!-- SM -->
+				<section class="row experienceContentContainer">
+					<div class="col-xs-1 col-sm-3 noPadding"><p class="resumeYear">2013</p></div>
+					<div class="col-xs-10 col-sm-6 noPadding" id="SM">
+						<h4 class="title">Steve Madden. LTD</h4>
 						<h6 class="description">Madden Girl Design Intern</h6>
-							<ul class="bodyCopy">
-								<li>Produced shoes based on spec sheet measurements and tech pack coordination</li>
-								<li>Prepared client-product presentations and mood boards</li>
-							</ul>
+						<ul class="bodyCopy">
+							<li>Produced shoes based on spec sheet measurements and tech pack coordination</li>
+							<li>Prepared client-product presentations and mood boards</li>
+						</ul>
 					</div>
-				</div> <!-- END OF col-xs-10 col-sm-6 -->
+					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
+				</section>
+				<!-- end of SM -->
 
-				<div class="col-xs-1 col-sm-3 noMargin noPadding"> <!-- EMPTY --></div>
+			</main>
+			<!-- END OF section#experience -->			
 
-			</div>
-			<!-- END OF #experience .row -->
+
+
+
+			
 
 		</section>
 	</main> <!-- END OF .ROW -->
+	</body>
+	</html>
