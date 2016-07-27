@@ -7,15 +7,16 @@
 
 	<main class="row projectTitleDesc">
 	
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
-		<section class="col-xs-10 col-sm-10 col-md-8 noPadding">
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
+		<section class="col-xs-10 col-sm-10 col-md-6 noPadding">
 
 			<h3 class="projectTitle noMargin">NEET'</h3>
 			<h4 class="projectCategory noMargin">Branding and package design</h4>
-			<p class="projectDescription">NEET' ensures durability and reliability for projects that require strength. Made from all natural fibers, our products have the tenacity to carry our the toughest weights. These strong and durable strings are made suitable for industrial professions and craftsmen.</p>
+			<p class="projectDescription">NEET' ensures durability and reliability for projects that require strength. Made from all natural fibers, this product has the tenacity to carry out the toughest weights. These strong and durable strings are made suitable for industrial professions and craftsmen.</p>
+			<p class="projectDescription">The purpose of this project was to rebrand a dollar store item. Neet is the Russian word for string. The unique handmade packaging shows the product through its engineered strength.</p>
 
 		</section>
-		<section class="col-xs-1 col-sm-1 col-md-2 noPadding"></section>
+		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
 	</main>
 
 	<main class="row projectImages">
