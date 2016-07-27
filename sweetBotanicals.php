@@ -53,14 +53,10 @@
 			<!-- IMG -->
 			<!-- IMG -->
 			<div class="row">
-				<div class="col-xs-12 noPadding">
+				<div class="col-xs-12 col-sm-6 col-md-6 noPadding">
 					<img src="img/projects/sweetBotanicals/sweetBotanicals005angles.jpg">
 				</div>
-			</div>
-			<!-- IMG -->
-			<!-- IMG -->
-			<div class="row">
-				<div class="col-xs-12 noPadding">
+				<div class="col-xs-12 col-sm-6 col-md-6 noPadding">
 					<img src="img/projects/sweetBotanicals/sweetBotanicals006sketches.jpg">
 				</div>
 			</div>
