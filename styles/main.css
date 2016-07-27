@@ -496,10 +496,22 @@ body.project .projectImages .whiteBackground{
 
 #contact section p{
 	font-size:1.75em;
+	font-weight:300;
+	margin:0;
+}
+
+#contact section p#desc{
+	letter-spacing: 1px;
+	font-weight:500;
+}
+
+#contact section p#email{
+	font-size:1.5em;
 }
 
 #contact section img{
 	margin:7.5px;
+	margin-top:30px;
 }
 
 
