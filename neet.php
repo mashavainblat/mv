@@ -3,7 +3,8 @@
 </head>
 
 <body id="neet" class="container project">
-	<?php include("includes/navigation.php"); ?>
+	<?php include_once("includes/analyticstracking.php") ?>
+<?php include("includes/navigation.php"); ?>
 
 	<main class="row projectTitleDesc">
 	

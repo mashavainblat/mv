@@ -3,6 +3,7 @@
 </head>
 
 <body id="about" class="container">
+	<?php include_once("includes/analyticstracking.php") ?>
 	<?php include("includes/navigation.php"); ?>
 
 	<main class="row projectTitleDesc">

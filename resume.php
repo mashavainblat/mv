@@ -3,7 +3,8 @@
 </head>
 
 <body id="resume" class="container">
-	<?php include("includes/navigation.php"); ?>
+	<?php include_once("includes/analyticstracking.php") ?>
+<?php include("includes/navigation.php"); ?>
 
 	<main class="row">
 		<section class="col-xs-12 col-sm-12 noPadding">

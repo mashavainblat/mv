@@ -3,6 +3,7 @@
 </head>
 
 <body id="anatolia" class="container project">
+	<?php include_once("includes/analyticstracking.php") ?>
 	<?php include("includes/navigation.php"); ?>	
 
 	<main class="row projectTitleDesc noMargin">

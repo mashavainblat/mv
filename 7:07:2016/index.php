@@ -5,7 +5,8 @@
 <body id="index" class="container">
 
 	<h1>Index page</h1>
-	<?php include("includes/navigation.php"); ?>
+	<?php include_once("includes/analyticstracking.php") ?>
+<?php include("includes/navigation.php"); ?>
 
 
 

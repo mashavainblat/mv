@@ -5,7 +5,8 @@
 <body id="port2" class="container">
 
 	<h1>portfolio page</h1>
-	<?php include("includes/navigation.php"); ?>
+	<?php include_once("includes/analyticstracking.php") ?>
+<?php include("includes/navigation.php"); ?>
 
 
 <main class="row">
