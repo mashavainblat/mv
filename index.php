@@ -1,5 +1,6 @@
 <?php include("includes/formattop.php"); ?>
 	<title>Masha Vainblat's Portfolio</title>
+	<link rel='shortcut icon' href='img/favicons/portfolio/favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body id="index" class="container">

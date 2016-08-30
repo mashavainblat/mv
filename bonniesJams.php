@@ -1,5 +1,6 @@
 <?php include("includes/formattop.php"); ?>
 	<title>Bonnies James</title>
+	<link rel='shortcut icon' href='img/favicons/projects/favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body id="bonniesJams" class="container project">

@@ -1,5 +1,6 @@
 <?php include("includes/formattop.php"); ?>
 	<title>Contact Masha</title>
+	<link rel='shortcut icon' href='img/favicons/contact/favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body id="contact" class="container">

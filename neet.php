@@ -1,5 +1,6 @@
 <?php include("includes/formattop.php"); ?>
 	<title>NEET'</title>
+	<link rel='shortcut icon' href='img/favicons/projects/favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body id="neet" class="container project">

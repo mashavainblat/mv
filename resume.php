@@ -1,5 +1,6 @@
 <?php include("includes/formattop.php"); ?>
 	<title>Masha's Resume</title>
+	<link rel='shortcut icon' href='img/favicons/resume/favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body id="resume" class="container">
