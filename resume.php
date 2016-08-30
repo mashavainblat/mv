@@ -1,5 +1,5 @@
 <?php include("includes/formattop.php"); ?>
-	<title>Resume page</title>
+	<title>Masha's Resume</title>
 </head>
 
 <body id="resume" class="container">

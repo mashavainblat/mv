@@ -1,5 +1,5 @@
 <?php include("includes/formattop.php"); ?>
-	<title>Index page</title>
+	<title>Masha Vainblat's Portfolio</title>
 </head>
 
 <body id="index" class="container">

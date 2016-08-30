@@ -1,5 +1,5 @@
 <?php include("includes/formattop.php"); ?>
-	<title>Portfolio page</title>
+	<title>Masha Vainblat's Portfolio</title>
 </head>
 
 <body id="portfolio" class="container">

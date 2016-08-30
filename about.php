@@ -1,5 +1,5 @@
 <?php include("includes/formattop.php"); ?>
-	<title>About page</title>
+	<title>About Masha</title>
 </head>
 
 <body id="about" class="container">
