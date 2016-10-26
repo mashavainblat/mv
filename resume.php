@@ -7,6 +7,7 @@
 	<?php include_once("includes/analyticstracking.php") ?>
 <?php include("includes/navigation.php"); ?>
 
+
 	<main class="row">
 		<section class="col-xs-12 col-sm-12 noPadding">
 
@@ -130,9 +131,9 @@
 						<h4 class="title">Visual Opinion Magazine</h4>
 						<h6 class="description">designer | art director | production manager</h6>
 						<ul class="bodyCopy">
-							<li>SPD51 custom publication finalist</li>
-							<li>Raised brand awareness by building social media presence and brand recognition campus wide</li>
-							<li>Elevated product quality and consistently sold out issues</li>
+							<li>Achieved SPD51 custom publication nomination</li>
+							<li>Raised brand awareness by implementing social media and distribution strategy</li>
+							<li>Elevated product quality resulting in consistently sold out inventory</li>
 						</ul>
 					</div>
 					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
@@ -146,8 +147,8 @@
 						<h4 class="title">SVA Visual Arts Press</h4>
 						<h6 class="description">web intern | SVA in house design team</h6>
 						<ul class="bodyCopy">
+							<li>Redesgined departmental web pages that heightened site traffic</li>
 							<li>Designed wireframe templates for SVA departmental websites</li>
-							<li>Redesigned departmental course registration page</li>
 						</ul>
 					</div>
 					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
@@ -161,8 +162,8 @@
 						<h4 class="title">GLOW Interactive</h4>
 						<h6 class="description">Design intern</h6>
 						<ul class="bodyCopy">
-							<li>Created interaction designs based on social media strategies for leading television shows</li>
-							<li>Collaborated with upper management about art direction</li>
+							<li>Created social content for clients such as HBO, SyFi, I Love NY, and TBS</li>
+							<li>Enforced maketing goals within design by following media team strategies</li>
 						</ul>
 					</div>
 					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
@@ -176,9 +177,8 @@
 						<h4 class="title">SVA Resident Assistant</h4>
 						<h6 class="description">Student Supervisor</h6>
 						<ul class="bodyCopy">
-							<li>Managed floor and was responsible for fostering a cooperative and educational community</li>
-							<li>Administrative duties to ensure building rules were being followed</li>
-							<li>Emergency management</li>
+							<li>Represented SVA as a student role model by facilitating communication between students and administrative faculty</li>
+							<li>Initiated community building events to ensure building rules were followed</li>
 						</ul>
 					</div>
 					<div class="col-xs-1 col-sm-3 noPadding noMargin"></div>
@@ -207,7 +207,7 @@
 						<h4 class="title">Steve Madden. LTD</h4>
 						<h6 class="description">Madden Girl Design Intern</h6>
 						<ul class="bodyCopy">
-							<li>Produced shoes based on spec sheet measurements and tech pack coordination</li>
+							<li>Produced shoes based on spec sheet measurements and tech pack design</li>
 							<li>Prepared client-product presentations and mood boards</li>
 						</ul>
 					</div>
