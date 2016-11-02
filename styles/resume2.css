@@ -1,0 +1,169 @@
+/***********************************
+
+             nav colors
+
+		 lightblue: #89e0ed
+		 yellow:    #fcc745
+		 pink:      #ff5375
+		 purple:    #522db8
+
+***********************************/
+
+
+/***********************************
+
+            font weights
+
+			light:   300
+			book:    400
+			medium:  500
+			bold:    700
+
+***********************************/
+
+
+#resume *{
+	font-family: "Gotham SSm A", "Gotham SSm B";
+	font-style: normal;
+	/*font-size:1em;*/
+}
+
+#resume main .row{
+	/*margin-bottom:30px;*/
+}
+
+/* Resume Font Styles */
+/**********************************************************************************/
+
+#resume .subject{font-weight: 700; text-transform:uppercase; font-size:0.8em; margin:30px 0 3px;}
+#resume .bodyCopy{font-weight: 300;}
+#resume .title{font-weight: 700; text-transform: uppercase; margin:0; font-size:1em;}
+#resume .year{font-weight:300;}
+#resume .description{font-weight: 500; text-transform: uppercase; margin:5px 0 4px; font-size:1em;}
+#resume .resumeYear{font-weight:300; text-align:right; margin-top:-2px;margin-right:15px;}
+
+@media screen and (max-width:460px){
+	#resume .title{font-size:0.85em;}
+	#resume .description{font-size:1em;}
+}
+
+/* #resumeHeaderInfo*/
+/***********************************************************************************/
+#resume #resumeHeaderInfo {margin-top:30px;}
+#resume #resumeHeaderInfo h2{ margin:0; font-size:1em;}
+#resume #resumeHeaderInfo h2:first-child{ text-transform: uppercase; }
+#resume #resumeHeaderInfo h2:last-child{ font-weight:400; }
+
+@media screen and (max-width:767px){
+	#resume #resumeHeaderInfo {margin-top:60px;}
+}
+
+@media screen and (min-width:768px){
+	#resume #resumeHeaderInfo {margin-top:90px;}
+}
+
+
+/* #skillsAndLanguages*/
+/***********************************************************************************/
+#resume #skillsAndLanguages ul{list-style: none;}
+
+@media screen and (max-width:768px){
+	#resume{
+		/*background-color:green;*/
+	}
+	#resume #languages ul{
+		margin-bottom:0px;
+	}
+}
+
+@media screen and (min-width:768px){
+
+	#resume .desktopContainer{
+		display:none;
+	}
+
+	#resume #skillsAndLanguages #languagesCont{
+		margin-top:42px;
+	}
+}
+
+
+/* #experience */
+/***********************************************************************************/
+#resume #experience ul{padding-left:13.5px;}
+
+#resume .experienceContentContainer{
+	margin-bottom:15px;
+}
+
+
+/* resume years */
+/***********************************************************************************/
+
+@media screen and (max-width:767px){	
+	#resume .resumeYear{
+		display:none;
+	}
+}
+
+@media screen and (max-width:768px){
+
+	#resume #education #GA h4::after{
+		content:"2016";
+		font-weight:300;
+		padding-left:10px;
+	}
+
+	#resume #education #SVA h4::after{
+		content:"2012 - 2016";
+		font-weight:300;
+		padding-left:10px;
+	}
+
+	#resume #experience #VO h4::after{
+		content:"2015 - 2016";
+		font-weight:300;
+		padding-left:10px;
+	}
+
+	#resume #experience #VAP h4::after{
+		content:"2015";
+		font-weight:300;
+		padding-left:10px;
+	}
+
+	#resume #experience #GLOW h4::after{
+		content:"2015";
+		font-weight:300;
+		padding-left:10px;
+	}
+
+	#resume #experience #RA h4::after{
+		content:"2014 - 2015";
+		font-weight:300;
+		padding-left:10px;
+	}
+
+	#resume #experience #TA h4::after{
+		content:"2014";
+		font-weight:300;
+		padding-left:10px;
+	}
+
+	#resume #experience #SM h4::after{
+		content:"2013";
+		font-weight:300;
+		padding-left:10px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
