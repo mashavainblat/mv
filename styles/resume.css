@@ -25,27 +25,53 @@
 #resume *{
 	font-family: "Gotham SSm A", "Gotham SSm B";
 	font-style: normal;
-	font-size:12pt;
-	font-size:1em;
+	font-size:8pt;
+	/*font-size:1em;*/
 	font-weight:300;
 }
 
 #resume .noMargin{ margin:0; }
 #resume .noPadding{ padding:0; }
 
+
+
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+/* Resume MOBILE */
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+
 /* Resume Font Styles */
 /**********************************************************************************/
-#resume .subject{text-transform: uppercase;font-weight:700;font-size:1em;}
 
+#resume #resumeMobile .subject{
+}
+#resume #resumeMobile .subject h3{text-transform: uppercase;font-weight:700;letter-spacing: 0.25em}
 
 /* Resume Header */
 /**********************************************************************************/
-#resume section#header h2{ text-transform: uppercase; font-size:1.5em; font-weight:700; margin:0;}
-#resume section#header h3{ font-weight:400; margin:0;}
 
-#resume section#resumeMobile #media li, #resume section#resumeMobile #contact li{
+#resume #resumeMobile #header h2{
+	text-transform: uppercase;
+	font-size:15pt;
+	font-weight:700;
+}
+
+#resume #resumeMobile #header h4{
+	font-size:9pt;
+	font-weight:400;
+}
+
+#resume #resumeMobile #media li, #resume #resumeMobile #contact li{
 	list-style: none;
 	padding:0;
+}
+
+#resume #resumeMobile #contact li{
+	text-transform: uppercase;
+	font-weight:500;
 }
 
 
