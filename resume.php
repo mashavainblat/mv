@@ -148,7 +148,7 @@
 			<div class="col-xs-1"></div><!-- EMPTY DIV -->
 
 			<div class="col-xs-6 noPadding" id="schoolDegree">
-				<p class="school">school of visual arts</p>
+				<p class="school">School of Visual Arts</p>
 				<p class="degree">bfa design</p>
 			</div>
 			<div class="col-xs-4 noPadding" id="setting">
@@ -394,12 +394,12 @@
 			<section class="row" id="hexTitleDescription">
 				<div class="col-xs-1"></div><!-- EMPTY -->
 
-				<div class="col-xs-6 noPadding" id="titleDescription">
+				<div class="col-xs-8 noPadding" id="titleDescription">
 					<p class="title"><a href="#">50 Shades of Hex</a></p>
 					<p class="description">designer | full stack developer</p>
 					<p class="projectTech">mean stack express web application</p>
 				</div>
-				<div class="col-xs-4 noPadding" id="setting">
+				<div class="col-xs-2 noPadding" id="setting">
 					<p>2016</p>
 				</div>
 
@@ -426,12 +426,12 @@
 			<section class="row" id="nagTitleDescription">
 				<div class="col-xs-1"></div><!-- EMPTY -->
 
-				<div class="col-xs-6 noPadding" id="titleDescription">
+				<div class="col-xs-8 noPadding" id="titleDescription">
 					<p class="title"><a href="#">Nag Me</a></p>
 					<p class="description">Designer | front end developer</p>
 					<p class="projectTech">Angular.js web application</p>
 				</div>
-				<div class="col-xs-4 noPadding" id="setting">
+				<div class="col-xs-2 noPadding" id="setting">
 					<p>2016</p>
 				</div>
 
@@ -458,12 +458,12 @@
 			<section class="row" id="eightTitleDescription">
 				<div class="col-xs-1"></div><!-- EMPTY -->
 
-				<div class="col-xs-6 noPadding" id="titleDescription">
+				<div class="col-xs-8 noPadding" id="titleDescription">
 					<p class="title"><a href="#">Eight Bakery</a></p>
 					<p class="description">freelance designer | art director</p>
 					<p class="projectTech">custom wordpress website</p>
 				</div>
-				<div class="col-xs-4 noPadding" id="setting">
+				<div class="col-xs-2 noPadding" id="setting">
 					<p>2016</p>
 				</div>
 
@@ -490,12 +490,12 @@
 			<section class="row" id="flowlyTitleDescription">
 				<div class="col-xs-1"></div><!-- EMPTY -->
 
-				<div class="col-xs-6 noPadding" id="titleDescription">
+				<div class="col-xs-8 noPadding" id="titleDescription">
 					<p class="title"><a href="#">Flowly</a></p>
 					<p class="description">Designer | front end developer</p>
 					<p class="projectTech">Angular.js web application</p>
 				</div>
-				<div class="col-xs-4 noPadding" id="setting">
+				<div class="col-xs-2 noPadding" id="setting">
 					<p>2016</p>
 				</div>
 

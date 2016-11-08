@@ -32,6 +32,9 @@
 
 #resume .noMargin{ margin:0; }
 #resume .noPadding{ padding:0; }
+#resume #resumeMobile article{
+	margin-bottom:15px;
+}
 
 
 
@@ -47,8 +50,15 @@
 /**********************************************************************************/
 
 #resume #resumeMobile .subject{
+	border-bottom:solid;
+	margin-bottom:7px;
 }
-#resume #resumeMobile .subject h3{text-transform: uppercase;font-weight:700;letter-spacing: 0.25em}
+
+#resume #resumeMobile .subject h3{
+	text-transform:uppercase;
+	font-weight:700;
+	letter-spacing: 0.25em
+}
 
 /* Resume Header */
 /**********************************************************************************/
@@ -79,7 +89,108 @@
 
 /* Resume Skills and Languages */
 /**********************************************************************************/
-#resume #skillsLanguages ul{
+#resume #resumeMobile #skillsContainer .subject h3, #resume #resumeMobile #languagesContainer .subject h3{
+	color:rgb(141,228,185);
+}
+
+#resume #resumeMobile #skillsContainer .subject, #resume #resumeMobile #languagesContainer .subject{
+	border-bottom:solid rgb(141,228,185);
+}
+
+#resume #resumeMobile #skillsContainer ul, #resume #resumeMobile #languagesContainer ul{
 	list-style: none;
 	padding:0;
 }
+
+
+/* Resume Education */
+/**********************************************************************************/
+#resume #resumeMobile #educationContainer .subject h3{
+	color:rgb(164,227,217);
+}
+
+#resume #resumeMobile #educationContainer .subject{
+	border-bottom:solid rgb(164,227,217);
+}
+
+#resume #resumeMobile #educationContainer p.school{
+	text-transform: uppercase;
+	font-weight:700;
+	letter-spacing: 0.0625em;
+}
+
+#resume #resumeMobile #educationContainer p.degree{
+	text-transform: uppercase;
+	font-style:italic;
+	font-weight:500;
+}
+
+#resume #resumeMobile #setting{
+	text-align:right;
+}
+
+
+/* Resume Experience */
+/**********************************************************************************/
+#resume #resumeMobile #experienceContainer .subject h3{
+	color:rgb(157,157,172);
+}
+
+#resume #resumeMobile #experienceContainer .subject{
+	border-bottom:solid rgb(157,157,172);
+}
+
+#resume #resumeMobile p.title{
+	text-transform: uppercase;
+	font-weight:700;
+	letter-spacing: 0.0625em;
+}
+
+#resume #resumeMobile #experienceContainer p.description{
+	text-transform: uppercase;
+	font-weight:500;
+	font-style:italic;
+}
+
+#resume #resumeMobile #bullets ul{
+	padding-left:10px;
+}
+
+/* Resume Creative Projects */
+/**********************************************************************************/
+#resume #resumeMobile #creativeProjectsContainer .subject h3{
+	color:rgb(138,115,138);
+}
+
+#resume #resumeMobile #creativeProjectsContainer .subject{
+	border-bottom:solid rgb(138,115,138);
+}
+
+#resume #resumeMobile #creativeProjectsContainer p.title a{
+	text-transform: uppercase;
+	font-weight:700;
+	letter-spacing: 0.0625em;
+	color:#fff;
+	text-decoration: underline;
+}
+
+#resume #resumeMobile #creativeProjectsContainer p.title a:hover{
+	text-decoration: none;
+}
+
+#resume #resumeMobile #creativeProjectsContainer p.description{
+	text-transform: uppercase;
+	font-weight:500;
+}
+
+#resume #resumeMobile #creativeProjectsContainer p.projectTech{
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+
+
+
+
+
+
