@@ -19,7 +19,7 @@
 	<script type="text/javascript" src="scripts/app.js"></script>
 
 	
-	<!-- Hotjar Tracking Code for www.mashavainblat.com -->
+<!-- Hotjar Tracking Code for www.mashavainblat.com -->
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
