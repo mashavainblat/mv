@@ -61,7 +61,17 @@
 
 		<!-- 3rd ROW -->
 			<div class="row">
-				<div class="col-xs-5"><!-- EMPTY --></div>
+				<!-- <div class="col-xs-5"><! EMPTY ></div> -->
+				<div class="col-xs-1"><!-- EMPTY --></div>
+
+				<div class="col-xs-2">
+					<a class="projectButtonThumbnail" href="SVACE.php"><img src="img/thumbnails/SVA_solidflower_color.png"></a>
+					<a class="projectButton" href="SVACE.php"></a>
+					<a class="buttonName noMargin" href="SVACE.php">SVA CE</a>
+				</div>
+
+				<div class="col-xs-2"><!-- EMPTY --></div>
+
 
 				<div class="col-xs-2">
 					<a class="projectButtonThumbnail" href="vosges.php"><img src="img/thumbnails/vosges.png"></a>
