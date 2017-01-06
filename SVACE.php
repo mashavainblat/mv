@@ -14,7 +14,7 @@
 
 					<h3 class="projectTitle noMargin">SVA Continuing Education</h3>
 					<h4 class="projectCategory noMargin">Website Redesign</h4>
-					<p class="projectDescription">SVA's Continuing Education department requested a website redesign for their course registration page. In collaboration with Eric Corriel, Michael J Walsh, and Declan Van Welie, a visual approach and custom icon system was designed and developed which led to heightened site traffic and increase enrollment for CE courses.</p>
+					<p class="projectDescription">SVA's Continuing Education department requested a website redesign for their course registration page. In collaboration with Eric Corriel, Michael J Walsh, and Declan Van Welie, a visual approach and custom icon system was designed and developed which led to heightened site traffic and increased enrollment for CE courses.</p>
 
 		</section>
 		<section class="col-xs-1 col-sm-1 col-md-3 noPadding"></section>
