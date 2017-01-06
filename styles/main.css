@@ -1,3 +1,47 @@
+#test main{
+	color:red;
+	width:800px;
+	position:absolute;
+	left:0;
+	right:0;
+	top:110px;
+	margin:auto;
+}
+
+#test main .title{
+	display:inline;
+	font-size:2.5em;
+	padding-bottom:5px;
+}
+
+#test main a{
+	font-family:serif;
+	color:white;
+	border-bottom:solid 5px #fff;
+}
+
+#test main img{
+	max-width:300px;
+	display:none;
+}
+
+#test main a:hover{
+	text-decoration: none;
+	visibility:hidden;
+}
+
+#test main a:hover ~ img{
+	visibility:visible;
+	display:inline-block;
+}
+
+#test main span{
+	font-family:serif;
+	font-size:2.5em;
+}
+
+
+
 /***********************************
 
         color palette
@@ -435,6 +479,13 @@ body.project .projectImages .whiteBackground{
 	}
 }
 
+/* SVACE */
+/*************************************************/
+
+#SVACE img{
+	margin-bottom:15px;
+}
+
 /************************************************************************************************************/
 /* END PROJECTS */
 
@@ -549,3 +600,32 @@ body.project .projectImages .whiteBackground{
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
